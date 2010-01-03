@@ -1,0 +1,293 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Jul 16 13:10:05 2008
+;; Desktop file format version 206
+;; Emacs version 22.1.8
+
+;; Global section:
+(setq file-name-history '("~/.emacs" "~/.vm" "~/.emacs" "~/emocrat/templates/carpool/trip_detail.html" "~/emocrat/carpool/views.py" "~/ai/market.lisp" "~/ai/temp.lisp" "~/scheme.txt" "~/realitytv.txt" "~/ai/market.py" "~/ai/market.lisp" "~/elisp/asdf.lisp" "~/cl-web-crawler/web-crawler.lisp" "~/elisp/asdf.lisp" "/home/svs/ai/1.lisp" "~/elisp/" "~/ai/web.lisp" "~/elisp/asdf.lisp" "~/scheme.txt" "~/emocrat/media/emocrat.css" "~/emocrat/media/carpool.css" "~/emocrat/templates/base.html" "~/emocrat/templates/registration/login.html" "~/emocrat/media/carpool.css" "~/emocrat/carpool/functions.py" "~/emocrat/templates/rti/query_detail.html" "~/emocrat/templates/carpool/confirm_loc.html" "~/emocrat/templates/carpool/index.html" "~/" "~/emocrat/" "~/emocrat/carpool/functions.py" "~/emocrat/templates/carpool/do_trip.html" "~/emocrat/media/emocrat.css" "~/emocrat/media/carpool.css" "~/emocrat/templates/carpool/index.html" "~/emocrat/templates/carpool/trip_list.html" "~/emocrat/templates/carpool/base.html" "~/emocrat/carpool/" "~/.emacs" "~/emocrat/urls.py" "~/emocrat/templates/carpool/trip_detail.html" "~/emocrat/carpool/views.py"))
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("inde" "setCi"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/svs/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  nil
+  2104
+  '(2013 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/carpool/views.py"
+  "views.py"
+  'python-mode
+  '(abbrev-mode)
+  6872
+  '(2011 t)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/templates/carpool/trip_detail.html"
+  "trip_detail.html"
+  'html-mode
+  nil
+  1424
+  '(1469 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/ai/market.lisp"
+  "market.lisp"
+  'lisp-mode
+  nil
+  267
+  '(166 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/ai/temp.lisp"
+  "temp.lisp"
+  'lisp-mode
+  nil
+  375
+  '(1 t)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8)))
+
+(desktop-create-buffer 206
+  "/home/svs/ai/market.py"
+  "market.py"
+  'python-mode
+  '(abbrev-mode)
+  878
+  '(799 t)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/ai/1.lisp"
+  "1.lisp"
+  'lisp-mode
+  nil
+  675
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/ai/web.lisp"
+  "web.lisp"
+  'lisp-mode
+  nil
+  225
+  '(33 t)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/templates/registration/login.html"
+  "login.html"
+  'html-mode
+  nil
+  273
+  '(1 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/media/carpool.css"
+  "carpool.css"
+  'fundamental-mode
+  nil
+  124
+  '(8 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/media/emocrat.css"
+  "emocrat.css"
+  'fundamental-mode
+  nil
+  68
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/templates/base.html"
+  "base.html<2>"
+  'html-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/carpool/functions.py"
+  "functions.py"
+  'python-mode
+  '(abbrev-mode)
+  4526
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/templates/rti/query_detail.html"
+  "query_detail.html"
+  'html-mode
+  nil
+  3222
+  '(3141 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/templates/carpool/confirm_loc.html"
+  "confirm_loc.html"
+  'html-mode
+  nil
+  439
+  '(385 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/templates/carpool/index.html"
+  "index.html"
+  'html-mode
+  nil
+  275
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/templates/carpool/do_trip.html"
+  "do_trip.html"
+  'html-mode
+  nil
+  173
+  '(77 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/templates/carpool/base.html"
+  "base.html"
+  'html-mode
+  nil
+  747
+  '(292 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/templates/carpool/trip_list.html"
+  "trip_list.html"
+  'html-mode
+  nil
+  248
+  '(248 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/urls.py"
+  "urls.py"
+  'python-mode
+  '(abbrev-mode)
+  1324
+  '(1277 t)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/base/views.py"
+  "views.py<2>"
+  'python-mode
+  '(abbrev-mode)
+  3898
+  '(3948 t)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/media/map/frontend.js"
+  "frontend.js"
+  'java-mode
+  '(abbrev-mode)
+  37038
+  '(1 t)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/templates/carpool/carpool_map.html"
+  "carpool_map.html"
+  'html-mode
+  nil
+  10908
+  '(2033 t)
+  nil
+  nil
+  '((buffer-file-coding-system . mule-utf-8-dos)))
+
+(desktop-create-buffer 206
+  "/usr/lib/python2.5/site-packages/django/core/handlers/base.py"
+  "base.py"
+  'python-mode
+  '(abbrev-mode)
+  4031
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/svs/emocrat/media/rti.js"
+  "rti.js"
+  'java-mode
+  '(abbrev-mode)
+  1463
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

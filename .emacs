@@ -1,19 +1,49 @@
 (menu-bar-mode 0)
 (tool-bar-mode 0)
 (add-to-list 'load-path "/home/svs/elisp")
-;(add-to-list 'load-path "/home/svs/elisp/rhtml")
-;(add-to-list 'load-path "/usr/share/emacs/site-lisp/ecb")
-;(progn (cd "~/elisp") (normal-top-level-add-subdirs-to-load-path))
-;(progn (cd "~"))
+
 ;; super quick jump mode
+;(setq inferior-lisp-program "/usr/bin/sbcl")
+(setq inferior-lisp-program "/home/svs/.clojure/clojure")
+;(add-to-list 'load-path "/usr/share/emacs/site-lisp/slime")
+;(require 'slime)
+;(slime-setup)
+;(add-to-list 'load-path "/home/svs/.emacs.d/elpa/swank-clojure-1.1.0")
+;(setq swank-clojure-binary "/home/svs/.clojure/clojure")
+;(require 'swank-clojure-autoloads)
+
+;; clojure-mode
+(add-to-list 'load-path "/home/svs/.emacs.d/elpa/clojure-mode-1.7.1")
+(require 'clojure-mode)
+
+;; swank-clojure
+(add-to-list 'load-path "/home/svs/.emacs.d/elpa/swank-clojure-1.1.0")
+
+(setq swank-clojure-jar-path "~/.clojure/clojure.jar"
+      swank-clojure-extra-classpaths (list
+				      "~/.clojure/clojure-contrib.jar"
+				      "~/.clojure/mysql-connector-java-5.1.13-bin.jar"))
+
+(require 'swank-clojure-autoloads)
+
+;; slime
+(eval-after-load "slime" 
+  '(progn (slime-setup '(slime-repl))))
+
+;(add-to-list 'load-path "~/opt/slime")
+(require 'slime)
+(slime-setup) 
+
+
+
+
+
+
 (require 'ido)
 (ido-mode t)
 
-
-;(require 'color-theme)
-;(setq color-theme-is-global t)
-;(color-theme-initialize)
-;(color-theme-hober)
+(autoload 'run-scheme "cmuscheme" "Run an inferior Scheme" t)
+(setq scheme-program-name "guile")
 
 (global-font-lock-mode 1)
  
@@ -23,27 +53,10 @@
 ;(desktop-read)
 
 ;; JS2
-;(autoload 'js2-mode "js2" nil t)
+(autoload 'js2-mode "js2" nil t)
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
- 
 (setq js2-basic-offset 2)
 (setq js2-use-font-lock-faces t)
-
-;(show-paren-mode t)
-
-;(autoload 'screen-lines-mode "screen-lines"
-;          "Toggle Screen Lines minor mode for the current buffer." t)
-;(autoload 'turn-on-screen-lines-mode "screen-lines"
-;             "Turn on Screen Lines minor mode for the current buffer." t)
-;(autoload 'turn-off-screen-lines-mode "screen-lines"
-;            "Turn off Screen Lines minor mode for the current buffer." t)
-
-;(load-library "g")
-
-;(setq tramp-default-method "ssh")
-; (setq tramp-default-user "svs"
-;           tramp-default-host "svs.webfactional.com")
-
 
 ;(require 'ruby-mode)
 (add-to-list 'auto-mode-alist '("\\.rb" . ruby-mode))
@@ -53,14 +66,37 @@
 (add-hook 'haml-mode-hook
           '(lambda () (setq indent-tabs-mode nil)))
 
-(require 'git)
 (require 'magit)
 ;(require 'sass-mode)
 ;(add-to-list 'auto-mode-alist '("\\.sass" . sass-mode))
-;(setq py-python-command-args '("-colors" "NoColor"))
+
 (require 'mingus)
 (autoload 'mingus "mingus-stays-home")
+
 ;(setq ri-ruby-script "/home/svs/elisp/ri-emacs.rb")
 ;(autoload 'ri "/home/svs/elisp/ri-ruby.el" nil t)
 ;(require 'rinari)
 ;(require 'rhtml-mode)
+(custom-set-variables
+  ;; custom-set-variables was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ '(dired-listing-switches "-Bal "))
+;(custom-set-faces
+  ;; custom-set-faces was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+; '(default ((t (:inherit nil :stipple nil :background "white" :foreground "black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 100 :width normal :foundry "b&h" :family "Lucida Grande")))))
+
+
+;;; This was installed by package-install.el.
+;;; This provides support for the package system and
+;;; interfacing with ELPA, the package archive.
+;;; Move this code earlier if you want to reference
+;;; packages in your .emacs.
+(when
+    (load
+     (expand-file-name "~/.emacs.d/elpa/package.el"))
+  (package-initialize))

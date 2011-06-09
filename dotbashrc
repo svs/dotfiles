@@ -97,9 +97,20 @@ export PATH=$PATH:/home/svs/android-sdk-linux_x86/tools
 export PATH=$HOME/local/bin:$PATH
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 # If this is an xterm set the title to user@host:dir
+
+function get_mf_dir {
+  if [[ "$PWD" =~ mostfit_inst ]]; then
+      MOSTFIT_DIR=`echo $PWD | sed 's/\/home\/svs\/mostfit_installations\///'`
+  else
+      MOSTFIT_DIR=$PWD
+  fi
+  echo $MOSTFIT_DIR
+}
+
+
 case "$TERM" in
 xterm*|rxvt*)
-     trap 'echo -ne "\e]0;`/home/svs/get_mf_dir`: $BASH_COMMAND\007"' DEBUG
+     trap 'echo -ne "\e]0;`get_mf_dir`: $BASH_COMMAND\007"' DEBUG
     ;;
 *)
     ;;
@@ -140,8 +151,9 @@ function _git_prompt() {
         echo -n '\[\e[0;'"$ansi"'m\]'"($branch)"'\[\e[0m\] '
     fi
 }
-function _prompt_command() {
+function l() {
     PS1="`_git_prompt`"'\[\e[1;34m\]\W \$\[\e[0m\] '
+
 }
-PROMPT_COMMAND=_prompt_command
+PROMPT_COMMAND=l
 

@@ -126,19 +126,21 @@ function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/[\1$(parse_git_dirty)]/"
 }
 # export PS1='\[\033[1;33m\]\W\[\033[0m\]$(parse_git_branch)$ '
-
+export MYSQL_PS1="\u@\h [\d]> "
 
 # prompt from http://webcache.googleusercontent.com/search?q=cache:http://opinionated-programmer.com/2011/01/colorful-bash-prompt-reflecting-git-status/
 
 function _git_prompt() {
     local git_status="`git status -unormal 2>&1`"
     if ! [[ "$git_status" =~ Not\ a\ git\ repo ]]; then
-        if [[ "$git_status" =~ nothing\ to\ commit ]]; then
-            local ansi=32
-        elif [[ "$git_status" =~ Changed\ but\ not\ updated ]]; then
+        if [[ "$git_status" =~ Untracked\ files ]]; then
+            local ansi=36
+        elif [[ "$git_status" =~ nothing\ to\ commit ]]; then
+            local ansi=37
+        elif [[ "$git_status" =~ Changes\ to\ be\ committed ]]; then
             local ansi=33
         else
-            local ansi=37
+            local ansi=31
         fi
         if [[ "$git_status" =~ On\ branch\ ([^[:space:]]+) ]]; then
             branch=${BASH_REMATCH[1]}

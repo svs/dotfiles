@@ -158,4 +158,5 @@ function l() {
 
 }
 PROMPT_COMMAND=l
-
+rvm use ree
+rvm gemset use mostfit

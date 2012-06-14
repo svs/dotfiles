@@ -121,9 +121,9 @@
      (highlight ((t (:background ,zenburn-bg+1))))
 
      ;; faces used by isearch
-     (isearch ((t (:foreground ,zenburn-yellow :background ,zenburn-bg-1))))
-     (isearch-fail ((t (:foreground ,zenburn-fg :background ,zenburn-red-4))))
-     (lazy-highlight ((t (:foreground ,zenburn-yellow :background ,zenburn-bg+2))))
+     (isearch ((t (:foreground ,"#000000" :background ,zenburn-orange))))
+     (isearch-fail ((t (:foreground ,zenburn-fg :background ,zenburn-red))))
+     (lazy-highlight ((t (:foreground ,"#000000" :background ,zenburn-green))))
 
      (menu ((t (:foreground ,zenburn-fg :background ,zenburn-bg))))
      (minibuffer-prompt ((t (:foreground ,zenburn-yellow))))

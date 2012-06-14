@@ -8,6 +8,17 @@
 ;; Add F12 to toggle line wrap
 (global-set-key [f12] 'toggle-truncate-lines)
 
+;;; This was installed by package-install.el.
+;;; This provides support for the package system and
+;;; interfacing with ELPA, the package archive.
+;;; Move this code earlier if you want to reference
+;;; packages in your .emacs.
+(when
+    (load
+     (expand-file-name "~/.emacs.d/elpa/package.el"))
+  (package-initialize))
+
+
 (add-to-list 'load-path "~/.emacs.d")
 (add-to-list 'load-path "~/.emacs.d/textmate.el")
 (require 'textmate)
@@ -22,6 +33,24 @@
 (setq history-length 250)
 (add-to-list 'desktop-globals-to-save 'file-name-history)
 
+;; ;; clojure
+(require 'clojure-mode)
+
+;; swank-clojure
+;;(setq swank-clojure-jar-path "~/.lein/bin/clojure-1.3.0.jar")
+;; ;      swank-clojure-extra-classpaths (list
+;; ;				      "~/opt/swank-clojure/src/main/clojure"
+;; ;				      "~/.clojure/clojure-contrib.jar"))
+
+;;(require 'swank-clojure-autoload)
+
+;; slime
+(eval-after-load "slime" 
+  '(progn (slime-setup '(slime-repl))))
+(require 'slime)
+(slime-setup) 
+
+
 ;; JS2
 (autoload 'js2-mode "js2" nil t)
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
@@ -35,6 +64,7 @@
 ;(require 'ruby-mode)
 (add-to-list 'auto-mode-alist '("\\.rb" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.rake" . ruby-mode))
+(add-to-list 'auto-mode-alist '("Gemfile" . ruby-mode))
 (require 'haml-mode)
 (add-to-list 'auto-mode-alist '("\\.haml" . haml-mode))
 (add-hook 'haml-mode-hook
@@ -60,12 +90,12 @@
                        default-directory)))))) 
 
 ; auto-completion
-(require 'auto-complete)
-(ac-flyspell-workaround) 
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
-(require 'auto-complete-config)
-(ac-config-default)
-
+;; (require 'auto-complete)
+;; (ac-flyspell-workaround) 
+;; (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+;; (require 'auto-complete-config)
+;; (ac-config-default)
+;; (setq ac-auto-start 4)
 
 
 
@@ -84,6 +114,18 @@
 
 ;color theme
 (require 'color-theme)
-(color-theme-initialize)
 (load-theme 'zenburn)
 (eval-after-load "color-theme" '(color-theme-zenburn))
+
+
+
+
+;;; This was installed by package-install.el.
+;;; This provides support for the package system and
+;;; interfacing with ELPA, the package archive.
+;;; Move this code earlier if you want to reference
+;;; packages in your .emacs.
+(when
+    (load
+     (expand-file-name "~/.emacs.d/elpa/package.el"))
+  (package-initialize))

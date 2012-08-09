@@ -8,23 +8,16 @@
 ;; Add F12 to toggle line wrap
 (global-set-key [f12] 'toggle-truncate-lines)
 
-;;; This was installed by package-install.el.
-;;; This provides support for the package system and
-;;; interfacing with ELPA, the package archive.
-;;; Move this code earlier if you want to reference
-;;; packages in your .emacs.
-(when
-    (load
-     (expand-file-name "~/.emacs.d/elpa/package.el"))
-  (package-initialize))
-
 
 (add-to-list 'load-path "~/.emacs.d")
-(add-to-list 'load-path "~/.emacs.d/textmate.el")
+
+
+
+
 (require 'textmate)
 (textmate-mode)
-;(require 'ido)
-;(ido-mode t)
+(require 'ido)
+(ido-mode t)
 (require 'uniquify)
 (setq uniqueify-buffer-name-style 'reverse)
 (global-font-lock-mode 1)
@@ -45,10 +38,10 @@
 ;;(require 'swank-clojure-autoload)
 
 ;; slime
-(eval-after-load "slime" 
-  '(progn (slime-setup '(slime-repl))))
-(require 'slime)
-(slime-setup) 
+;; (eval-after-load "slime" 
+;;   '(progn (slime-setup '(slime-repl))))
+;; (require 'slime)
+;; (slime-setup) 
 
 
 ;; JS2
@@ -58,8 +51,8 @@
 (setq js2-use-font-lock-faces t)
 
 
-(add-to-list 'load-path "~/.emacs.d/magit")
-(require 'magit)
+;(add-to-list 'load-path "~/.emacs.d/magit")
+;(require 'magit)
 
 ;(require 'ruby-mode)
 (add-to-list 'auto-mode-alist '("\\.rb" . ruby-mode))
@@ -71,10 +64,26 @@
           '(lambda () (setq indent-tabs-mode nil)))
 
 
+(add-to-list 'load-path "~/.emacs.d/elpa/feature-mode")
+;; ;; optional configurations
+;; ;; default language if .feature doesn't have "# language: fi"
+;; ;(setq feature-default-language "fi")
+;; ;; point to cucumber languages.yml or gherkin i18n.yml to use
+;; ;; exactly the same localization your cucumber uses
+;; ;(setq feature-default-i18n-file "/path/to/gherkin/gem/i18n.yml")
+;; ;; and load feature-mode
+(require 'feature-mode)
+(add-to-list 'auto-mode-alist '("\.feature$" . feature-mode))
+
+
+(require 'rvm)
+(require 'rspec-mode)
+(setq rspec-use-rake-flag nil)
 (setq-default mode-line-buffer-identification 
               (list 'buffer-file-name 
                     (propertized-buffer-identification "%12f") 
                     (propertized-buffer-identification "%12b") ))
+
 
 (add-hook 'dired-mode-hook 
           (lambda () 
@@ -120,6 +129,8 @@
 
 
 
+
+
 ;;; This was installed by package-install.el.
 ;;; This provides support for the package system and
 ;;; interfacing with ELPA, the package archive.
@@ -129,3 +140,4 @@
     (load
      (expand-file-name "~/.emacs.d/elpa/package.el"))
   (package-initialize))
+

@@ -1,0 +1,1 @@
+("~/clj/stats/" "~/src/e/stats/" "~/src/e/ts_metro_theme/" "~/src/e/test_app/" "~/src/e/embibe/" "~/src/e/kirana/" "~/.emacs.backup/" "~/src/best_locator/" "~/src/e/content-admin/")

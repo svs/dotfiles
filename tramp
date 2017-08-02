@@ -1,6 +1,8 @@
-;; -*- emacs-lisp -*- <14/05/21 13:06:27 /Users/svs/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <16/02/02 17:28:46 /Users/svs/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
-((["scpc" nil "bus-from-" nil]
+((["scp" nil "datagram-prod-1-deploy" nil nil]
+  nil)
+ (["scp" nil "scp" nil nil]
   nil))

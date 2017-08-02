@@ -5,9 +5,11 @@
 ;;; packages in your .emacs.
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                          ("marmalade" . "http://marmalade-repo.org/packages/")
-                         ("melpa" . "http://melpa.milkbox.net/packages/")))
-(package-initialize)
+                         ("melpa-stable" . "http://stable.melpa.org/packages/")
+			 ("melpa" . "http://melpa.org/packages/")))
 
+(package-initialize)
+(add-to-list 'package-pinned-packages '(elixir-mode . "melpa-stable") t)
 ;; disable line wrap
 (setq default-truncate-lines t)
 
@@ -16,7 +18,7 @@
 
 ;; Add F12 to toggle line wrap
 (global-set-key [f12] 'toggle-truncate-lines)
-(add-hook 'after-init-hook 'global-company-mode)
+;;(add-hook 'after-init-hook 'global-company-mode)
 
 ;; Save temp files to system tmp directory
 (setq backup-directory-alist
@@ -41,8 +43,6 @@
 
 (add-to-list 'auto-mode-alist '("\\.html$" . html-mode))
 
-(require 'lua-mode)
-(add-to-list 'auto-mode-alist '("\\.lua$" . lua-mode))
 
 ;; JS2
 (autoload 'js2-mode "js2" nil t)
@@ -58,11 +58,14 @@
 (add-to-list 'auto-mode-alist '("Guardfile" . ruby-mode))
 
 
-(require 'haml-mode)
-(add-to-list 'auto-mode-alist '("\\.haml" . haml-mode))
-(add-hook 'haml-mode-hook
-          '(lambda () (setq indent-tabs-mode nil)))
+(require 'js2-mode)
+(add-to-list 'auto-mode-alist '("\\.js" . js2-mode))
 
+(require 'elm-mode)
+(add-to-list 'auto-mode-alist '("\\.elm" . elm-mode))
+
+(require 'php-mode)
+(add-to-list 'auto-mode-alist '("\\.php" . php-mode))
 
 
 
@@ -96,24 +99,15 @@
 
 (require 'magit)
 ;; change magit diff colors
-(eval-after-load 'magit
-  '(progn
-     (set-face-foreground 'magit-diff-add "green3")
-     (set-face-foreground 'magit-diff-del "red3")
-     (when (not window-system)
-       (set-face-background 'magit-item-highlight "black"))))
 
+(setq sql-postgres-program "/usr/local/bin/psql")
 
 
 (require 'color-theme)
 (require 'zenburn-theme)
 
-(setq scheme-program-name
-    "/Applications/MIT:GNUScheme.app/Contents/Resources/mit-scheme")
-(require 'xscheme)
-
-(push 'company-robe company-backends)
-(push 'ac-source-robe ac-sources)
+(projectile-global-mode)
+(add-hook 'projectile-mode-hook 'projectile-rails-on)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -127,3 +121,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+ (set-face-attribute 'default nil
+                :family "Monaco" :height 120 :weight 'normal)

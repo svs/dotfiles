@@ -1,0 +1,387 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/siddharthsharma/src/tradefront/app/models/" . "concerns/")
+ ("/Users/siddharthsharma/src/tradefront/app/brokers/" . "brokers/")
+ ("/Users/siddharthsharma/src/tradefront/app/services/" . "stats/")
+ ("/Users/siddharthsharma/src/tradefront/db/" . "migrate/")
+ ("/Users/siddharthsharma/src/tradefront/app/views/api/" . "stats/")
+ ("/Users/siddharthsharma/src/tradefront/spec/" . "services/")
+ ("/Users/siddharthsharma/src/tradefront/public/" . "packs/")
+ ("/Users/siddharthsharma/src/tradefront/app/assets/" . "stylesheets/")
+ ("/Users/siddharthsharma/src/tradefront/app/views/devise/" . "sessions/")
+ ("/Users/siddharthsharma/src/tradefront/config/" . "locales/")
+ ("/Users/siddharthsharma/src/tradefront/app/javascript/" . "controllers/")
+ ("/Users/siddharthsharma/src/tradefront/lib/" . "tasks/")
+ ("/Users/siddharthsharma/src/tradefront/app/views/" . "application/")
+ ("/Users/siddharthsharma/src/tradefront/app/controllers/" . "api/")
+ ("/Users/siddharthsharma/src/tradefront/app/" . "services/")
+ ("/Users/siddharthsharma/src/tradefront/" . "app/")
+ ("/Users/siddharthsharma/Downloads/" . "Highcharts-Stock-8.1.0/")
+ ("/Users/siddharthsharma/src/zerodha/zerodha_bot_sinatra/" . "public/")
+ ("/Users/siddharthsharma/src/zerodha/bot/" . "spec/")
+ ("/Users/siddharthsharma/src/zerodha/zerodha_ruby/lib/" . "zerodha_ruby/")
+ ("/Users/siddharthsharma/src/zerodha/zerodha_ruby/" . "lib/")
+ ("/Users/siddharthsharma/src/laterboro/app/assets/" . "stylesheets/")
+ ("/Users/siddharthsharma/src/laterboro/app/views/" . "layouts/")
+ ("/Users/siddharthsharma/src/laterboro/app/" . "controllers/")
+ ("/Users/siddharthsharma/src/laterboro/" . "app/")
+ ("/Users/siddharthsharma/src/datagram/app/javascript/" . "controllers/")
+ ("/Users/siddharthsharma/src/tmp/" . "ruby-kibana/")
+ ("/Users/siddharthsharma/src/datagram/db/" . "migrate/")
+ ("/Users/siddharthsharma/src/old_datagram/app/views/" . "layouts/")
+ ("/Users/siddharthsharma/src/old_datagram/app/" . "services/")
+ ("/Users/siddharthsharma/src/old_datagram/" . "app/")
+ ("/Users/siddharthsharma/src/mizu-backend/db/" . "migrate/")
+ ("/Users/siddharthsharma/src/mizu-backend/app/views/" . "home/")
+ ("/Users/siddharthsharma/src/mizu-backend/app/" . "models/")
+ ("/Users/siddharthsharma/src/mizu-backend/config/" . "environments/")
+ ("/Users/siddharthsharma/src/mizu-backend/" . "db/")
+ ("/Users/siddharthsharma/src/covid19-supply-chain-backend/spec/fixtures/" . "availability_reports/")
+ ("/Users/siddharthsharma/src/covid19-supply-chain-backend/spec/" . "fixtures/")
+ ("/Users/siddharthsharma/src/covid19-supply-chain-backend/db/" . "migrate/")
+ ("/Users/siddharthsharma/src/covid19-supply-chain-backend/config/" . "initializers/")
+ ("/Users/siddharthsharma/src/covid19-supply-chain-backend/app/" . "models/")
+ ("/Users/siddharthsharma/src/covid19-supply-chain-backend/" . "spec/")
+ ("/Users/siddharthsharma/src/covid19-supply-chain/" . "docs/")
+ ("/Users/siddharthsharma/src/stampit/app/views/" . "layouts/")
+ ("/Users/siddharthsharma/src/stampit/app/" . "models/")
+ ("/Users/siddharthsharma/src/stampit/config/" . "initializers/")
+ ("/Users/siddharthsharma/src/stampit/" . "config/")
+ ("/Users/siddharthsharma/src/zerodha/" . "zerodha_ruby/")
+ ("/Users/siddharthsharma/src/sangam-payments/" . "spec/")
+ ("/Users/siddharthsharma/src/shaadi/sangam-crystal/src/" . "sangam-crystal/")
+ ("/Users/siddharthsharma/src/shaadi/sangam-crystal/" . "src/")
+ ("/Users/siddharthsharma/tmp/shaadi-relationship-test/" . "spec/")
+ ("/Users/siddharthsharma/Dropbox/src/" . "bp/")
+ ("/Users/siddharthsharma/Dropbox/" . "src/")
+ ("/Users/siddharthsharma/src/rider/app/scripts/" . "services/")
+ ("/Users/siddharthsharma/src/rider/app/" . "scripts/")
+ ("/Users/siddharthsharma/src/rider/" . "app/")
+ ("/Users/siddharthsharma/src/api/lib/botbali/" . "commands/")
+ ("/Users/siddharthsharma/src/api/app/assets/stylesheets/public/" . "grids/")
+ ("/Users/siddharthsharma/src/api/app/assets/stylesheets/" . "public/")
+ ("/Users/siddharthsharma/src/api/app/assets/" . "javascripts/")
+ ("/Users/siddharthsharma/src/api/app/views/home/" . "includes/")
+ ("/Users/siddharthsharma/src/api/app/views/" . "routes/")
+ ("/Users/siddharthsharma/src/api/lib/tasks/" . "trip/")
+ ("/Users/siddharthsharma/src/api/lib/" . "botbali/")
+ ("/Users/siddharthsharma/src/api/app/controllers/admin/api/" . "v1/")
+ ("/Users/siddharthsharma/src/api/app/controllers/admin/" . "api/")
+ ("/Users/siddharthsharma/src/api/app/controllers/api/" . "v1/")
+ ("/Users/siddharthsharma/src/api/app/controllers/" . "api/")
+ ("/Users/siddharthsharma/src/api/app/services/admin/" . "v1/")
+ ("/Users/siddharthsharma/src/api/app/services/" . "admin/")
+ ("/Users/siddharthsharma/src/api/app/" . "services/")
+ ("/Users/siddharthsharma/src/api/" . "config/")
+ ("/Users/siddharthsharma/.config/fish/" . "conf.d/")
+ ("/Users/siddharthsharma/.config/" . "fish/")
+ ("/Users/siddharthsharma/src/reason/my-first-app/" . "src/")
+ ("/Users/siddharthsharma/src/reason/" . "my-first-app/")
+ ("/Users/siddharthsharma/src/shaadi/search_query/src/" . "search_query/")
+ ("/Users/siddharthsharma/src/shaadi/search_query/spec/" . "fixtures/")
+ ("/Users/siddharthsharma/src/shaadi/search_query/" . "src/")
+ ("/Users/" . "siddharthsharma/")
+ ("/" . "Users/")
+ ("/Users/siddharthsharma/src/shaadi/" . "search_query/")
+ ("/Users/siddharthsharma/src/datagram/app/assets/javascripts/" . "services/")
+ ("/Users/siddharthsharma/src/datagram/app/services/" . "clients/")
+ ("/Users/siddharthsharma/tmp/" . "shaadi-relationship-test/")
+ ("/Users/siddharthsharma/src/datagram/spec/" . "requests/")
+ ("/Users/siddharthsharma/src/datagram/vendor/assets/javascripts/" . "highcharts/")
+ ("/Users/siddharthsharma/src/datagram/vendor/assets/" . "javascripts/")
+ ("/Users/siddharthsharma/src/datagram/vendor/" . "assets/")
+ ("/Users/siddharthsharma/src/datagram/app/assets/" . "stylesheets/")
+ ("/Users/siddharthsharma/src/datagram/app/controllers/api/" . "v1/")
+ ("/Users/siddharthsharma/src/datagram/app/controllers/" . "api/")
+ ("/Users/siddharthsharma/src/datagram/app/views/api/v1/" . "datagrams/")
+ ("/Users/siddharthsharma/src/datagram/app/views/api/" . "v1/")
+ ("/Users/siddharthsharma/src/datagram/app/views/" . "queries/")
+ ("/Users/siddharthsharma/src/datagram/app/" . "services/")
+ ("/Users/siddharthsharma/src/datagram/config/" . "initializers/")
+ ("/Users/siddharthsharma/src/datagram/lib/" . "tasks/")
+ ("/Users/siddharthsharma/src/datagram/" . "app/")
+ ("/Users/siddharthsharma/src/" . "zerodha/")
+ ("/Users/siddharthsharma/" . "src/")
+ ("/home/siddharths/src/datagram/app/" . "models/")
+ ("/home/siddharths/src/datagram/" . "app/")
+ ("/home/siddharths/src/" . "datagram/")
+ ("/home/siddharths/.config/" . "awesome/")
+ ("/home/siddharths/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/siddharthsharma/src/tradefront/app/views/application/"
+ "/Users/siddharthsharma/src/tradefront/app/views/home/"
+ "/Users/siddharthsharma/src/tradefront/"
+ "/Users/siddharthsharma/src/zerodha/zerodha_ruby/lib/"
+ "/Users/siddharthsharma/src/tradefront/app/services/market_data/"
+ "/Users/siddharthsharma/src/tradefront/app/services/"
+ "/Users/siddharthsharma/"
+ "/Users/siddharthsharma/src/tradefront/app/javascript/controllers/"
+ "/Users/siddharthsharma/src/tradefront/app/javascript/packs/"
+ "/Users/siddharthsharma/src/tradefront/app/views/positions/"
+ "/Users/siddharthsharma/src/tradefront/app/assets/stylesheets/"
+ "/Users/siddharthsharma/src/tradefront/app/views/trades/"
+ "/Users/siddharthsharma/src/tradefront/app/services/stats/"
+ "/Users/siddharthsharma/src/tradefront/app/controllers/"
+ "/Users/siddharthsharma/src/tradefront/app/javascript/functions/"
+ "/Users/siddharthsharma/src/tradefront/app/controllers/api/"
+ "/Users/siddharthsharma/src/tradefront/app/javascript/components/"
+ "/Users/siddharthsharma/src/tradefront/spec/services/"
+ "/Users/siddharthsharma/src/tradefront/app/views/instruments/"
+ "/Users/siddharthsharma/src/tradefront/app/views/layouts/"
+ "/Users/siddharthsharma/src/tradefront/lib/tasks/"
+ "/Users/siddharthsharma/src/tradefront/app/admin/"
+ "/Users/siddharthsharma/src/tradefront/app/helpers/"
+ "/Users/siddharthsharma/src/tradefront/config/locales/"
+ "/Users/siddharthsharma/src/tradefront/app/models/"
+ "/Users/siddharthsharma/src/tradefront/db/migrate/"
+ "/Users/siddharthsharma/src/tradefront/config/"
+ "/Users/siddharthsharma/src/tradefront/config/initializers/"
+ "/Users/siddharthsharma/src/tradefront/config/webpack/"
+ "/Users/siddharthsharma/src/tradefront/app/views/api/stats/"
+ "/Users/siddharthsharma/src/tradefront/app/domain/"
+ "/Users/siddharthsharma/src/tradefront/app/javascript/"
+ "/Users/siddharthsharma/src/tradefront/app/views/blogs/"
+ "/Users/siddharthsharma/src/tradefront/app/views/users/"
+ "/Users/siddharthsharma/src/tradefront/app/views/analytics/"
+ "/Users/siddharthsharma/src/tradefront/app/views/uploads/"
+ "/Users/siddharthsharma/src/tradefront/spec/brokers/"
+ "/Users/siddharthsharma/src/tradefront/spec/domain/"
+ "/Users/siddharthsharma/src/tradefront/spec/models/"
+ "/Users/siddharthsharma/src/tradefront/app/views/zerodha_positions/"
+ "/Users/siddharthsharma/src/tradefront/config/environments/"
+ "/Users/siddharthsharma/src/tradefront/db/"
+ "/Users/siddharthsharma/src/tradefront/app/views/api/trade_book/"
+ "/Users/siddharthsharma/src/bb/"
+ "/Users/siddharthsharma/src/tradefront/spec/factories/"
+ "/Users/siddharthsharma/src/tradefront/spec/"
+ "/Users/siddharthsharma/.config/fish/"
+ "/Users/siddharthsharma/.config/fish/conf.d/"
+ "/Users/siddharthsharma/src/datagram/"
+ "/Users/siddharthsharma/src/datagram/app/services/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "_trade_list.html.slim"
+ "_today.html.slim"
+ "Gemfile"
+ "zerodha_ruby.rb"
+ "headline_stats.rb"
+ "data.rb"
+ ".emacs"
+ "instruments_controller.js"
+ "instruments.js"
+ "Home.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/siddharthsharma/src/tradefront/app/services/stats/" (24407 45125 139075 67000) "trade_stats.rb" "tod_stats.rb" "drawdown_stats.rb" "long_short_stats.rb" "day.rb" "today.rb" "position.rb" "instrument_stats.rb" "position_history_stats.rb" "drawdown_calculator.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/services/market_data/" (24408 50641 309641 698000) "headline_stats.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/home/" (24407 1307 468556 257000) "home.html.slim" "_today.html.slim" "index.html.slim" "day.html.slim" "_week.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/zerodha/zerodha_ruby/lib/" (24406 848 634376 446000) "zerodha_ruby/" "zerodha_ruby.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/zerodha/" (24270 21992 560805 165000) ".git/" "bot/" "ticker/" "zerodha_ruby/" "position_fetcher/" "zerodha_bot_sinatra/" "python/" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/" (24405 50890 603497 491000) ".platform/" "vendor/" "tmp/" "postcss.config.js" ".browserslistrc" ".git/" "Procfile" "latest.dump" "Gemfile.lock" "log/" "Gemfile" "db/" "lib/" ".env" "package.json" ".gitignore" "babel.config.js" "public/" "yarn.lock" "Rakefile" "README.md" "storage/" "NIFTY20MAYFUT" "spec/" "instruments.txt" "node_modules/" "config.ru" "users.csv" "config/" "yarn-error.log" "bin/" "test/" ".ruby-version" "app/" ".DS_Store" "mcx-multiples.txt" ".rspec" "Guardfile" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/services/" (24405 61288 499437 987000) "stats/" "position_chart_data_service.rb" "updaters/" "trade_position_updater.rb" "market_data.rb" "position.rb" "market_data/" "stats.rb" "trade_book_position.rb" "trade_position_helper.rb" "tag_chart_data_service.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/services/data/" (24405 57831 580405 42000) "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/javascript/packs/" (24403 18672 699406 284000) "Trades.js" "application.js" "instruments.js" "trade_diary.js" "Analytics.js" "published_blog.js" "blog.js" "Home.js" "upload.js" ".#Home.js" "chart.js" "broker_login.js" "positions.js" "turbo.js" "../" "./")
+
+ ("/Users/siddharthsharma/" (24401 16336 134720 29000) "src/" ".guard_history" ".viminfo" ".bash_history" ".putty/" "jupyter/" "rootCA.key" ".gitconfig" ".aws/" ".cache/" "tmp/" ".python_history" "Downloads/" ".rediscli_history" ".aspnet/" "AndroidStudioProjects/" ".gem/" ".pry_history" ".bash_profile" ".m2/" ".vscode/" ".mono/" ".mysql_history" ".ionic/" ".anydesk/" "Documents/" ".npm/" ".itmstransporter/" ".luarocks/" ".jupyter/" ".bash_profile.cli.bak" ".zoomus/" "IdeaProjects/" ".Trash/" ".haiku/" "Dropbox/" ".gradle/" "Applications/" ".emacs" ".dotnet/" "Movies/" ".ssh/" "msite queries.sql" "redash/" "my-first-app/" "VIA/" "package.json" "package-lock.json" "rootCA.pem" ".dropbox/" "Public/" ".emacs.desktop.lock" ".serverless/" "yarn.lock" "dimArmy/" ".platformsh/" ".cups/" ".cocoapods/" ".android/" ".mpd/" ".emacs.d/" ".emacs.desktop" ".IdentityService/" ".emulator_console_auth_token" ".oracle_jre_usage/" ".erlang.cookie" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".zsh_history" ".v8flags.6.8.275.24-node.14.36284592f1c98a7b60ef9cad267e8e73.json" ".nuget/" ".bundle/" "node_modules/" ".atom/" ".mpdconf" "Pictures/" "Projects/" ".psql_history" ".local/" "secrets/" ".sqlworkbench/" ".templateengine/" ".mix/" ".ServiceHub/" ".ssb/" ".subversion/" ".netrc" ".rbenv/" ".wget-hsts" ".angular-config.json" ".CFUserTextEncoding" ".yarnrc" ".ruby-version" "Collect.tgz" "filebeat-7.0.0-darwin-x86_64.tar.gz" ".vuerc" ".DS_Store" ".kerio/" ".node-gyp/" "json.iqy" ".docker/" ".serverlessrc" "Music/" "filebeat-7.0.0-darwin-x86_64/" ".config/" ".hex/" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/domain/" (24401 12498 818142 998000) "live_positions.rb" "candle.rb" "trade_book_processor.rb" "instr.rb" "day.rb" "live_trades.rb" "trade_book.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/javascript/components/" (24399 56091 42650 570000) "NoteModal.vue" "tradecard.vue" "tradebook.vue" "LongShortChart.vue" "TradeCalendar.vue" "header.vue" "DrawDownChart.vue" "ToDChart.vue" "PositionPLBarChart.vue" "MyCalendar.vue" "pivot-table.vue" "PLBarChart.vue" "PositionList.vue" "PlInfo.vue" "chart.vue" "MonthByWeek.vue" "Week.vue" "LongShortGraph.vue" "Today.vue" "BlockQuote.vue" "TradeTable.vue" "DayRatios.vue" "published_tradecard.vue" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/javascript/functions/" (24402 19665 445496 38000) "HighchartsAnnotator.js" "TopBottomFinder.js" "DrawDownChartObject.js" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/trades/" (24401 4686 642560 997000) "show.html.slim" "index.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/positions/" (24402 19551 97386 549000) "show.html.slim" "index.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/controllers/" (24402 35149 420606 487000) "concerns/" "analytics_controller.rb" "uploads_controller.rb" "instruments_controller.rb" "api/" "home_controller.rb" "positions_controller.rb" "users_controller.rb" "brokers_controller.rb" "zerodha_positions_controller.rb" "zerodha_orders_controller.rb" "blogs_controller.rb" "oauth/" "callbacks_controller.rb" "trades_controller.rb" "application_controller.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/assets/stylesheets/" (24401 16165 639319 182000) "analytics.scss" "header.scss" "blogs.scss" "trades.scss" "brokers.scss" "api/" "users.scss" "instruments.scss" "zerodha_positions.scss" "uploads.scss" "notes.scss" "zerodha_orders.scss" "oauth/" "callbacks.scss" "home.scss" "positions.scss" "application.scss" "active_admin.scss" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/services/updaters/" (24396 39902 622417 382000) "zerodha.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/spec/factories/" (24373 20973 784479 437000) "users.rb" "trades.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/api/trade_book/" (24373 20972 178438 777000) "index.html.slim" "index.json.jbuilder" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/db/" (24396 39902 628153 118000) "migrate/" "seeds.rb" "schema.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/config/environments/" (24373 20972 357365 213000) "test.rb" "development.rb" "production.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/zerodha_positions/" (24373 20972 352442 803000) "index.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/spec/models/" (24395 55221 797579 317000) "user_spec.rb" "zerodha_margin_spec.rb" "user_position_spec.rb" "instrument_spec.rb" "trade_note_spec.rb" "trade_spec.rb" "order_spec.rb" "zerodha_position_spec.rb" "position_history_spec.rb" "admin_user_spec.rb" "position_spec.rb" "user_margin_spec.rb" "blog_spec.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/spec/domain/" (24373 21011 4412 673000) "instr_spec.rb" "day_spec.rb" "live_trade_spec.rb" "position_spec.rb" "trade_book_spec.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/spec/brokers/" (24373 21011 3595 441000) "zerodha_spec.rb" "zerodha_a.csv" "zerodha.csv" "zerodha_b.csv" "zerodha_small.csv" "zerodha_a_jumble.csv" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/uploads/" (24373 21010 911682 93000) "show.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/spec/services/" (24399 28033 866286 711000) "chart_data_service_spec.rb" "position_spec.rb" "stats_spec.rb" "tag_chart_data_service_spec.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/application/" (24399 49538 383741 959000) "_header.html.slim" "_upload_form.html.slim" "_search_form.html.slim" "_trade_list.html.slim" "_logo.html.slim" "_heap.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/spec/" (24396 39902 630462 210000) "services/" "helpers/" "rails_helper.rb" "domain/" "javascript/" "lib/" "factories/" "factories.rb" "requests/" "models/" "brokers/" "spec_helper.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/controllers/api/" (24383 38837 257953 63000) "stats_controller.rb" "positions_controller.rb" "api_controller.rb" "users_controller.rb" "notes_controller.rb" "orders_controller.rb" "blogs_controller.rb" "chart_data_controller.rb" "trade_book_controller.rb" "trades_controller.rb" "position_data_controller.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/db/migrate/" (24395 55290 170402 168000) "20200826085545_add_margin_to_position_histories.rb" "20200818024158_add_position_margin_to_trades.rb" "20200612043349_add_position_complete_to_trades.rb" "20200713030705_add_expiry_date_to_trades.rb" "20200611101330_add_broker_exchange_symbol_index_to_trades.rb" "20200722101037_add_zerodha_tokens_to_user.rb" "20200615183016_create_blogs.rb" "20200822055349_add_config_to_user.rb" "20200702172052_create_active_admin_comments.rb" "20200714082239_rename_instruments_token.rb" "20200723113917_redo_trade_indices.rb" "20200702174517_install_blazer.rb" "20200706210049_add_ltp_and_margin_to_trades.rb" "20200709202840_add_m2m_to_trades.rb" "20200609150549_convert_trade_type_to_string.rb" "20200717062509_add_ltp_updated_at_to_trades.rb" "20200719110618_add_underlying_to_trades.rb" "20200706121023_add_product_to_trades.rb" "20200716054321_add_order_trade_count_to_trades.rb" "20200607124106_devise_create_users.rb" "20200702174618_add_admin_to_users.rb" "20200714090444_add_constraints_to_intruments.rb" "20200701131620_add_token_to_blogs.rb" "20200718071857_add_position_last_id_to_trades.rb" "20200701053959_create_ahoy_visits_and_events.rb" "20200628084217_add_ett_to_trades.rb" "20200810143939_add_tag_to_trades.rb" "20200821020059_add_user_id_to_position_histories.rb" "20200709193937_add_buy_and_sell_value_to_trades.rb" "20200830164541_create_user_margins.rb" "20200817064332_add_m2m_pvalue_to_trades.rb" "20200820063530_create_position_histories.rb" "20200702173214_create_login_activities.rb" "20200611072030_add_position_columns_to_trades.rb" "20200708091701_add_position_token_to_trades.rb" "20200611102719_add_value_and_turnover_to_trades.rb" "20200723062349_add_unique_trade_constraint_to_trades.rb" "20200702172042_devise_create_admin_users.rb" "20200628083557_fix_trades_table.rb" "20200804184821_add_default_false_position_complete_to_trades.rb" "20200617201857_add_user_id_to_blogs.rb" "20200721141743_drop_unique_index_on_trade_id.rb" "20200629083733_add_columns_to_orders.rb" "20200706095541_add_user_position_symbol_index_on_trades.rb" "20200717172653_add_indexes_to_trades.rb" "20200609092912_add_date_to_notes.rb" "20200711085549_add_m2m_value_to_trades.rb" "20200609162026_make_trade_ids_unique.rb" "20200709194633_add_buy_and_sell_qty_to_trades.rb" "20200612100443_add_live_to.rb" "20200608124337_add_token_to_users.rb" "20200610101515_add_columns_to_trade.rb" "20200709062953_create_zerodha_margins.rb" "20200617124824_create_instruments.rb" "20200622163136_create_zerodha_positions.rb" "20200623154555_add_cost_columns_to_trades.rb" "20200612165448_manage_trades_unique_index.rb" "20200627082444_add_margin_to_trades.rb" "20200706041750_add_status_to_orders.rb" "20200820061211_add_more_indexes_to_trades.rb" "20200609083456_create_trade_notes.rb" "20200705065807_add_instrument_type_to_trades.rb" "20200806163905_add_source_to_trades.rb" "20200629055712_create_orders.rb" "20200614070408_add_position_value_to_trades.rb" "20200608134035_create_trades.rb" "20200614085725_add_trade_pl_columns_to_trades.rb" "20200708095724_drop_positions.rb" "20200804190435_add_index_expiry_date_to_trades.rb" "20200622152358_create_user_positions.rb" "20200611042541_create_positions.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/models/" (24396 39902 619537 280000) "user_position.rb" "user.rb" "concerns/" "login_activity.rb" "application_record.rb" "admin_user.rb" "trade.rb" "order.rb" "zerodha_margin.rb" "zerodha_position.rb" "position_history.rb" "instrument.rb" "trade_note.rb" "user_margin.rb" "blog.rb" "ahoy/" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/config/locales/" (24396 39902 627475 597000) "devise.en.yml" "en.yml" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/helpers/" (24396 39902 618065 398000) "application_helper.rb" "zerodha_positions_helper.rb" "blogs_helper.rb" "callbacks_helper.rb" "home_helper.rb" "uploads_helper.rb" "api/" "users_helper.rb" "zerodha_orders_helper.rb" "trades_helper.rb" "positions_helper.rb" "instruments_helper.rb" "notes_helper.rb" "analytics_helper.rb" "oauth/" "brokers_helper.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/admin/" (24396 37327 491030 112000) "position_histories.rb" "users.rb" "admin_users.rb" "zerodha_positions.rb" "dashboard.rb" "trades.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/lib/tasks/" (24396 54753 824896 94000) "update_trades.rake" "user_update.rake" "eod.rake" "flush_cache.rake" "utilities.rake" ".keep" "scheduler.rake" "save_creds.rake" "update_instrument_type.rake" "update_instruments.rake" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/instruments/" (24397 648 661114 131000) "index.js.erb" "show.html.slim" "_instruments_table.html.slim" "index.html.slim" "_instruments_summary.html.slim" "_by_form.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/config/" (24387 26141 376579 614000) "initializers/" "webpacker.yml" "boot.rb" "webpack/" "database.yml" "credentials.yml.enc" "puma.rb" "application.rb" "storage.yml" "environment.rb" "master.key" "spring.rb" "environments/" "cable.yml" "blazer.yml" "locales/" "routes.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/lib/" (24373 20972 400517 817000) "symbol_parser.rb" "assets/" "tasks/" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/assets/" (24373 20971 517486 343000) "stylesheets/" "javascripts/" "images/" "config/" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/javascript/controllers/" (24383 17937 861000 701000) "tags_controller.js" "instruments_controller.js" "index.js" "hello_controller.js" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/users/" (24373 21010 912651 14000) "index.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/blogs/" (24373 21010 905015 257000) "show.html.slim" "index.html.slim" "_blog_row.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/api/stats/" (24373 21010 901127 727000) "home.json.jbuilder" "calendar.json.jbuilder" "month.json.jbuilder" "long_short.json.jbuilder" "day.json.jbuilder" "zerrodha_day.json.jbuilder" "zerodha_day.json.jbuilder" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/config/webpack/" (24380 63146 511462 260000) "environment.js" "loaders/" "production.js" "test.js" "development.js" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/config/initializers/" (24382 5978 887702 819000) "markup_logger.rb" "mcx.rb" "pusher.rb" "inflections.rb" "load_instruments.rb" "aws.rb" "content_security_policy.rb" "devise.rb" "sequel.rb" "redis.rb" "cookies_serializer.rb" "assets.rb" "wrap_parameters.rb" "ahoy.rb" "filter_parameter_logging.rb" "mime_types.rb" "active_admin.rb" "backtrace_silencers.rb" "application_controller_renderer.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/javascript/" (24376 56528 314520 217000) "channels/" "store/" "controllers/" "trade_diary.vue" "functions/" "Analytics.vue" "components/" "packs/" "published_trade_diary.vue" "Home.vue" ".DS_Store" "filters/" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/layouts/" (24376 53934 640156 92000) "trade_diary.html.slim" "mailer.text.erb" "application.html.slim" "landing.html.slim" "published_blog.html.slim" "mailer.html.erb" "app_header.html.slim" "turbo_index.html.slim" "_logo.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/" (24373 20972 352302 262000) "analytics/" "zerodha_orders/" "application/" "api/" "positions/" "users/" "layouts/" "notes/" "instruments/" "zerodha_positions/" "uploads/" "trades/" "callbacks/" "oauth/" "devise/" "blogs/" "brokers/" "home/" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/" (24373 20971 515349 639000) "channels/" "services/" "helpers/" "domain/" "assets/" "views/" "controllers/" "jobs/" "javascript/" "models/" "admin/" "mailers/" "brokers/" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/assets/javascripts/" (24318 49729 8710 228000) "active_admin.js" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/api/" (24347 56580 246071 439000) "stats/" "orders/" "positions/" "users/" "chart_data/" "trades/" "trade_book/" "blogs/" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/channels/" (24280 25041 163042 638000) "application_cable/" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/zerodha_orders/" (24345 17457 19251 888000) "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/brokers/brokers/" (24343 60599 685925 630000) "upstox.rb" "zerodha.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/analytics/" (24342 26959 64635 483000) "index.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/bb/" (24331 17370 552597 481000) ".git/" "index.html" "../" "./")
+
+ ("/Users/siddharthsharma/src/banko/" (24013 7103 56488 255000) "Gemfile" "Report-20191114114333.csv" "Report-20191114114340.csv" "../" "./")
+
+ ("/Users/siddharthsharma/src/" (24331 17341 140297 221000) "incubator-superset/" "sangam-payments/" "stampit/" "banko/" "datagram/" "laterboro/" "awesome_tracer/" "tmp/" "ES-SQL/" "shaadi/" "redshift_to_sheets/" "sidbc/" "googo/" "ridr/" "shaadi-vue/" "bot/" "twitter_analytics/" "api/" "covid19-supply-chain-backend/" "old_datagram/" "test.rb" "shaadi-i18n/" "mizu-backend/" "hackfest/" "myApp/" "vue-tradefront/" "tradefront/" "crystal/" "sachbolo/" "zerodha/" "secrets/" "x-ray/" "html2slim/" "spectocular_demo/" "ab/" "okra/" "covid19-supply-chain/" "rider/" ".ruby-version" "bb/" "snapshottr/" ".DS_Store" "ionic/" "chromeshot/" "jails/" "../" "./")
+
+ ("/Users/siddharthsharma/src/datagram/app/services/" (24236 31589 359563 606000) "sql_runner.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/datagram/" (24236 25347 956119 36000) "vendor/" "tmp/" "postcss.config.js" ".browserslistrc" ".git/" "Gemfile.lock" "log/" "Gemfile" "db/" "lib/" "package.json" ".gitignore" "babel.config.js" "public/" "yarn.lock" "Rakefile" "README.md" "storage/" "spec/" "node_modules/" "config.ru" "config/" "yarn-error.log" "bin/" "test/" ".ruby-version" "app/" ".rspec" "../" "./")
+
+ ("/Users/siddharthsharma/.config/fish/" (24327 63326 33489 447000) "conf.d/" "fishd.8c8590309a2a" "config.fish" "../" "./")
+
+ ("/Users/siddharthsharma/.config/fish/conf.d/" (23420 23619 93278 320000) "omf.fish" "../" "./")
+
+ ("/Users/siddharthsharma/.config/" (24204 2894 526155 425000) "icr/" "fish/" ".mono/" "stetic/" "NuGet/" "LibreELEC/" "JamKazam/" "configstore/" "xbuild/" "omf/" "../" "./")
+
+ ("/Users/siddharthsharma/Dropbox/" (24298 1370 256781 107000) "src/" "signature.jpg" "ccn-tf8696nse-bse2020-05-112020-05-13.pdf" "NeverTheOne.reason" "Script GOS 30aug18.pdf" "Coaster/" "Screenshot 2020-03-19 at 4.27.56 PM.png" "dotemacs/" "stripe_backup_code.txt" "Apps/" "NACH.pdf" "XiaoYing_Video_1579367918809_HD.mp4" "Ship Like a Jazzeer/" "Sid_Tech.xlsx" "PDF92670741788435312715082018172856609183.pdf" ".dropbox.cache/" "sayyonee solo.mp4" "lights in the dusk - cort.band/" "Sundowner/" "Video_20200118_225232.mp4" "bring your love.reason" "tum jo mile 2.mp3" "Amazon.in - Order 405-7418333-7460349.pdf" "bring your piano.mid" "bring your piano.pdf" "lights in the dusk.reason" "CUSTOMER REPLACEMENT.zip" ".dropbox" "Trailer.reason" "photo.jpg" "gravatar.jpeg" "Sight and Sound Order Confirmation.pdf" "ccn-tf8696nse-bse2020-05-192020-05-19.pdf" "antimonkey.zip" "WIN_20200124_20_15_51_Pro.mp4" "1Password Emergency Kit A3-LAHSL7-shaadi.pdf" "ideas.org" "Blues for RO.logicx/" "222493_scripbox_nach_mandate_form.pdf" "bring your piano.reason" "sayonee 2.mp4" "lights in the dusk - cort.logicx/" "sshkeys/" "investment_history20180814-8613-1pwhd4e.xls" "23555845_a2fecb8708573de1b5157590575079a0ce6ba905.zip" "Icon
+" "KYC/" "B65V2X16F15F3536.pdf" "index.png" ".DS_Store" "archana.reason" "Screenshots/" "lights in the dusk - cort.mp3" "1Password Emergency Kit.pdf" "Assets and Insurance/" "secrets.yml" "chance.doc" "lights in the dusk - cort_1.mp3" "limo-v1.3.0.apk" "D R Doshi/" "../" "./")
+
+ ("/Users/siddharthsharma/Dropbox/dotemacs/" (24327 57425 34883 68000) "html-helper-mode/" "screen-lines.el" "dotemacs" "textmate.el" "enotify-tdd.el" ".git/" "dotbashrc" "elpa/" "html-helper-mode.tar.gz" "session.10c0a7931f73b9ae61151195681427050600000059780066" ".emacs" "history" "network-security.data" "desktop.el" "markdown-mode.el" ".gitignore" "popup.elc" "haml-mode.el" "dbgp.elc" ".emacs.d" "url/" ".emacs.desktop" "auto-save-list/" ".gitmodules" "html-font.el" "enotify.el" "session.10856e7cb81747dce7150736607943929400000092710074" "tramp" "projectile-bookmarks.eld" "fuzzy.el" "lsp-crystal.el/" ".stfolder" "session.1010546387fa42e39b150753257433801000000154020077" "egg/" "ac-dict/" "DcomboBox.js" "ido.last" "fuzzy.elc" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/api/positions/" (24320 27535 118479 842000) "index.json.jbuilder" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/assets/config/" (24320 12028 400151 510000) "manifest.js" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/dashboards/" (24319 56403 289002 931000) "instrument_dashboard.rb" "position_dashboard.rb" "zerodha_position_dashboard.rb" "login_activity_dashboard.rb" "user_position_dashboard.rb" "order_dashboard.rb" "trade_dashboard.rb" "blog_dashboard.rb" "admin_user_dashboard.rb" "trade_note_dashboard.rb" "user_dashboard.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/controllers/admin/" (24319 56835 658200 809000) "instruments_controller.rb" "positions_controller.rb" "users_controller.rb" "admin_users_controller.rb" "login_activities_controller.rb" "zerodha_positions_controller.rb" "orders_controller.rb" "blogs_controller.rb" "trades_controller.rb" "user_positions_controller.rb" "trade_notes_controller.rb" "application_controller.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/bin/" (24318 64302 278386 528000) "rails" "spring" "rspec" "webpack-dev-server" "webpack" "yarn" "bundle" "setup" "rake" "../" "./")
+
+ ("/Users/siddharthsharma/src/old_datagram/app/services/" (24225 38994 576332 644000) "view_renderer.rb" "params_renderer.rb" "watch_response_handler.rb" "datagram_render_service.rb" "datagram_fetcher_service.rb" "datagram_response_finder.rb" "datagram_view_loader.rb" "datagram_finder.rb" "watch_params_renderer.rb" "datagram_cloner.rb" "datagram_publisher.rb" "watch_creator_service.rb" "watch_publisher.rb" "clients/" "../" "./")
+
+ ("/Users/siddharthsharma/src/old_datagram/app/models/" (23882 27264 717411 805000) "user.rb" "concerns/" "streamer.rb" "stream.rb" "view.rb" ".keep" "watch_response.rb" "stream_sink.rb" "watch.rb" "datagram.rb" "source.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/old_datagram/app/" (23919 19525 351500 788000) "services/" "helpers/" "assets/" "views/" "controllers/" "workers/" "policies/" "models/" "mailers/" "../" "./")
+
+ ("/Users/siddharthsharma/src/old_datagram/" (24225 38877 543843 507000) "vendor/" "npm-debug.log" "tmp/" ".git/" "Capfile" "Procfile" "docker-compose.yml" "clock.rb" "Gemfile.lock" "log/" "templates/" "Gemfile" "db/" "lib/" "nginx.devel.conf" ".env" ".gitignore" "docker-compose.production.yml" "public/" ".dockerignore" "Dockerfile.new" "Rakefile" "fig.yml" "README.md" "TODO.md" "puma.rb" "heroku-puma.rb" "spec/" "clock2.rb" "Rakefile.no_rails" ".buildpacks" "config.ru" "Dockerfile" "config/" "bin/" ".vendor_urls" "test/" ".ruby-version" "docker-compose.override.yml" "app/" ".DS_Store" "db.sql" ".rspec" "rallies.csv" ".web-variables.env" "Guardfile" "../" "./")
+
+ ("/Users/siddharthsharma/src/datagram/app/javascript/packs/" (24233 12144 275402 987000) "application.js" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/devise/shared/" (24317 36231 463995 833000) "_links.html.erb" "_error_messages.html.erb" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/brokers/" (24317 36231 461554 275000) "login.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/devise/registrations/" (24317 36231 462462 548000) "edit.html.erb" "new.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/datagram/app/javascript/controllers/" (24233 51003 936904 59000) "queries_controller.js" "index.js" "s_controller.js" "hello_controller.js" "source_form_controller.js" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/devise/sessions/" (24317 36231 463304 671000) "new.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/brokers/" (24317 41233 849964 191000) "brokers.rb" "brokers/" "../" "./")
+
+ ("/Users/siddharthsharma/src/datagram/app/views/queries/" (24315 9455 569823 196000) "show.html.slim" "run.js.erb" "index.html.slim" "_form.html.slim" "_result.html.slim" "new.html.slim" "run.html.erb" "run.js.slim" "edit.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/src/datagram/app/javascript/" (24233 139 422830 354000) "channels/" "controllers/" "packs/" "../" "./")
+
+ ("/Users/siddharthsharma/src/datagram/app/views/layouts/" (24314 12020 578062 687000) "mailer.text.erb" "mailer.html.erb" "application.html.erb" "../" "./")
+
+ ("/Users/siddharthsharma/src/datagram/app/views/" (24232 34675 452860 452000) "sources/" "layouts/" "datagrams/" "queries/" "home/" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/api/orders/" (24313 38587 22673 784000) "../" "./")
+
+ ("/Users/siddharthsharma/src/zerodha/zerodha_bot_sinatra/" (24312 12760 301568 820000) ".#.env" "views/" "candle.rb" ".git/" "trade_plan.rb" "Gemfile.lock" "Gemfile" "diary.rb" ".env" ".gitignore" "historical.rb" "public/" "day.rb" "utils.rb" "spec/" "app.rb" "instruments.txt" "trades.rb" "config.ru" "init.rb" "instrument.rb" ".ruby-version" "tradebook.rb" "chart_data_fetcher.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/zerodha/zerodha_ruby/spec/" (24312 13175 167116 93000) "zerodha_ruby_spec.rb" "spec_helper.rb" "../" "./")
+
+ ("/Users/siddharthsharma/src/zerodha/zerodha_ruby/" (24312 12779 853980 264000) ".travis.yml" "tmp/" "zerodha_ruby.gemspec" "LICENSE.txt" ".git/" "Gemfile.lock" "Gemfile" "lib/" ".env" ".gitignore" "Rakefile" "README.md" "instruments-2019-12-18.csv" "spec/" "bin/" ".ruby-version" ".rspec" ".rspec_status" "Guardfile" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/models/concerns/" (24280 25041 244082 959000) ".keep" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/spec/javascript/" (24303 55652 20869 973000) "test.js" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/public/packs/" (24301 44354 349514 483000) "manifest.json" "js/" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/public/" (24295 25497 560762 522000) "markup-logo.png" "assets/" "robots.txt" "apple-touch-icon-precomposed.png" "profitalot-logo.png" "packs/" "markup-icon.png" "404.html" "500.html" ".well-known/" "apple-touch-icon.png" "422.html" ".DS_Store" "profitalot-icon.png" "favicon.ico" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/controllers/oauth/" (24288 26884 890298 897000) "../" "./")
+
+ ("/Users/siddharthsharma/src/mizu-backend/app/views/home/" (24209 24529 977377 337000) "index.html.slim" "../" "./")
+
+ ("/Users/siddharthsharma/tmp/" (24290 739 388467 671000) "linkedin-scrapper/" "ablog/" "ua-parser.js" "reason/" "es.json" "zrange-test/" "chrome-headless-screenshots/" "metric-feeder/" "shaadi-relationship-test/" "GeoLite2-Country.mmdb" "q.result" "abuse.txt" "profile_completion/" "wsweb/" "q.json" "package-lock.json" "q.xls" "data.json" "q.sql" "ab_logger2/" "protest.tweet" "alpine-chrome/" "ab_logger/" "liscrapper.js" "universe.tweet" "node_modules/" "zerodha.csv" "blu.rb/" ".#foo.sql" "pup.js" "pdm-test/" "bower_components/" "ip_countries.rb" "q.rb" ".ruby-version" "snakesnladders/" ".DS_Store" "q.csv" "ipstoblock" "jd.tweet" "abl/" "chromeshot/" "abuse2.txt" "q.jq" "micro/" "_q.jq" "ablogtemp/" "../" "./")
+
+ ("/Users/siddharthsharma/src/tradefront/app/views/devise/" (24284 58524 912780 995000) "registrations/" "confirmations/" "sessions/" "shared/" "mailer/" "passwords/" "unlocks/" "../" "./")
+
+ ("/Users/siddharthsharma/src/zerodha/zerodha_bot_sinatra/public/" (24279 7038 964583 62000) "instruments.csv" "style.css" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

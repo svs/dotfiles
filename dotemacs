@@ -1,160 +1,124 @@
-;;; This was installed by package-install.el.
-;;; This provides support for the package system and
-;;; interfacing with ELPA, the package archive.
-;;; Move this code earlier if you want to reference
-;;; packages in your .emacs.
+
+
+(setq package-list '(better-defaults
+                     solarized-theme
+                     helm
+                     helm-projectile
+                     helm-ag
+                     ruby-electric
+                     rbenv
+                     seeing-is-believing
+                     ;inf-ruby
+                     ruby-test-mode
+                     ido
+                     projectile-rails
+                     rspec-mode
+                     multiple-cursors
+                     fsharp-mode
+                     eglot-fsharp))
+; list the repositories containing them
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-                         ("marmalade" . "http://marmalade-repo.org/packages/")
-                         ("melpa-stable" . "http://stable.melpa.org/packages/")
-			 ("melpa" . "http://melpa.org/packages/")))
+                         ("melpa" . "https://melpa.org/packages/")))
 
+; activate all the packages (in particular autoloads)
 (package-initialize)
-(add-to-list 'package-pinned-packages '(elixir-mode . "melpa-stable") t)
-;; disable line wrap
-(setq default-truncate-lines t)
+
+; fetch the list of packages available
+(unless package-archive-contents
+  (package-refresh-contents))
+
+; install the missing packages
+(dolist (package package-list)
+  (unless (package-installed-p package)
+    (package-install package)))
+
+(require 'better-defaults)
+
+(setq inhibit-splash-screen t
+      initial-scratch-message nil
+      initial-major-mode 'ruby-mode)
 
 
-(projectile-mode +1)
-(define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
-(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
-(define-key projectile-mode-map (kbd "C-c h") 'helm-projectile)
-(setq projectile-git-submodule-command nil)
-;; make side by side buffers function the same as the main window
-(setq truncate-partial-width-windows nil)
+;....
+(require 'desktop)
+(setq desktop-path (list "~/.emacs.d/"))
+(desktop-save-mode 1)
+;(desktop-read)
 
-;; Add F12 to toggle line wrap
-(global-set-key [f12] 'toggle-truncate-lines)
-;;(add-hook 'after-init-hook 'global-company-mode)
 
-;; Save temp files to system tmp directory
-(setq backup-directory-alist
-      `((".*" . ,temporary-file-directory)))
-(setq auto-save-file-name-transforms
-      `((".*" ,temporary-file-directory t)))
+(setq inhibit-splash-screen t
+      initial-scratch-message nil
+      initial-major-mode 'ruby-mode)
 
-(add-to-list 'load-path "~/.emacs.d")
+(load-theme 'zenburn t)
+
+;; Show line numbers
+(global-linum-mode)
+
+;; Typography
+(set-face-attribute 'default nil
+                    :family "Monaco"
+                    :height 150
+                    :weight 'normal
+                    :width 'normal)
+
+(global-set-key (kbd "M-x") #'helm-M-x)
+(global-set-key (kbd "s-f") #'helm-projectile-ag)
+(global-set-key (kbd "s-t") #'ruby-test-run-at-point)
+
+;(add-hook 'ruby-mode-hook 'ruby-electric-mode)
+(add-to-list 'auto-mode-alist
+             '("\\.\\(?:cap\\|gemspec\\|irbrc\\|gemrc\\|rake\\|rb\\|ru\\|thor\\)\\'" . ruby-mode))
+(add-to-list 'auto-mode-alist
+             '("\\(?:Brewfile\\|Capfile\\|Gemfile\\(?:\\.[a-zA-Z0-9._-]+\\)?\\|[rR]akefile\\)\\'" . ruby-mode))
+
+(global-rbenv-mode)
+(rbenv-use-global)
+
+(setq seeing-is-believing-prefix "C-.")
+(add-hook 'ruby-mode-hook 'seeing-is-believing)
+(require 'seeing-is-believing)
+
+;; (autoload 'inf-ruby-minor-mode "inf-ruby" "Run an inferior Ruby process" t)
+;; (add-hook 'ruby-mode-hook 'inf-ruby-minor-mode)
+(require 'ruby-test-mode)
+(add-hook 'ruby-mode-hook 'ruby-test-mode)
+
+
+;; (add-hook 'compilation-finish-functions
+;;           (lambda (buf strg)
+;;             (switch-to-buffer-other-window "*compilation*")
+;;             (read-only-mode)
+;;             (goto-char (point-max))
+;;             (local-set-key (kbd "q")
+;;                            (lambda () (interactive) (quit-restore-window)))))
 
 (require 'ido)
 (ido-mode t)
-(setq ido-enable-flex-matching t)
-(require 'uniquify)
-(setq uniqueify-buffer-name-style 'reverse)
-(global-font-lock-mode 1)
-(global-linum-mode 1)
-(desktop-save-mode 1)
-(setq history-length 250)
-(add-to-list 'desktop-globals-to-save 'file-name-history)
 
+(setq explicit-shell-file-name "/bin/bash")
+(setq shell-file-name "bash")
+(setq explicit-zsh-args '("--login" "--interactive"))
+(defun zsh-shell-mode-setup ()
+  (setq-local comint-process-echoes t))
+(add-hook 'shell-mode-hook #'zsh-shell-mode-setup)
+(projectile-rails-global-mode)
+(define-key projectile-rails-mode-map (kbd "C-c r") 'projectile-rails-command-map)
 
-(add-to-list 'auto-mode-alist '("\\.html$" . html-mode))
+(global-set-key (kbd "M-x") #'helm-M-x)
+(global-set-key (kbd "s-f") #'helm-projectile-ag)
+(global-set-key (kbd "s-p") #'ruby-test-toggle-implementation-and-specification)
 
+(setq helm-locate-command
+      "glocate %s %s"
+      helm-locate-create-db-command
+      "gupdatedb --output='%s' --localpaths='%s'")
 
-;; JS2
-(autoload 'js2-mode "js2" nil t)
-(add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
-(setq js2-basic-offset 2)
-(setq js2-use-font-lock-faces t)
+(setq helm-locate-project-list
+      (list "/Users/svs/.emacs.d/"))
 
+(setq ruby-test-default-library
+      "test")      
 
-(require 'ruby-mode)
-(add-to-list 'auto-mode-alist '("\\.rb" . ruby-mode))
-(add-to-list 'auto-mode-alist '("\\.rake" . ruby-mode))
-(add-to-list 'auto-mode-alist '("Gemfile" . ruby-mode))
-(add-to-list 'auto-mode-alist '("Guardfile" . ruby-mode))
-
-
-(require 'js2-mode)
-(add-to-list 'auto-mode-alist '("\\.js" . js2-mode))
-
-(require 'haskell-mode)
-(add-to-list 'auto-mode-alist '("\\.hs" . haskell-mode))
-
-
-(require 'elm-mode)
-(add-to-list 'auto-mode-alist '("\\.elm" . elm-mode))
-
-(require 'php-mode)
-(add-to-list 'auto-mode-alist '("\\.php" . php-mode))
-
-
-
-(setq-default mode-line-buffer-identification
-              (list 'buffer-file-name
-                    (propertized-buffer-identification "%12f")
-                    (propertized-buffer-identification "%12b") ))
-
-
-(add-hook 'dired-mode-hook
-          (lambda ()
-            ;; TODO: handle (DIRECTORY FILE ...) list value for dired-directory
-            (setq mode-line-buffer-identification
-                  ;; emulate "%17b" (see dired-mode):
-                  '(:eval
-                    (propertized-buffer-identification
-                     (if (< (length default-directory) 17)
-                         (concat default-directory
-                                 (make-string (- 17 (length default-directory))
-                                              ?\s))
-                       default-directory))))))
-
-;whitespace
-(setq whitespace-style (quote
-  ( spaces tabs newline space-mark tab-mark newline-mark)))
-(add-hook 'before-save-hook 'delete-trailing-whitespace)
-(setq whitespace-action '(auto-cleanup)) ;; automatically clean up bad whitespace
-(setq whitespace-style '(trailing space-before-tab indentation empty space-after-tab)) ;; only show bad whitespace
-
-
-
-(require 'magit)
-;; change magit diff colors
-
-(setq sql-postgres-program "/usr/local/bin/psql")
-
-
-(require 'color-theme)
-(require 'zenburn-theme)
-
-;;(require 'helm-colors)
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   (quote
-    (helm-projectile projectile projectile-rails json-mode moonscript lsp-mode vue-html-mode flycheck typescript-mode vue-mode reason-mode crystal-mode dockerfile-mode zenburn slim-mode cargo rust-mode twittering-mode ac-helm helm-aws zenburn-theme slack php-mode nzenburn-theme magit lua-mode logito js2-mode inflections haskell-mode elm-mode color-theme-twilight color-theme-heroku color-theme-blackboard anything)))
- '(safe-local-variable-values
-   (quote
-    ((emacs-lisp-docstring-fill-column . 75)
-     (ruby-compilation-executable . "ruby")
-     (ruby-compilation-executable . "ruby1.8")
-     (ruby-compilation-executable . "ruby1.9")
-     (ruby-compilation-executable . "rbx")
-     (ruby-compilation-executable . "jruby")))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
-
- (set-face-attribute 'default nil
-                :family "Monaco" :height 120 :weight 'normal)
-
-
-(require 'org)
-(define-key global-map "\C-cl" 'org-store-link)
-(define-key global-map "\C-ca" 'org-agenda)
-(setq org-log-done t)
-
-(with-eval-after-load 'lsp-mode
-  (require 'lsp-crystal)
-  (add-hook 'crystal-mode-hook (lambda ()
-                                 ;; disable unsupported features
-                                 (setq-local lsp-enable-eldoc nil)
-                                 (setq-local lsp-enable-eldoc nil)
-                                 (setq-local lsp-enable-codeaction nil)
-                                 (lsp-crystal-enable))))
-(define-key (current-global-map) [remap kill-word] 'delete-word)
+(require 'fsharp-mode)
+(require 'eglot-fsharp)

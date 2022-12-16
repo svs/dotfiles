@@ -2,385 +2,398 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Users/siddharthsharma/src/tradefront/app/models/" . "concerns/")
- ("/Users/siddharthsharma/src/tradefront/app/brokers/" . "brokers/")
- ("/Users/siddharthsharma/src/tradefront/app/services/" . "stats/")
- ("/Users/siddharthsharma/src/tradefront/db/" . "migrate/")
- ("/Users/siddharthsharma/src/tradefront/app/views/api/" . "stats/")
- ("/Users/siddharthsharma/src/tradefront/spec/" . "services/")
- ("/Users/siddharthsharma/src/tradefront/public/" . "packs/")
- ("/Users/siddharthsharma/src/tradefront/app/assets/" . "stylesheets/")
- ("/Users/siddharthsharma/src/tradefront/app/views/devise/" . "sessions/")
- ("/Users/siddharthsharma/src/tradefront/config/" . "locales/")
- ("/Users/siddharthsharma/src/tradefront/app/javascript/" . "controllers/")
- ("/Users/siddharthsharma/src/tradefront/lib/" . "tasks/")
- ("/Users/siddharthsharma/src/tradefront/app/views/" . "application/")
- ("/Users/siddharthsharma/src/tradefront/app/controllers/" . "api/")
- ("/Users/siddharthsharma/src/tradefront/app/" . "services/")
- ("/Users/siddharthsharma/src/tradefront/" . "app/")
- ("/Users/siddharthsharma/Downloads/" . "Highcharts-Stock-8.1.0/")
- ("/Users/siddharthsharma/src/zerodha/zerodha_bot_sinatra/" . "public/")
- ("/Users/siddharthsharma/src/zerodha/bot/" . "spec/")
- ("/Users/siddharthsharma/src/zerodha/zerodha_ruby/lib/" . "zerodha_ruby/")
- ("/Users/siddharthsharma/src/zerodha/zerodha_ruby/" . "lib/")
- ("/Users/siddharthsharma/src/laterboro/app/assets/" . "stylesheets/")
- ("/Users/siddharthsharma/src/laterboro/app/views/" . "layouts/")
- ("/Users/siddharthsharma/src/laterboro/app/" . "controllers/")
- ("/Users/siddharthsharma/src/laterboro/" . "app/")
- ("/Users/siddharthsharma/src/datagram/app/javascript/" . "controllers/")
- ("/Users/siddharthsharma/src/tmp/" . "ruby-kibana/")
- ("/Users/siddharthsharma/src/datagram/db/" . "migrate/")
- ("/Users/siddharthsharma/src/old_datagram/app/views/" . "layouts/")
- ("/Users/siddharthsharma/src/old_datagram/app/" . "services/")
- ("/Users/siddharthsharma/src/old_datagram/" . "app/")
- ("/Users/siddharthsharma/src/mizu-backend/db/" . "migrate/")
- ("/Users/siddharthsharma/src/mizu-backend/app/views/" . "home/")
- ("/Users/siddharthsharma/src/mizu-backend/app/" . "models/")
- ("/Users/siddharthsharma/src/mizu-backend/config/" . "environments/")
- ("/Users/siddharthsharma/src/mizu-backend/" . "db/")
- ("/Users/siddharthsharma/src/covid19-supply-chain-backend/spec/fixtures/" . "availability_reports/")
- ("/Users/siddharthsharma/src/covid19-supply-chain-backend/spec/" . "fixtures/")
- ("/Users/siddharthsharma/src/covid19-supply-chain-backend/db/" . "migrate/")
- ("/Users/siddharthsharma/src/covid19-supply-chain-backend/config/" . "initializers/")
- ("/Users/siddharthsharma/src/covid19-supply-chain-backend/app/" . "models/")
- ("/Users/siddharthsharma/src/covid19-supply-chain-backend/" . "spec/")
- ("/Users/siddharthsharma/src/covid19-supply-chain/" . "docs/")
- ("/Users/siddharthsharma/src/stampit/app/views/" . "layouts/")
- ("/Users/siddharthsharma/src/stampit/app/" . "models/")
- ("/Users/siddharthsharma/src/stampit/config/" . "initializers/")
- ("/Users/siddharthsharma/src/stampit/" . "config/")
- ("/Users/siddharthsharma/src/zerodha/" . "zerodha_ruby/")
- ("/Users/siddharthsharma/src/sangam-payments/" . "spec/")
- ("/Users/siddharthsharma/src/shaadi/sangam-crystal/src/" . "sangam-crystal/")
- ("/Users/siddharthsharma/src/shaadi/sangam-crystal/" . "src/")
- ("/Users/siddharthsharma/tmp/shaadi-relationship-test/" . "spec/")
- ("/Users/siddharthsharma/Dropbox/src/" . "bp/")
- ("/Users/siddharthsharma/Dropbox/" . "src/")
- ("/Users/siddharthsharma/src/rider/app/scripts/" . "services/")
- ("/Users/siddharthsharma/src/rider/app/" . "scripts/")
- ("/Users/siddharthsharma/src/rider/" . "app/")
- ("/Users/siddharthsharma/src/api/lib/botbali/" . "commands/")
- ("/Users/siddharthsharma/src/api/app/assets/stylesheets/public/" . "grids/")
- ("/Users/siddharthsharma/src/api/app/assets/stylesheets/" . "public/")
- ("/Users/siddharthsharma/src/api/app/assets/" . "javascripts/")
- ("/Users/siddharthsharma/src/api/app/views/home/" . "includes/")
- ("/Users/siddharthsharma/src/api/app/views/" . "routes/")
- ("/Users/siddharthsharma/src/api/lib/tasks/" . "trip/")
- ("/Users/siddharthsharma/src/api/lib/" . "botbali/")
- ("/Users/siddharthsharma/src/api/app/controllers/admin/api/" . "v1/")
- ("/Users/siddharthsharma/src/api/app/controllers/admin/" . "api/")
- ("/Users/siddharthsharma/src/api/app/controllers/api/" . "v1/")
- ("/Users/siddharthsharma/src/api/app/controllers/" . "api/")
- ("/Users/siddharthsharma/src/api/app/services/admin/" . "v1/")
- ("/Users/siddharthsharma/src/api/app/services/" . "admin/")
- ("/Users/siddharthsharma/src/api/app/" . "services/")
- ("/Users/siddharthsharma/src/api/" . "config/")
- ("/Users/siddharthsharma/.config/fish/" . "conf.d/")
- ("/Users/siddharthsharma/.config/" . "fish/")
- ("/Users/siddharthsharma/src/reason/my-first-app/" . "src/")
- ("/Users/siddharthsharma/src/reason/" . "my-first-app/")
- ("/Users/siddharthsharma/src/shaadi/search_query/src/" . "search_query/")
- ("/Users/siddharthsharma/src/shaadi/search_query/spec/" . "fixtures/")
- ("/Users/siddharthsharma/src/shaadi/search_query/" . "src/")
- ("/Users/" . "siddharthsharma/")
+ ("/Users/svs/Projects/" . "Video/")
+ ("/Users/svs/.emacs.d/elpa/" . "ruby-test-mode-20210205.1107/")
+ ("/Users/svs/.emacs.d/" . "elpa/")
+ ("/Users/svs/src/iv/iv-linear/lib/" . "tasks/")
+ ("/Users/svs/src/iv/iv-linear/spec/views/" . "headers/")
+ ("/Users/svs/src/iv/iv-linear/app/views/headers/" . "stats/")
+ ("/Users/svs/src/iv/iv-linear/app/views/issues/" . "table/")
+ ("/Users/svs/.config/fish/" . "completions/")
+ ("/Users/svs/src/iv/iv-linear/spec/models/" . "linear/")
+ ("/Users/svs/src/iv/iv-linear/spec/" . "controllers/")
+ ("/Users/svs/src/iv/iv-linear/public/packs/" . "js/")
+ ("/Users/svs/src/iv/iv-linear/public/" . "packs/")
+ ("/Users/svs/src/mark-up/app/javascript/" . "packs/")
+ ("/Users/svs/src/mark-up/app/views/" . "trades/")
+ ("/Users/svs/src/iv/iv-linear/app/javascript/" . "packs/")
+ ("/Users/svs/src/iv/iv-linear/db/" . "migrate/")
+ ("/Users/svs/src/mark-up/app/services/" . "updaters/")
+ ("/Users/svs/src/mark-up/app/brokers/" . "brokers/")
+ ("/Users/svs/src/mark-up/spec/" . "models/")
+ ("/Users/svs/src/mark-up/app/" . "javascript/")
+ ("/Users/svs/src/mark-up/db/" . "migrate/")
+ ("/Users/svs/src/mark-up/markup/profitalot/app/javascript/" . "controllers/")
+ ("/Users/svs/src/mark-up/markup/profitalot/app/views/" . "users/")
+ ("/Users/svs/src/mark-up/markup/profitalot/app/" . "models/")
+ ("/Users/svs/src/mark-up/markup/profitalot/" . "app/")
+ ("/Users/svs/src/mark-up/markup/" . "profitalot/")
+ ("/Users/svs/src/mark-up/" . "app/")
+ ("/Users/svs/src/clojure/hello-canvaskit-cljs/public/" . "js/")
+ ("/Users/svs/src/tmp/folders/" . "react-file-explorer/")
+ ("/Users/svs/src/tmp/" . "folders/")
+ ("/Users/svs/src/clojure/hello-canvaskit-cljs/src/" . "hello_canvaskit/")
+ ("/Users/svs/src/clojure/hello-canvaskit-cljs/" . "src/")
+ ("/Users/svs/src/clojure/acme-app/" . "public/")
+ ("/Users/svs/src/clojure/hello-world/src/" . "hello_world/")
+ ("/Users/svs/src/clojure/hello-world/" . "src/")
+ ("/Users/svs/src/clojure/webgl-figwheel-template/src/" . "webgl_figwheel_template/")
+ ("/Users/svs/src/clojure/webgl-figwheel-template/" . "src/")
+ ("/Users/svs/src/clojure/" . "hello-canvaskit-cljs/")
+ ("/Users/svs/src/iv/iv-linear/app/assets/" . "stylesheets/")
+ ("/Users/svs/src/iv/iv-linear/config/" . "initializers/")
+ ("/Users/svs/src/iv/iv-linear/app/models/" . "linear/")
+ ("/Users/svs/src/iv/iv-linear/app/views/" . "issues/")
+ ("/Users/svs/src/iv/iv-linear/app/" . "models/")
+ ("/Users/svs/src/iv/iv-linear/" . "app/")
+ ("/Users/svs/src/iv/" . "iv-linear/")
+ ("/Users/svs/src/iv-crm2/app/views/" . "accounts/")
+ ("/Users/svs/src/iv-crm2/app/" . "views/")
+ ("/Users/svs/src/iv-crm2/" . "app/")
+ ("/Users/svs/src/iv-crm/config/" . "initializers/")
+ ("/Users/svs/src/iv-crm/app/views/" . "accounts/")
+ ("/Users/svs/src/iv-crm/app/" . "views/")
+ ("/Users/svs/src/iv-crm/" . "config/")
+ ("/Users/svs/src/iv-kyc/app/views/" . "accounts/")
+ ("/Users/svs/src/iv-kyc/db/" . "migrate/")
+ ("/Users/svs/src/etl/etl_scripts/default/" . "queries/")
+ ("/Users/svs/src/etl/" . "etl_scripts/")
+ ("/Users/svs/src/iv-kyc/app/" . "controllers/")
+ ("/Users/svs/src/iv-kyc/config/" . "initializers/")
+ ("/Users/svs/src/iv-kyc/" . "config/")
+ ("/Users/svs/tmp/" . "MyFSharpApp/")
+ ("/Users/svs/src/etl/etl_scripts/iv/" . "queries/")
+ ("/Users/svs/src/etl/etl_scripts/" . "iv/")
+ ("/Users/svs/src/iv-people/spec/" . "requests/")
+ ("/Users/svs/src/iv-people/app/views/" . "employees/")
+ ("/Users/svs/src/iv-people/app/" . "views/")
+ ("/Users/svs/src/iv-people/db/" . "migrate/")
+ ("/Users/svs/src/iv-people/" . "app/")
+ ("/Users/svs/src/crystal/iv-pricing/" . "spec/")
+ ("/Users/svs/src/crystal/" . "iv-pricing/")
+ ("/Users/svs/src/cljs-webgl/examples/src/" . "learningwebgl/")
+ ("/Users/svs/src/cljs-webgl/examples/" . "src/")
+ ("/Users/svs/src/cljs-webgl/src/cljs/" . "cljs_webgl/")
+ ("/Users/svs/src/cljs-webgl/src/" . "cljs/")
+ ("/Users/svs/src/cljs-webgl/" . "examples/")
+ ("/Users/svs/Dropbox/src/bp/" . "html/")
+ ("/Users/svs/Dropbox/src/" . "bp/")
+ ("/Users/svs/Dropbox/" . "src/")
+ ("/Users/svs/src/iv-linear/public/" . "packs/")
+ ("/Users/svs/src/iv-linear/db/" . "migrate/")
+ ("/Users/svs/src/markup/profitalot/app/views/" . "layouts/")
+ ("/Users/svs/src/markup/profitalot/lib/" . "tasks/")
+ ("/Users/svs/src/markup/profitalot/app/services/" . "stats/")
+ ("/Users/svs/src/markup/profitalot/db/" . "migrate/")
+ ("/Users/svs/src/markup/profitalot/app/" . "views/")
+ ("/Users/svs/src/markup/profitalot/config/" . "initializers/")
+ ("/Users/svs/src/markup/profitalot/" . "app/")
+ ("/Users/svs/src/markup/" . "profitalot/")
+ ("/Users/svs/src/iv-linear/lib/" . "tasks/")
+ ("/Users/svs/src/iv-timeline-spike/src/modules/core/utilities/" . "time-utils/")
+ ("/Users/svs/src/iv-timeline-spike/src/modules/core/" . "utilities/")
+ ("/Users/svs/src/iv-timeline-spike/src/modules/" . "core/")
+ ("/Users/svs/src/iv-timeline-spike/src/" . "modules/")
+ ("/Users/svs/src/iv-timeline-spike/" . "src/")
+ ("/Users/svs/src/iv-linear/app/assets/" . "stylesheets/")
+ ("/Users/svs/src/iv-linear/app/javascript/" . "packs/")
+ ("/Users/svs/src/iv-linear/spec/models/" . "linear/")
+ ("/Users/svs/src/iv-linear/spec/" . "services/")
+ ("/Users/svs/src/iv-linear/app/views/" . "projects/")
+ ("/Users/svs/src/iv-linear/app/models/" . "linear/")
+ ("/Users/svs/src/iv-linear/config/" . "initializers/")
+ ("/Users/svs/.config/" . "fish/")
+ ("/Users/svs/src/iv-linear/app/graphql/" . "types/")
+ ("/Users/svs/src/iv-linear/app/" . "models/")
+ ("/Users/svs/src/iv-linear/" . "config/")
+ ("/Users/svs/src/tradefront/app/services/" . "updaters/")
+ ("/Users/svs/src/tradefront/lib/" . "tasks/")
+ ("/Users/svs/src/tradefront/app/views/" . "layouts/")
+ ("/Users/svs/src/tradefront/app/" . "models/")
+ ("/Users/svs/src/iv-pricing/spec/" . "controllers/")
+ ("/Users/svs/src/iv-pricing/db/" . "migrate/")
+ ("/Users/svs/src/iv-pricing/app/views/" . "features/")
+ ("/Users/svs/src/iv-pricing/app/" . "views/")
+ ("/Users/svs/src/iv-pricing/" . "app/")
+ ("/Users/svs/src/iv-league/spec/" . "features/")
+ ("/Users/svs/src/iv-league/" . "config/")
+ ("/Users/svs/src/tradefront/config/" . "initializers/")
+ ("/Users/svs/src/tradefront/" . "app/")
+ ("/Users/svs/src/" . "iv/")
+ ("/Users/svs/" . "Dropbox/")
+ ("/Users/" . "svs/")
  ("/" . "Users/")
- ("/Users/siddharthsharma/src/shaadi/" . "search_query/")
- ("/Users/siddharthsharma/src/datagram/app/assets/javascripts/" . "services/")
- ("/Users/siddharthsharma/src/datagram/app/services/" . "clients/")
- ("/Users/siddharthsharma/tmp/" . "shaadi-relationship-test/")
- ("/Users/siddharthsharma/src/datagram/spec/" . "requests/")
- ("/Users/siddharthsharma/src/datagram/vendor/assets/javascripts/" . "highcharts/")
- ("/Users/siddharthsharma/src/datagram/vendor/assets/" . "javascripts/")
- ("/Users/siddharthsharma/src/datagram/vendor/" . "assets/")
- ("/Users/siddharthsharma/src/datagram/app/assets/" . "stylesheets/")
- ("/Users/siddharthsharma/src/datagram/app/controllers/api/" . "v1/")
- ("/Users/siddharthsharma/src/datagram/app/controllers/" . "api/")
- ("/Users/siddharthsharma/src/datagram/app/views/api/v1/" . "datagrams/")
- ("/Users/siddharthsharma/src/datagram/app/views/api/" . "v1/")
- ("/Users/siddharthsharma/src/datagram/app/views/" . "queries/")
- ("/Users/siddharthsharma/src/datagram/app/" . "services/")
- ("/Users/siddharthsharma/src/datagram/config/" . "initializers/")
- ("/Users/siddharthsharma/src/datagram/lib/" . "tasks/")
- ("/Users/siddharthsharma/src/datagram/" . "app/")
- ("/Users/siddharthsharma/src/" . "zerodha/")
- ("/Users/siddharthsharma/" . "src/")
- ("/home/siddharths/src/datagram/app/" . "models/")
- ("/home/siddharths/src/datagram/" . "app/")
- ("/home/siddharths/src/" . "datagram/")
- ("/home/siddharths/.config/" . "awesome/")
- ("/home/siddharths/" . "Documents/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/siddharthsharma/src/tradefront/app/views/application/"
- "/Users/siddharthsharma/src/tradefront/app/views/home/"
- "/Users/siddharthsharma/src/tradefront/"
- "/Users/siddharthsharma/src/zerodha/zerodha_ruby/lib/"
- "/Users/siddharthsharma/src/tradefront/app/services/market_data/"
- "/Users/siddharthsharma/src/tradefront/app/services/"
- "/Users/siddharthsharma/"
- "/Users/siddharthsharma/src/tradefront/app/javascript/controllers/"
- "/Users/siddharthsharma/src/tradefront/app/javascript/packs/"
- "/Users/siddharthsharma/src/tradefront/app/views/positions/"
- "/Users/siddharthsharma/src/tradefront/app/assets/stylesheets/"
- "/Users/siddharthsharma/src/tradefront/app/views/trades/"
- "/Users/siddharthsharma/src/tradefront/app/services/stats/"
- "/Users/siddharthsharma/src/tradefront/app/controllers/"
- "/Users/siddharthsharma/src/tradefront/app/javascript/functions/"
- "/Users/siddharthsharma/src/tradefront/app/controllers/api/"
- "/Users/siddharthsharma/src/tradefront/app/javascript/components/"
- "/Users/siddharthsharma/src/tradefront/spec/services/"
- "/Users/siddharthsharma/src/tradefront/app/views/instruments/"
- "/Users/siddharthsharma/src/tradefront/app/views/layouts/"
- "/Users/siddharthsharma/src/tradefront/lib/tasks/"
- "/Users/siddharthsharma/src/tradefront/app/admin/"
- "/Users/siddharthsharma/src/tradefront/app/helpers/"
- "/Users/siddharthsharma/src/tradefront/config/locales/"
- "/Users/siddharthsharma/src/tradefront/app/models/"
- "/Users/siddharthsharma/src/tradefront/db/migrate/"
- "/Users/siddharthsharma/src/tradefront/config/"
- "/Users/siddharthsharma/src/tradefront/config/initializers/"
- "/Users/siddharthsharma/src/tradefront/config/webpack/"
- "/Users/siddharthsharma/src/tradefront/app/views/api/stats/"
- "/Users/siddharthsharma/src/tradefront/app/domain/"
- "/Users/siddharthsharma/src/tradefront/app/javascript/"
- "/Users/siddharthsharma/src/tradefront/app/views/blogs/"
- "/Users/siddharthsharma/src/tradefront/app/views/users/"
- "/Users/siddharthsharma/src/tradefront/app/views/analytics/"
- "/Users/siddharthsharma/src/tradefront/app/views/uploads/"
- "/Users/siddharthsharma/src/tradefront/spec/brokers/"
- "/Users/siddharthsharma/src/tradefront/spec/domain/"
- "/Users/siddharthsharma/src/tradefront/spec/models/"
- "/Users/siddharthsharma/src/tradefront/app/views/zerodha_positions/"
- "/Users/siddharthsharma/src/tradefront/config/environments/"
- "/Users/siddharthsharma/src/tradefront/db/"
- "/Users/siddharthsharma/src/tradefront/app/views/api/trade_book/"
- "/Users/siddharthsharma/src/bb/"
- "/Users/siddharthsharma/src/tradefront/spec/factories/"
- "/Users/siddharthsharma/src/tradefront/spec/"
- "/Users/siddharthsharma/.config/fish/"
- "/Users/siddharthsharma/.config/fish/conf.d/"
- "/Users/siddharthsharma/src/datagram/"
- "/Users/siddharthsharma/src/datagram/app/services/"
+ "/Users/svs/Dropbox/src/bp/"
+ "/Users/svs/tmp/MyFSharpApp/"
+ "/Users/svs/"
+ "/Users/svs/src/iv/iv-linear/app/models/"
+ "/Users/svs/src/iv/iv-linear/app/views/issues/"
+ "/Users/svs/src/iv/iv-linear/app/services/"
+ "/Users/svs/src/iv/iv-linear/spec/models/"
+ "/Users/svs/src/iv/iv-linear/spec/"
+ "/Users/svs/src/iv/iv-linear/app/views/headers/"
+ "/Users/svs/src/iv/iv-linear/app/views/projects/"
+ "/Users/svs/.emacs.d/elpa/ruby-test-mode-20210205.1107/"
+ "/Users/svs/src/iv/iv-linear/"
+ "/Users/svs/src/iv/iv-linear/app/javascript/packs/"
+ "/Users/svs/src/iv/iv-linear/app/views/teams/"
+ "/Users/svs/src/iv/iv-linear/app/controllers/"
+ "/Users/svs/src/iv/iv-linear/config/"
+ "/Users/svs/src/iv/iv-linear/app/views/issues/table/"
+ "/Users/svs/src/iv/iv-linear/app/views/people/"
+ "/Users/svs/src/iv/iv-linear/test/controllers/"
+ "/Users/svs/src/iv/iv-linear/config/initializers/"
+ "/Users/svs/src/iv/iv-linear/lib/tasks/"
+ "/Users/svs/src/iv/iv-linear/spec/services/"
+ "/Users/svs/src/iv/iv-linear/app/views/dates/"
+ "/Users/svs/src/iv/iv-linear/spec/views/"
+ "/Users/svs/src/iv/iv-linear/spec/views/headers/"
+ "/Users/svs/src/iv/iv-linear/app/views/headers/stats/"
+ "/Users/svs/src/iv/iv-linear/app/views/issues/stats/"
+ "/Users/svs/src/iv/iv-linear/spec/controllers/"
+ "/Users/svs/src/iv/iv-linear/spec/models/linear/"
+ "/Users/svs/.config/fish/"
+ "/Users/svs/src/iv/iv-linear/spec/fixtures/"
+ "/Users/svs/src/iv/iv-linear/db/migrate/"
+ "/Users/svs/src/iv/iv-linear/public/packs/"
+ "/Users/svs/src/iv/iv-linear/app/assets/stylesheets/"
+ "/Users/svs/src/iv/iv-linear/app/views/layouts/"
+ "/Users/svs/src/iv/iv-linear/config/webpack/"
+ "/Users/svs/src/iv/iv-linear/app/javascript/"
+ "/Users/svs/src/mark-up/app/views/trades/"
+ "/Users/svs/src/mark-up/app/views/positions/"
+ "/Users/svs/src/mark-up/app/javascript/packs/"
+ "/Users/svs/src/mark-up/app/views/layouts/"
+ "/Users/svs/src/iv/iv-linear/app/views/application/"
+ "/Users/svs/src/iv/iv-linear/app/views/cycles/"
+ "/Users/svs/src/iv/iv-linear/app/views/dashboard/"
+ "/Users/svs/src/iv/iv-linear/app/models/linear/"
+ "/Users/svs/src/iv/iv-linear/app/views/milestones/"
+ "/Users/svs/src/iv/iv-linear/app/helpers/"
+ "/Users/svs/src/iv/iv-linear/db/"
+ "/Users/svs/src/mark-up/app/services/"
+ "/Users/svs/src/mark-up/app/helpers/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "_trade_list.html.slim"
- "_today.html.slim"
- "Gemfile"
- "zerodha_ruby.rb"
- "headline_stats.rb"
- "data.rb"
+ "do.rb"
+ "Program.fs"
  ".emacs"
- "instruments_controller.js"
- "instruments.js"
- "Home.js"
+ "issue.rb"
+ "show.html.slim"
+ "issue_stats_service.rb"
+ "issue_spec.rb"
+ "factories.rb"
+ "linear.rb"
+ "_project.html.slim"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/siddharthsharma/src/tradefront/app/services/stats/" (24407 45125 139075 67000) "trade_stats.rb" "tod_stats.rb" "drawdown_stats.rb" "long_short_stats.rb" "day.rb" "today.rb" "position.rb" "instrument_stats.rb" "position_history_stats.rb" "drawdown_calculator.rb" "../" "./")
+ ("/Users/svs/Dropbox/src/bp/" (25482 28461 279218 625000) ".#blocks.rb" "server.rb" "face.jpeg.txt" "din.jpeg" ".git/" "diana2.jpeg" "diana2.jpeg.html" "face.jpeg" "Gemfile.lock" "diana2.png.html" "diana3.png.html" "Gemfile" "twitter_user.rb" ".#sample.html" "diana2.jpeg.txt" "din.png" "din.png.txt" "html/" "wd/" "spec/" "config.ru" "do.rb" "diana3.png" "twitter_prosaic.rb" "diana2.png" "text.rb" "init.rb" "#<Image:0x00007fd9f94f5698>.html" ".ruby-version" "face.jpeg.html" "din.png.html" "lyrics.txt" "diana2.png.txt" "prosaic.rb" "diana3.png.txt" "pixel.rb" "image.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/services/market_data/" (24408 50641 309641 698000) "headline_stats.rb" "../" "./")
+ ("/Users/svs/Dropbox/src/" (25028 3449 665280 741000) ".DS_Store" "bp/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/home/" (24407 1307 468556 257000) "home.html.slim" "_today.html.slim" "index.html.slim" "day.html.slim" "_week.html.slim" "../" "./")
+ ("/Users/svs/Dropbox/" (25464 59223 572802 665000) "src/" "signature.jpg" "lights in the dusk - no solo.mp3" "signature.png" "ccn-tf8696nse-bse2020-05-112020-05-13.pdf" "NeverTheOne.reason" "Geet - lyrics.mp3" "Script GOS 30aug18.pdf" "Coaster/" "Screenshot 2020-03-19 at 4.27.56 PM.png" "dotemacs/" "stripe_backup_code.txt" "Apps/" "NACH.pdf" "Photos/" "lights in the dusk - cort - no drums.mp3" "XiaoYing_Video_1579367918809_HD.mp4" "Ship Like a Jazzeer/" "AndroidAPK/" "Sid_Tech.xlsx" "PDF92670741788435312715082018172856609183.pdf" ".dropbox.cache/" "Documents/" "lights in the dusk - drums.mp3" "sayyonee solo.mp4" "Obsidian/" "lights in the dusk - cort.band/" "Sundowner/" "Video_20200118_225232.mp4" "bring your love.reason" "tum jo mile 2.mp3" "Amazon.in - Order 405-7418333-7460349.pdf" "tum jo mile - no lead.mp3" "bring your piano.mid" "Teri Mohabbat.mp3" "bring your piano.pdf" "The Sabbatical Handbook/" "Song w: bridge no vocals.mp3" "lights in the dusk.reason" "signature transparent.pxm" "work/" "litd - march.wav" "CUSTOMER REPLACEMENT.zip" "Bills/" "com.googlecode.iterm2.plist" ".dropbox" "Public/" "Videos/" "Trailer.reason" "photo.jpg" "gravatar.jpeg" "Ruch/" "Sight and Sound Order Confirmation.pdf" "MEW.keystore.661z--893e2486c6c5fd553552cb856f6d19e78e1b6ba0" "ccn-tf8696nse-bse2020-05-192020-05-19.pdf" "antimonkey.zip" "Books/" "chainsofbyzantium/" "Song 1.mp3" "1Password Emergency Kit A3-LAHSL7-shaadi.pdf" "ideas.org" "lights in the dusk - cort cleaned up.mp3" "Blues for RO.logicx/" "lights in the dusk - cort - no drums.wav" "222493_scripbox_nach_mandate_form.pdf" "bring your piano.reason" "Shared Videos/" "Parchaiyan - Mix.logicx/" "sayonee 2.mp4" "Song 1 - w Vocals.mp3" "lights in the dusk - cort.zip" "lights in the dusk - cort.logicx/" "sshkeys/" "investment_history20180814-8613-1pwhd4e.xls" "23555845_a2fecb8708573de1b5157590575079a0ce6ba905.zip" "Icon" "parade/" "itermkeys.itermkeymap" "Geet 2 - no drums no lyrics.mp3" "back/" "KYC/" "B65V2X16F15F3536.pdf" "index.png" "Geet 2 - new lyrics.mp3" ".DS_Store" "archana.reason" "Screenshots/" "Geet 2.mp3" "lights in the dusk - cort.mp3" "1Password Emergency Kit.pdf" "Assets and Insurance/" "Geet 2 - no vocal.mp3" "secrets.yml" "chance.doc" "litd - march.mp3" "lights in the dusk - cort_1.mp3" "design/" "Song w: bridge.mp3" "Geet 2 - no drums.mp3" "limo-v1.3.0.apk" "github-recovery-codes-invideo.txt" "D R Doshi/" "lights in the dusk - cort_2.mp3" "../" "./")
 
- ("/Users/siddharthsharma/src/zerodha/zerodha_ruby/lib/" (24406 848 634376 446000) "zerodha_ruby/" "zerodha_ruby.rb" "../" "./")
+ ("/Users/svs/" (25482 28402 544226 55000) "src/" ".guard_history" ".viminfo" ".bash_history" ".gitconfig" ".cache/" "tmp/" ".python_history" "Downloads/" ".rediscli_history" ".aspnet/" ".gem/" ".bash_profile" ".m2/" ".vscode/" ".mono/" ".gitlibs/" "W695151290083E0BD5" "Documents/" ".npm/" ".Trash/" ".sdirs" "Dropbox/" ".parallel/" ".cljs/" ".gradle/" ".profile" "Applications/" ".emacs" ".dotnet/" "Movies/" ".ssh/" ".rustup/" ".konan/" ".webdrivers/" "Users/" ".zshenv" "package.json" "package-lock.json" ".dropbox/" "Public/" ".osh-update" ".ms_openjdk_config" "yarn.lock" ".lein/" "Control-1.1.1.286.dmg" "DataGripProjects/" ".android/" ".cargo/" ".node_repl_history" ".emacs.d/" ".oh-my-bash/" ".IdentityService/" ".oracle_jre_usage/" ".lesshst" ".npmrc" "Library/" "Desktop/" ".zsh_history" ".asdf/" ".nuget/" ".clojure_history" ".korlibs/" ".bundle/" ".bashrc.omb-backup-20220811103736" ".tool-versions" "node_modules/" "rust/" "Pictures/" "pexels-max-vakhtbovych-6077368.jpeg" "Projects/" ".psql_history" ".local/" "dotTraceSnapshots/" ".templateengine/" ".omnisharp/" ".zshrc" "kamariya.mp4" ".vnc/" ".bashrc" ".netrc" ".rbenv/" ".wget-hsts" ".CFUserTextEncoding" ".yarnrc" ".gnupg/" "nltk_data/" ".DS_Store" ".vim/" ".node-gyp/" ".fly/" "putio-cli/" ".docker/" ".clojure/" ".yarn/" ".meteor/" "Music/" ".config/" ".irb_history" ".eclipse/" "../" "./")
 
- ("/Users/siddharthsharma/src/zerodha/" (24270 21992 560805 165000) ".git/" "bot/" "ticker/" "zerodha_ruby/" "position_fetcher/" "zerodha_bot_sinatra/" "python/" "../" "./")
+ ("/Users/" (25349 59515 0 0) "Shared/" ".localized" "ruhaan/" "svs/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/" (24405 50890 603497 491000) ".platform/" "vendor/" "tmp/" "postcss.config.js" ".browserslistrc" ".git/" "Procfile" "latest.dump" "Gemfile.lock" "log/" "Gemfile" "db/" "lib/" ".env" "package.json" ".gitignore" "babel.config.js" "public/" "yarn.lock" "Rakefile" "README.md" "storage/" "NIFTY20MAYFUT" "spec/" "instruments.txt" "node_modules/" "config.ru" "users.csv" "config/" "yarn-error.log" "bin/" "test/" ".ruby-version" "app/" ".DS_Store" "mcx-multiples.txt" ".rspec" "Guardfile" "../" "./")
+ ("/Users/svs/Projects/Video/" (25349 49311 534354 366000) "src/" ".git/" ".gitattributes" ".github/" ".gitignore" "samples/" "README.md" "Blazored.Video.sln" "screenshot.png" "tests/" "LICENSE" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/services/" (24405 61288 499437 987000) "stats/" "position_chart_data_service.rb" "updaters/" "trade_position_updater.rb" "market_data.rb" "position.rb" "market_data/" "stats.rb" "trade_book_position.rb" "trade_position_helper.rb" "tag_chart_data_service.rb" "../" "./")
+ ("/Users/svs/Projects/" (25349 49305 392148 312000) "IvSpike/" "VideoSpike/" "SkiaSharpBlazorWebAssembly/" "ImageCanvasBlazor/" "Video/" "HelloWorld/" "MauiSpike/" "BlazorSpike/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/services/data/" (24405 57831 580405 42000) "../" "./")
+ ("/Users/svs/.ssh/" (24553 33136 786540 634000) "known_hosts" "heroku_id_rsa.pub" "shaadissh.pub" "github.pub" "embibe-dec2013.pub" "embibe-dev-key.pem" "gitlab.pub" "heroku_id_rsa" "kafka.key" "id_boot2docker.pub" "github_rsa.pub_bak-github" "id_rsa.pub~" "github_rsa.pub" "heroku.pub" "shaadissh" "github" "rbus-do" "staging-mumbai.pem" "datagram_deploy" "github_rsa" "dev-dec2013.pub" "github_rsa_bak-github" "id_rsa.pub" "datagram_deploy.pub" "embibe-aws-master-key.pem" "embibe" "dev-dec2013.pem" "id_rsa" "config" ".stfolder" "da.pub" "known_hosts~" "da" "heroku" "gitlab" "config~" "embibe-dec2013.pem" "ionic/" "content.pem" "embibe.pub" "rbus-do.pub" "svs_key" "id_boot2docker" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/javascript/packs/" (24403 18672 699406 284000) "Trades.js" "application.js" "instruments.js" "trade_diary.js" "Analytics.js" "published_blog.js" "blog.js" "Home.js" "upload.js" ".#Home.js" "chart.js" "broker_login.js" "positions.js" "turbo.js" "../" "./")
+ ("/Users/svs/.emacs.d/" (25343 13801 808726 501000) "html-helper-mode/" "screen-lines.el" "dotemacs" "backups/" "textmate.el" "enotify-tdd.el" ".git/" "dotbashrc" "elpa/" "html-helper-mode.tar.gz" "session.10c0a7931f73b9ae61151195681427050600000059780066" ".emacs" "history" "network-security.data" "#dotemacs#" "desktop.el" "markdown-mode.el" ".gitignore" "popup.elc" ".emacs.desktop.lock" "haml-mode.el" "dbgp.elc" ".emacs.d" "init.el" "url/" ".emacs.desktop" "auto-save-list/" ".gitmodules" "html-font.el" "enotify.el" "custom.el" "session.10856e7cb81747dce7150736607943929400000092710074" "transient/" "tramp" "projectile-bookmarks.eld" "places" "fuzzy.el" "lsp-crystal.el/" ".stfolder" "session.1010546387fa42e39b150753257433801000000154020077" "egg/" "ac-dict/" "init.el~" "DcomboBox.js" "ido.last" "fuzzy.elc" "../" "./")
 
- ("/Users/siddharthsharma/" (24401 16336 134720 29000) "src/" ".guard_history" ".viminfo" ".bash_history" ".putty/" "jupyter/" "rootCA.key" ".gitconfig" ".aws/" ".cache/" "tmp/" ".python_history" "Downloads/" ".rediscli_history" ".aspnet/" "AndroidStudioProjects/" ".gem/" ".pry_history" ".bash_profile" ".m2/" ".vscode/" ".mono/" ".mysql_history" ".ionic/" ".anydesk/" "Documents/" ".npm/" ".itmstransporter/" ".luarocks/" ".jupyter/" ".bash_profile.cli.bak" ".zoomus/" "IdeaProjects/" ".Trash/" ".haiku/" "Dropbox/" ".gradle/" "Applications/" ".emacs" ".dotnet/" "Movies/" ".ssh/" "msite queries.sql" "redash/" "my-first-app/" "VIA/" "package.json" "package-lock.json" "rootCA.pem" ".dropbox/" "Public/" ".emacs.desktop.lock" ".serverless/" "yarn.lock" "dimArmy/" ".platformsh/" ".cups/" ".cocoapods/" ".android/" ".mpd/" ".emacs.d/" ".emacs.desktop" ".IdentityService/" ".emulator_console_auth_token" ".oracle_jre_usage/" ".erlang.cookie" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".zsh_history" ".v8flags.6.8.275.24-node.14.36284592f1c98a7b60ef9cad267e8e73.json" ".nuget/" ".bundle/" "node_modules/" ".atom/" ".mpdconf" "Pictures/" "Projects/" ".psql_history" ".local/" "secrets/" ".sqlworkbench/" ".templateengine/" ".mix/" ".ServiceHub/" ".ssb/" ".subversion/" ".netrc" ".rbenv/" ".wget-hsts" ".angular-config.json" ".CFUserTextEncoding" ".yarnrc" ".ruby-version" "Collect.tgz" "filebeat-7.0.0-darwin-x86_64.tar.gz" ".vuerc" ".DS_Store" ".kerio/" ".node-gyp/" "json.iqy" ".docker/" ".serverlessrc" "Music/" "filebeat-7.0.0-darwin-x86_64/" ".config/" ".hex/" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/models/" (25342 17998 785453 45000) "cycle.rb" "concerns/" "application_record.rb" "linear_user.rb" "issue_history.rb" "comment.rb" "linear.rb" "webhook_data.rb" "team.rb" "linear/" "issue.rb" "milestone.rb" "state_k.rb" "project.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/domain/" (24401 12498 818142 998000) "live_positions.rb" "candle.rb" "trade_book_processor.rb" "instr.rb" "day.rb" "live_trades.rb" "trade_book.rb" "../" "./")
+ ("/Users/svs/tmp/MyFSharpApp/" (25341 62679 833511 85000) "Program.fs" "bin/" "MyFSharpApp.fsproj" "obj/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/javascript/components/" (24399 56091 42650 570000) "NoteModal.vue" "tradecard.vue" "tradebook.vue" "LongShortChart.vue" "TradeCalendar.vue" "header.vue" "DrawDownChart.vue" "ToDChart.vue" "PositionPLBarChart.vue" "MyCalendar.vue" "pivot-table.vue" "PLBarChart.vue" "PositionList.vue" "PlInfo.vue" "chart.vue" "MonthByWeek.vue" "Week.vue" "LongShortGraph.vue" "Today.vue" "BlockQuote.vue" "TradeTable.vue" "DayRatios.vue" "published_tradecard.vue" "../" "./")
+ ("/Users/svs/tmp/" (25341 62597 806538 511000) "out199.png" "out172.png" "out166.png" "sanket-big.mp4" "out204.png" "out210.png" "out238.png" "out76.png" "out62.png" "out89.png" "out88.png" "out63.png" "out77.png" "out239.png" "out1.png" "out211.png" "out205.png" "editor/" "out167.png" "out173.png" "out198.png" "out165.png" "out171.png" "out159.png" "out213.png" "out207.png" "out3.png" "out61.png" "out75.png" "out49.png" "out48.png" "out74.png" "out60.png" "out2.png" "out206.png" "out212.png" "out158.png" "out170.png" "out164.png" "masterxml1.xml" "out148.png" "out160.png" "out174.png" "out6.png" "out216.png" "out202.png" "out58.png" "out64.png" "out70.png" "out71.png" "out65.png" "out59.png" "out203.png" "out217.png" "out7.png" "out175.png" "out161.png" "out149.png" "out188.png" "out177.png" "out163.png" "out5.png" "out229.png" "out201.png" "out215.png" "out73.png" "out67.png" "out98.png" "out99.png" "out66.png" "out72.png" "out214.png" "out200.png" "out228.png" "out4.png" "out162.png" "out176.png" "out189.png" "out111.png" "out105.png" "out139.png" ".#rr.rb" "out298.png" "out267.png" "out273.png" "out15.png" "out29.png" "out28.png" "out14.png" "out272.png" "out266.png" "out299.png" "out138.png" "out104.png" "out110.png" "out106.png" "out112.png" ".#dur.rb" "out270.png" "out264.png" "out258.png" "out16.png" "out17.png" "out259.png" "out265.png" "out271.png" "out113.png" "out107.png" "masterjson1.json" "out103.png" "out117.png" "out249.png" "out275.png" "out261.png" "out13.png" "out12.png" "out260.png" "out274.png" "out248.png" "out300.png" ".emacs.desktop.lock" "out116.png" "out102.png" "out128.png" "out114.png" "out100.png" "out289.png" "out262.png" "out276.png" "out38.png" "out10.png" "out11.png" "out39.png" "out277.png" "out263.png" "out288.png" "out101.png" "out115.png" "out129.png" "out130.png" "out124.png" "out118.png" ".emacs.desktop" "out285.png" "out291.png" "out246.png" "out252.png" "out34.png" "out20.png" "video.mp4" "out21.png" "comment-list.html" "out35.png" "out253.png" "out247.png" "out290.png" "out284.png" "out119.png" "out125.png" "out131.png" "out127.png" "out133.png" "out292.png" "out286.png" "out251.png" "out245.png" "out279.png" "out23.png" "out37.png" "out36.png" "out22.png" "out278.png" "out244.png" "out250.png" "out287.png" "out293.png" "out132.png" "out126.png" "out122.png" "out136.png" "out297.png" "out283.png" "out268.png" "out254.png" "out240.png" "out26.png" "out32.png" "MyFSharpApp/" "sanket.mp4" "out33.png" "out27.png" "out241.png" "out255.png" "out269.png" "out282.png" "out296.png" "out137.png" "out123.png" "out109.png" "out135.png" "out121.png" "out280.png" "out294.png" "out243.png" "out257.png" "out19.png" "out31.png" "out25.png" "out24.png" "out30.png" "out18.png" "out256.png" "out242.png" "out295.png" "out281.png" "kamariya.mp4" "out120.png" "out134.png" "out108.png" "out190.png" "out184.png" "out153.png" "out147.png" "out225.png" "out9.png" "out231.png" "out219.png" "out57.png" "out43.png" "out94.png" "out80.png" "out81.png" "out95.png" "out42.png" "out56.png" "out218.png" "out8.png" "out230.png" "out224.png" "out146.png" "out152.png" "out185.png" "out191.png" "out187.png" "out193.png" "out144.png" "out150.png" "out178.png" "ffmpeg.min.js" "out232.png" "out226.png" "out40.png" "out54.png" "out68.png" "out83.png" "out97.png" "out96.png" "out82.png" "out69.png" "out55.png" ".DS_Store" "out41.png" "out227.png" "out233.png" "index.html" "out179.png" "out151.png" "out145.png" "out192.png" "out186.png" "out182.png" "out196.png" "out169.png" "out141.png" "dur.rb" "out155.png" "out237.png" "out223.png" "out79.png" "out45.png" "out51.png" "out86.png" "out92.png" "out93.png" "out87.png" "out50.png" "out44.png" "out78.png" "out222.png" "out236.png" "out154.png" "out140.png" "out168.png" "out197.png" "out183.png" "surfing/" "out195.png" "out181.png" "out156.png" "out142.png" "out208.png" "out220.png" "out234.png" "out52.png" "out46.png" "out91.png" "out85.png" "out84.png" "out90.png" "out47.png" "out53.png" "out235.png" "out221.png" "out209.png" "out143.png" "out157.png" "out180.png" "out194.png" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/javascript/functions/" (24402 19665 445496 38000) "HighchartsAnnotator.js" "TopBottomFinder.js" "DrawDownChartObject.js" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/models/linear/" (25332 36711 711020 237000) "user.rb" "comment.rb" "teams.rb" "queries.rb" "#queries.rb#" "issue.rb" "milestone.rb" "project.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/trades/" (24401 4686 642560 997000) "show.html.slim" "index.html.slim" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/assets/stylesheets/" (25332 36711 702642 723000) "comments.scss" "webhooks.scss" "dates.scss" "teams.scss" "milestones.scss" "cycles.scss" "dashboard.scss" "charts.scss" "projects.scss" "home.scss" "people.scss" "application.scss" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/positions/" (24402 19551 97386 549000) "show.html.slim" "index.html.slim" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/spec/controllers/" (25332 36711 723097 203000) "webhooks_controller_spec.rb" "issues_controller_spec.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/controllers/" (24402 35149 420606 487000) "concerns/" "analytics_controller.rb" "uploads_controller.rb" "instruments_controller.rb" "api/" "home_controller.rb" "positions_controller.rb" "users_controller.rb" "brokers_controller.rb" "zerodha_positions_controller.rb" "zerodha_orders_controller.rb" "blogs_controller.rb" "oauth/" "callbacks_controller.rb" "trades_controller.rb" "application_controller.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/issues/" (25332 36711 716084 779000) "stats/" "_state_tabs.html.slim" "_issue_row.html.slim" "_canceled_icon.html.erb" "_issue_breadcrumbs.html.slim" "_started_icon.html.erb" "_in_progress_icon.html.erb" "icons/" "table/" "show.html.slim" "_issue_index.html.slim" "row/" "_issue_as_title.html.slim" "index.html.slim" "_unstarted_icon.html.erb" "_labels.html.slim" "_backlog_icon.html.slim" "_qa_icon.html.erb" "_state_pill.html.slim" "_completed_icon.html.erb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/assets/stylesheets/" (24401 16165 639319 182000) "analytics.scss" "header.scss" "blogs.scss" "trades.scss" "brokers.scss" "api/" "users.scss" "instruments.scss" "zerodha_positions.scss" "uploads.scss" "notes.scss" "zerodha_orders.scss" "oauth/" "callbacks.scss" "home.scss" "positions.scss" "application.scss" "active_admin.scss" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/spec/services/" (25330 20468 295684 588000) "__snapshots__/" "project_stats_spec.rb" "stats_spec.rb" "avatar_service_spec.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/services/updaters/" (24396 39902 622417 382000) "zerodha.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/lib/tasks/" (25324 48937 609685 287000) ".#scheduler.rake" "refresh.rake" ".keep" "scheduler.rake" "bootstrap.rake" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/spec/factories/" (24373 20973 784479 437000) "users.rb" "trades.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/people/" (25332 36711 718013 187000) "_table.html.slim" "show.html.slim" "index.html.slim" "table.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/api/trade_book/" (24373 20972 178438 777000) "index.html.slim" "index.json.jbuilder" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/issues/table/" (25332 36711 716751 743000) "_issue.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/db/" (24396 39902 628153 118000) "migrate/" "seeds.rb" "schema.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/config/" (25332 36711 721946 755000) "initializers/" "webpacker.yml" "boot.rb" "webpack/" "database.yml" "credentials.yml.enc" "puma.rb" ".#database.yml" "application.rb" "storage.yml" "environment.rb" "master.key" "spring.rb" "environments/" "cable.yml" "locales/" "routes.rb" "auth0.yml" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/config/environments/" (24373 20972 357365 213000) "test.rb" "development.rb" "production.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/controllers/" (25332 36711 706783 654000) "concerns/" "dashboard_controller.rb" "projects_controller.rb" "home_controller.rb" "issues_controller.rb" "auth0_controller.rb" "dates_controller.rb" "milestones_controller.rb" "webhooks_controller.rb" "people_controller.rb" "comments_controller.rb" "graphql_controller.rb" "cycles_controller.rb" "teams_controller.rb" "charts_controller.rb" "application_controller.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/zerodha_positions/" (24373 20972 352442 803000) "index.html.slim" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/teams/" (25332 36711 720177 581000) "_live_menu.html.slim" "_teams_index.html.slim" "show.html.slim" "row/" "index.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/spec/models/" (24395 55221 797579 317000) "user_spec.rb" "zerodha_margin_spec.rb" "user_position_spec.rb" "instrument_spec.rb" "trade_note_spec.rb" "trade_spec.rb" "order_spec.rb" "zerodha_position_spec.rb" "position_history_spec.rb" "admin_user_spec.rb" "position_spec.rb" "user_margin_spec.rb" "blog_spec.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/javascript/packs/" (25332 36711 708445 413000) "application.js" "dates.js" "projects.js" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/spec/domain/" (24373 21011 4412 673000) "instr_spec.rb" "day_spec.rb" "live_trade_spec.rb" "position_spec.rb" "trade_book_spec.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/" (25332 36711 838707 479000) "vendor/" "tmp/" "postcss.config.js" ".browserslistrc" ".git/" "docker-compose.yml" "Gemfile.lock" "log/" "Gemfile" "db/" "lib/" "fly.toml" ".github/" ".env" "package.json" ".gitignore" "babel.config.js" "public/" ".dockerignore" "yarn.lock" "Rakefile" "README.md" "storage/" ".secrets" "spec/" ".tool-versions" "node_modules/" "config.ru" "Dockerfile" "#Gemfile#" "config/" "yarn-error.log" "bin/" ".ruby-version" "app/" ".rspec" "Guardfile" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/spec/brokers/" (24373 21011 3595 441000) "zerodha_spec.rb" "zerodha_a.csv" "zerodha.csv" "zerodha_b.csv" "zerodha_small.csv" "zerodha_a_jumble.csv" "../" "./")
+ ("/Users/svs/.emacs.d/elpa/ruby-test-mode-20210205.1107/" (25331 22992 186818 563000) "ruby-test-mode-autoloads.el" "ruby-test-mode-pkg.el" "ruby-test-mode.el" "ruby-test-mode.elc" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/uploads/" (24373 21010 911682 93000) "show.html.slim" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/projects/" (25332 36711 719748 878000) "show.html.slim" "_project.html.slim" "_dates.html.slim" "index.html.slim" "_parent_issue_table.html.slim" "by_date/" "_projects.html.slim" "_progress_table.html.slim" "live.html.slim" "_project_for_date.html.slim" "_eta_badge.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/spec/services/" (24399 28033 866286 711000) "chart_data_service_spec.rb" "position_spec.rb" "stats_spec.rb" "tag_chart_data_service_spec.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/services/" (25332 36711 712119 791000) "avatar_service.rb" "project_stats.rb" ".#bugs.rb" "issue_stats_service.rb" "stats.rb" "milestone_stats.rb" "cycle_stats.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/application/" (24399 49538 383741 959000) "_header.html.slim" "_upload_form.html.slim" "_search_form.html.slim" "_trade_list.html.slim" "_logo.html.slim" "_heap.html.slim" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/headers/" (25332 36711 713815 459000) "stats/" "_stats.html.slim" "_issue.html.slim" "_project.html.slim" "_row.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/spec/" (24396 39902 630462 210000) "services/" "helpers/" "rails_helper.rb" "domain/" "javascript/" "lib/" "factories/" "factories.rb" "requests/" "models/" "brokers/" "spec_helper.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/spec/" (25332 36711 723967 569000) "services/" "rails_helper.rb" "views/" "controllers/" "queries_spec.rb" "fixtures/" "factories.rb" "system/" "vcr/" "models/" "spec_helper.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/controllers/api/" (24383 38837 257953 63000) "stats_controller.rb" "positions_controller.rb" "api_controller.rb" "users_controller.rb" "notes_controller.rb" "orders_controller.rb" "blogs_controller.rb" "chart_data_controller.rb" "trade_book_controller.rb" "trades_controller.rb" "position_data_controller.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/spec/models/" (25332 36719 648664 65000) "__snapshots__/" "comment_spec.rb" "webhook_data_spec.rb" "linear/" "issue_spec.rb" "project_spec.rb" "team_spec.rb" "linear_user_spec.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/db/migrate/" (24395 55290 170402 168000) "20200826085545_add_margin_to_position_histories.rb" "20200818024158_add_position_margin_to_trades.rb" "20200612043349_add_position_complete_to_trades.rb" "20200713030705_add_expiry_date_to_trades.rb" "20200611101330_add_broker_exchange_symbol_index_to_trades.rb" "20200722101037_add_zerodha_tokens_to_user.rb" "20200615183016_create_blogs.rb" "20200822055349_add_config_to_user.rb" "20200702172052_create_active_admin_comments.rb" "20200714082239_rename_instruments_token.rb" "20200723113917_redo_trade_indices.rb" "20200702174517_install_blazer.rb" "20200706210049_add_ltp_and_margin_to_trades.rb" "20200709202840_add_m2m_to_trades.rb" "20200609150549_convert_trade_type_to_string.rb" "20200717062509_add_ltp_updated_at_to_trades.rb" "20200719110618_add_underlying_to_trades.rb" "20200706121023_add_product_to_trades.rb" "20200716054321_add_order_trade_count_to_trades.rb" "20200607124106_devise_create_users.rb" "20200702174618_add_admin_to_users.rb" "20200714090444_add_constraints_to_intruments.rb" "20200701131620_add_token_to_blogs.rb" "20200718071857_add_position_last_id_to_trades.rb" "20200701053959_create_ahoy_visits_and_events.rb" "20200628084217_add_ett_to_trades.rb" "20200810143939_add_tag_to_trades.rb" "20200821020059_add_user_id_to_position_histories.rb" "20200709193937_add_buy_and_sell_value_to_trades.rb" "20200830164541_create_user_margins.rb" "20200817064332_add_m2m_pvalue_to_trades.rb" "20200820063530_create_position_histories.rb" "20200702173214_create_login_activities.rb" "20200611072030_add_position_columns_to_trades.rb" "20200708091701_add_position_token_to_trades.rb" "20200611102719_add_value_and_turnover_to_trades.rb" "20200723062349_add_unique_trade_constraint_to_trades.rb" "20200702172042_devise_create_admin_users.rb" "20200628083557_fix_trades_table.rb" "20200804184821_add_default_false_position_complete_to_trades.rb" "20200617201857_add_user_id_to_blogs.rb" "20200721141743_drop_unique_index_on_trade_id.rb" "20200629083733_add_columns_to_orders.rb" "20200706095541_add_user_position_symbol_index_on_trades.rb" "20200717172653_add_indexes_to_trades.rb" "20200609092912_add_date_to_notes.rb" "20200711085549_add_m2m_value_to_trades.rb" "20200609162026_make_trade_ids_unique.rb" "20200709194633_add_buy_and_sell_qty_to_trades.rb" "20200612100443_add_live_to.rb" "20200608124337_add_token_to_users.rb" "20200610101515_add_columns_to_trade.rb" "20200709062953_create_zerodha_margins.rb" "20200617124824_create_instruments.rb" "20200622163136_create_zerodha_positions.rb" "20200623154555_add_cost_columns_to_trades.rb" "20200612165448_manage_trades_unique_index.rb" "20200627082444_add_margin_to_trades.rb" "20200706041750_add_status_to_orders.rb" "20200820061211_add_more_indexes_to_trades.rb" "20200609083456_create_trade_notes.rb" "20200705065807_add_instrument_type_to_trades.rb" "20200806163905_add_source_to_trades.rb" "20200629055712_create_orders.rb" "20200614070408_add_position_value_to_trades.rb" "20200608134035_create_trades.rb" "20200614085725_add_trade_pl_columns_to_trades.rb" "20200708095724_drop_positions.rb" "20200804190435_add_index_expiry_date_to_trades.rb" "20200622152358_create_user_positions.rb" "20200611042541_create_positions.rb" "../" "./")
+ ("/Users/svs/src/" (25281 22119 393838 593000) "datagram/" "old.markup/" "ts/" "tmp/" "papyrus/" "mark-up/" "iv/" "img_Srch/" "umbrella/" "m2/" "yarn.lock" "tradefront/" "crystal/" "kotlin/" "homebrew/" "webgl/" "projects/" "etl/" "clojure/" "shader-school/" ".DS_Store" "time_processing_service/" "-t/" "papyrus-scraper/" "h2o/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/models/" (24396 39902 619537 280000) "user_position.rb" "user.rb" "concerns/" "login_activity.rb" "application_record.rb" "admin_user.rb" "trade.rb" "order.rb" "zerodha_margin.rb" "zerodha_position.rb" "position_history.rb" "instrument.rb" "trade_note.rb" "user_margin.rb" "blog.rb" "ahoy/" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/assets/" (24836 62329 4644 176000) "stylesheets/" "images/" "config/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/config/locales/" (24396 39902 627475 597000) "devise.en.yml" "en.yml" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/application/" (25323 40216 690347 293000) "_multi_progress_bar.html.slim" "_date_progress_bar.html.slim" "_project_status_chip.html.slim" "_dates.html.slim" "_progress_bar.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/helpers/" (24396 39902 618065 398000) "application_helper.rb" "zerodha_positions_helper.rb" "blogs_helper.rb" "callbacks_helper.rb" "home_helper.rb" "uploads_helper.rb" "api/" "users_helper.rb" "zerodha_orders_helper.rb" "trades_helper.rb" "positions_helper.rb" "instruments_helper.rb" "notes_helper.rb" "analytics_helper.rb" "oauth/" "brokers_helper.rb" "../" "./")
+ ("/Users/svs/.emacs.d/elpa/" (25322 49567 627353 496000) "inflections-20210110.2237/" "clojure-mode-20210505.712/" "json-snatcher-20200916.1717/" "helm-20220801.1634/" "twittering-mode-readme.txt" "js2-mode-20190219/" "with-editor-20200930.1912/" "flycheck-20210708.1337/" "speedbar-git-respect-20200901.246/" "ruby-electric-20200328.1528/" "helm-projectile-20201217.908/" "f-20210624.1103/" "enh-ruby-mode-20210120.201/" "spinner-1.7.4/" "rspec-mode-20220622.909/" "s-20210616.619/" "dash-20200803.1520/" "seq-2.23/" "use-package-20210207.1926/" "queue-0.2/" "inf-ruby-20220710.959/" "robe-readme.txt" "git-commit-20200828.1753/" "bind-key-20210210.1609/" "projectile-20200916.814/" "better-defaults-20220116.2220/" "archives/" "json-reformat-20160212.853/" "rbenv-20141120.749/" "solarized-theme-20220619.1203/" "helm-ag-20210702.845/" "ruby-test-mode-20210205.1107/" "parseedn-20220520.835/" "rake-20220211.827/" "web-mode-20210131.1758/" "epl-20180205.2049/" "json-mode-readme.txt" "pcre2el-20161120.2103/" "zenburn-theme-20200909.1617/" "pkg-info-20150517.1143/" "slim-mode-20170728.1348/" "peg-1.0/" "transient-20200819.1133/" "sesman-20210901.1134/" "popup-20211231.1823/" "helm-core-20220803.952/" "w3-4.0.49/" "cider-20220531.616/" "tide-20210517.507/" "magit-20201004.830/" "async-20200809.501/" "parseclj-20220422.936/" "company-20210811.214/" "projectile-rails-0.22.0/" "seeing-is-believing-20170214.1320/" "logito-20120225.2155/" "typescript-mode-0.3/" "edn-20160215.1219/" "json-mode-20190123.422/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/admin/" (24396 37327 491030 112000) "position_histories.rb" "users.rb" "admin_users.rb" "zerodha_positions.rb" "dashboard.rb" "trades.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/test/controllers/" (25325 1159 123908 289000) "issue_controller_test.rb" "issues_controller_test.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/lib/tasks/" (24396 54753 824896 94000) "update_trades.rake" "user_update.rake" "eod.rake" "flush_cache.rake" "utilities.rake" ".keep" "scheduler.rake" "save_creds.rake" "update_instrument_type.rake" "update_instruments.rake" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/lib/" (24836 62329 169253 666000) "assets/" "tasks/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/instruments/" (24397 648 661114 131000) "index.js.erb" "show.html.slim" "_instruments_table.html.slim" "index.html.slim" "_instruments_summary.html.slim" "_by_form.html.slim" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/spec/views/" (25323 39490 506205 377000) "project_cycle_spec.rb" "headers/" "home_spec.rb" "project_spec.rb" "date_project_spec.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/config/" (24387 26141 376579 614000) "initializers/" "webpacker.yml" "boot.rb" "webpack/" "database.yml" "credentials.yml.enc" "puma.rb" "application.rb" "storage.yml" "environment.rb" "master.key" "spring.rb" "environments/" "cable.yml" "blazer.yml" "locales/" "routes.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/dates/" (25323 39986 998818 920000) "show.html.slim" "team.html.slim" "project.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/lib/" (24373 20972 400517 817000) "symbol_parser.rb" "assets/" "tasks/" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/headers/stats/" (25322 58464 871481 836000) "_row.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/assets/" (24373 20971 517486 343000) "stylesheets/" "javascripts/" "images/" "config/" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/spec/views/headers/" (25323 39312 705689 774000) "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/javascript/controllers/" (24383 17937 861000 701000) "tags_controller.js" "instruments_controller.js" "index.js" "hello_controller.js" "../" "./")
+ ("/Users/svs/.rbenv/" (24511 18678 218675 578000) "shims/" "version" "versions/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/users/" (24373 21010 912651 14000) "index.html.slim" "../" "./")
+ ("/Users/svs/.rbenv/versions/" (25290 44145 924643 836000) "3.0.3/" "3.1.1/" "2.7.4/" "2.6.5/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/blogs/" (24373 21010 905015 257000) "show.html.slim" "index.html.slim" "_blog_row.html.slim" "../" "./")
+ ("/Users/svs/.rbenv/versions/3.1.1/" (25290 44386 316368 306000) "share/" "openssl/" "lib/" "include/" "bin/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/api/stats/" (24373 21010 901127 727000) "home.json.jbuilder" "calendar.json.jbuilder" "month.json.jbuilder" "long_short.json.jbuilder" "day.json.jbuilder" "zerrodha_day.json.jbuilder" "zerodha_day.json.jbuilder" "../" "./")
+ ("/Users/svs/.rbenv/versions/3.1.1/lib/" (25290 44386 181044 339000) "ruby/" "libruby.dylib" "libruby.3.1.dylib" "pkgconfig/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/config/webpack/" (24380 63146 511462 260000) "environment.js" "loaders/" "production.js" "test.js" "development.js" "../" "./")
+ ("/Users/svs/.rbenv/versions/3.1.1/lib/ruby/" (25290 44394 664236 149000) "gems/" "3.1.0/" "vendor_ruby/" "site_ruby/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/config/initializers/" (24382 5978 887702 819000) "markup_logger.rb" "mcx.rb" "pusher.rb" "inflections.rb" "load_instruments.rb" "aws.rb" "content_security_policy.rb" "devise.rb" "sequel.rb" "redis.rb" "cookies_serializer.rb" "assets.rb" "wrap_parameters.rb" "ahoy.rb" "filter_parameter_logging.rb" "mime_types.rb" "active_admin.rb" "backtrace_silencers.rb" "application_controller_renderer.rb" "../" "./")
+ ("/Users/svs/.rbenv/versions/3.1.1/lib/ruby/gems/" (25290 44394 664297 1000) "3.1.0/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/javascript/" (24376 56528 314520 217000) "channels/" "store/" "controllers/" "trade_diary.vue" "functions/" "Analytics.vue" "components/" "packs/" "published_trade_diary.vue" "Home.vue" ".DS_Store" "filters/" "../" "./")
+ ("/Users/svs/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/" (25322 29019 661267 830000) "gems/" "doc/" "build_info/" "extensions/" "plugins/" "cache/" "specifications/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/layouts/" (24376 53934 640156 92000) "trade_diary.html.slim" "mailer.text.erb" "application.html.slim" "landing.html.slim" "published_blog.html.slim" "mailer.html.erb" "app_header.html.slim" "turbo_index.html.slim" "_logo.html.slim" "../" "./")
+ ("/Users/svs/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/" (25322 18603 534319 443000) "activemodel-6.0.4.1/" "listen-3.7.1/" "pry-byebug-3.9.0/" "actionmailbox-6.0.4.1/" "activerecord-6.0.5/" "faraday-net_http-2.0.3/" "omniauth-2.0.4/" "net-pop-0.1.1/" "delegate-0.2.0/" "rb-inotify-0.10.1/" "pg-1.4.1/" "pg-1.2.3/" "rack-protection-2.1.0/" "fcntl-1.0.1/" "omniauth-rails_csrf_protection-1.0.0/" "rack-2.2.3/" "time-0.2.0/" "turbolinks-5.2.1/" "rack-2.2.4/" "strscan-3.0.3/" "rspec-rails-5.0.2/" "debug-1.4.0/" "actioncable-6.0.5/" "bundler-2.3.7/" "rdoc-6.4.0/" "reline-0.3.0/" "omniauth-oauth2-1.7.2/" "mutex_m-0.1.1/" "sprockets-4.1.1/" "activestorage-6.0.4.1/" "rspec-3.11.0/" "listen-3.7.0/" "net-smtp-0.3.1/" "faraday-em_synchrony-1.0.0/" "omniauth-rails_csrf_protection-1.0.1/" "rails-dom-testing-2.0.3/" "observer-0.1.1/" "multi_xml-0.6.0/" "spring-2.1.1/" "faraday-net_http_persistent-1.2.0/" "rails-6.0.4.1/" "shoulda-matchers-5.1.0/" "actionview-6.0.5/" "concurrent-ruby-1.1.10/" "json-2.6.1/" "childprocess-4.1.0/" "dotenv-rails-2.7.6/" "ffi-1.15.5/" "dotenv-2.7.6/" "minitest-5.14.4/" "power_assert-2.0.1/" "spring-commands-rspec-1.0.4/" "zeitwerk-2.6.0/" "sass-rails-6.0.0/" "gon-6.4.0/" "readline-ext-0.1.4/" "open-uri-0.2.0/" "rspec-support-3.10.2/" "digest-3.1.0/" "rack-proxy-0.7.2/" "faraday-patron-1.0.0/" "nio4r-2.5.8/" "ffi-1.15.4/" "faraday-httpclient-1.0.1/" "rspec-expectations-3.11.0/" "selenium-webdriver-4.3.0/" "notiffany-0.1.3/" "net-imap-0.2.3/" "pathname-0.2.0/" "bootsnap-1.9.1/" "rake-13.0.6/" "forwardable-1.3.2/" "zeitwerk-2.4.2/" "etc-1.3.0/" "webdrivers-5.0.0/" "diff-lcs-1.5.0/" "sequel-5.50.0/" "actiontext-6.0.4.1/" "activesupport-6.0.4.1/" "rack-protection-2.2.0/" "actionmailer-6.0.4.1/" "tmpdir-0.1.2/" "shellwords-0.1.0/" "vcr-6.1.0/" "faraday-rack-1.0.0/" "rubyzip-2.3.2/" "english-0.7.1/" "activemodel-6.0.5/" "omniauth-2.1.0/" "temple-0.8.2/" "slim-4.1.0/" "rails-controller-testing-1.0.5/" "redis-4.5.1/" "timeout-0.2.0/" "benchmark-0.2.0/" "racc-1.6.0/" "msgpack-1.4.2/" "actionpack-6.0.5/" "io-nonblock-0.1.0/" "resolv-replace-0.1.0/" "crass-1.0.6/" "method_source-1.0.0/" "puma-5.6.4/" "slim-rails-3.3.0/" "singleton-0.1.1/" "redcarpet-3.5.1/" "formatador-1.1.0/" "bigdecimal-3.1.1/" "guard-compat-1.2.1/" "omniauth-oauth2-1.8.0/" "faraday-2.3.0/" "rinda-0.1.1/" "sprockets-4.0.2/" "activestorage-6.0.5/" "graphql-1.12.17/" "logger-1.5.0/" "nokogiri-1.12.5/" "graphql-client-0.17.0/" "turbolinks-source-5.2.0/" "io-wait-0.2.1/" "mail-2.7.1/" "ruby2_keywords-0.0.5/" "capybara-3.37.1/" "psych-4.0.3/" "mini_mime-1.1.2/" "redis-rails-5.0.2/" "actioncable-6.0.4.1/" "puma-4.3.12/" "webdrivers-4.7.0/" "minitest-5.15.0/" "webmock-3.14.0/" "net-ftp-0.1.3/" "prettyprint-0.1.1/" "ipaddr-1.2.4/" "tsort-0.1.0/" "multipart-post-2.1.1/" "stimulus-rails-1.0.4/" "erb-2.2.3/" "zlib-2.1.1/" "addressable-2.8.0/" "omniauth-auth0-3.0.0/" "open3-0.1.1/" "loofah-2.18.0/" "sprockets-rails-3.2.2/" "rbs-2.1.0/" "xpath-3.2.0/" "diff-lcs-1.4.4/" "capybara-3.35.3/" "railties-6.0.4.1/" "jbuilder-2.11.5/" "loofah-2.12.0/" "rspec-support-3.11.0/" "rspec-core-3.11.0/" "jbuilder-2.11.2/" "redis-actionpack-5.3.0/" "oauth2-2.0.5/" "hashdiff-1.0.1/" "selenium-webdriver-4.0.0/" "nkf-0.1.1/" "securerandom-0.1.1/" "web-console-4.2.0/" "globalid-0.5.2/" "activejob-6.0.4.1/" "graphql-client-0.18.0/" "faraday-1.8.0/" "fileutils-1.6.0/" "did_you_mean-1.6.1/" "jwt-2.4.1/" "faraday-net_http-1.0.1/" "public_suffix-4.0.7/" "byebug-11.1.3/" "timeout-0.3.0/" "strscan-3.0.1/" "request_store-1.5.1/" "graphql-2.0.11/" "tzinfo-1.2.9/" "vcr-6.0.0/" "faraday-em_http-1.0.0/" "i18n-1.10.0/" "rspec-mocks-3.10.2/" "pstore-0.1.1/" "redis-rack-2.1.4/" "rspec-snapshot-2.0.1/" "thread_safe-0.3.6/" "racc-1.5.2/" "weakref-0.1.1/" "cgi-0.3.1/" "drb-2.1.0/" "nokogiri-1.13.6-x86_64-darwin/" "hashie-5.0.0/" "msgpack-1.5.3/" "irb-1.4.1/" "stringio-3.0.1/" "public_suffix-4.0.6/" "redis-store-1.9.1/" "actionpack-6.0.4.1/" "railties-6.0.5/" "abbrev-0.1.0/" "nenv-0.3.0/" "redis-activesupport-5.3.0/" "faraday-excon-1.1.0/" "resolv-0.2.1/" "rspec-core-3.10.1/" "actionmailer-6.0.5/" "rb-fsevent-0.11.0/" "io-console-0.5.11/" "base64-0.1.1/" "rash_alt-0.4.12/" "spring-watcher-listen-2.0.1/" "awesome_print-1.9.2/" "net-protocol-0.1.3/" "rack-test-2.0.2/" "thor-1.1.0/" "mini_portile2-2.6.1/" "minitest-5.16.2/" "error_highlight-0.3.0/" "pp-0.3.0/" "sequel-5.58.0/" "websocket-extensions-0.1.5/" "set-1.0.2/" "net-protocol-0.1.2/" "factory_bot-6.2.1/" "activerecord-6.0.4.1/" "rb-fsevent-0.11.1/" "builder-3.2.4/" "activejob-6.0.5/" "tilt-2.0.10/" "redis-4.7.1/" "erubi-1.10.0/" "test-unit-3.5.3/" "regexp_parser-2.1.1/" "openssl-3.0.0/" "jwt-2.3.0/" "actionmailbox-6.0.5/" "multi_json-1.15.0/" "syslog-0.1.0/" "coderay-1.1.3/" "factory_bot_rails-6.2.0/" "web-console-4.1.0/" "guard-rspec-4.7.3/" "globalid-1.0.0/" "net-http-0.2.0/" "date-3.2.2/" "pry-0.13.1/" "bootsnap-1.12.0/" "webpacker-5.4.3/" "actiontext-6.0.5/" "regexp_parser-2.5.0/" "yaml-0.2.0/" "getoptlong-0.1.1/" "rspec-3.10.0/" "guard-2.18.0/" "websocket-driver-0.7.5/" "formatador-0.3.0/" "rspec-rails-5.1.2/" "sassc-rails-2.1.2/" "slim-rails-3.5.1/" "semantic_range-3.0.0/" "groupdate-6.1.0/" "i18n-1.8.10/" "concurrent-ruby-1.1.9/" "rspec-mocks-3.11.1/" "faker-2.21.0/" "rss-0.2.9/" "ostruct-0.5.2/" "tempfile-0.1.2/" "uri-0.11.0/" "shellany-0.0.1/" "rails-html-sanitizer-1.4.3/" "sprockets-rails-3.4.2/" "rspec-expectations-3.10.1/" "matrix-0.4.2/" "shoulda-matchers-5.0.0/" "find-0.1.1/" "typeprof-0.21.2/" "rack-test-1.1.0/" "crack-0.4.5/" "optparse-0.2.0/" "bindex-0.8.1/" "prime-0.1.2/" "un-0.2.0/" "bundler-2.2.29/" "oauth2-1.4.7/" "version_gem-1.1.0/" "fiddle-1.1.0/" "marcel-1.0.2/" "chartkick-4.2.0/" "thor-1.2.1/" "lumberjack-1.2.8/" "rails-html-sanitizer-1.4.2/" "csv-3.2.2/" "activesupport-6.0.5/" "puma-4.3.10/" "websocket-1.2.9/" "rexml-3.2.5/" "readline-0.0.3/" "rails-6.0.5/" "timecop-0.9.5/" "actionview-6.0.4.1/" "sassc-2.4.0/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/" (24373 20972 352302 262000) "analytics/" "zerodha_orders/" "application/" "api/" "positions/" "users/" "layouts/" "notes/" "instruments/" "zerodha_positions/" "uploads/" "trades/" "callbacks/" "oauth/" "devise/" "blogs/" "brokers/" "home/" "../" "./")
+ ("/Users/svs/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/bootsnap-1.12.0/" (25290 48834 741941 709000) "LICENSE.txt" "exe/" "lib/" "README.md" "ext/" "CHANGELOG.md" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/" (24373 20971 515349 639000) "channels/" "services/" "helpers/" "domain/" "assets/" "views/" "controllers/" "jobs/" "javascript/" "models/" "admin/" "mailers/" "brokers/" "../" "./")
+ ("/Users/svs/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/bootsnap-1.12.0/lib/" (25290 48834 742516 607000) "bootsnap.rb" "bootsnap/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/assets/javascripts/" (24318 49729 8710 228000) "active_admin.js" "../" "./")
+ ("/Users/svs/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/bootsnap-1.12.0/lib/bootsnap/" (25290 48835 728460 418000) "explicit_require.rb" "bundler.rb" "load_path_cache/" "version.rb" "compile_cache/" "setup.rb" "cli/" "cli.rb" "bootsnap.bundle" "compile_cache.rb" "load_path_cache.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/api/" (24347 56580 246071 439000) "stats/" "orders/" "positions/" "users/" "chart_data/" "trades/" "trade_book/" "blogs/" "../" "./")
+ ("/Users/svs/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/" (25290 48834 749780 690000) "store.rb" "path_scanner.rb" "cache.rb" "loaded_features_index.rb" "core_ext/" "change_observer.rb" "path.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/channels/" (24280 25041 163042 638000) "application_cable/" "../" "./")
+ ("/Users/svs/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/bootsnap-1.12.0/lib/bootsnap/load_path_cache/core_ext/" (25290 48834 748184 730000) "kernel_require.rb" "loaded_features.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/zerodha_orders/" (24345 17457 19251 888000) "../" "./")
+ ("/Users/svs/src/iv/iv-linear/test/views/headers/" (25322 62251 205371 636000) "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/brokers/brokers/" (24343 60599 685925 630000) "upstox.rb" "zerodha.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/test/" (25322 7435 188743 273000) "channels/" "helpers/" "controllers/" "test_helper.rb" "fixtures/" "factories/" "application_system_test_case.rb" "system/" "models/" "integration/" "mailers/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/analytics/" (24342 26959 64635 483000) "index.html.slim" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/issues/stats/" (25305 22090 527411 432000) "_issue.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/bb/" (24331 17370 552597 481000) ".git/" "index.html" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/" (25322 57214 112556 401000) "issues/" "webhooks/" "application/" "milestones/" "teams/" "people/" "headers/" "layouts/" "dashboard/" "charts/" "projects/" "dates/" "comments/" "home/" "cycles/" "../" "./")
 
- ("/Users/siddharthsharma/src/banko/" (24013 7103 56488 255000) "Gemfile" "Report-20191114114333.csv" "Report-20191114114340.csv" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/spec/models/linear/" (25322 51082 405097 584000) "user_spec.rb" "comment_spec.rb" "teams_spec.rb" "model.rb" "issue_spec.rb" "#comment_spec.rb#" "project_spec.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/" (24331 17341 140297 221000) "incubator-superset/" "sangam-payments/" "stampit/" "banko/" "datagram/" "laterboro/" "awesome_tracer/" "tmp/" "ES-SQL/" "shaadi/" "redshift_to_sheets/" "sidbc/" "googo/" "ridr/" "shaadi-vue/" "bot/" "twitter_analytics/" "api/" "covid19-supply-chain-backend/" "old_datagram/" "test.rb" "shaadi-i18n/" "mizu-backend/" "hackfest/" "myApp/" "vue-tradefront/" "tradefront/" "crystal/" "sachbolo/" "zerodha/" "secrets/" "x-ray/" "html2slim/" "spectocular_demo/" "ab/" "okra/" "covid19-supply-chain/" "rider/" ".ruby-version" "bb/" "snapshottr/" ".DS_Store" "ionic/" "chromeshot/" "jails/" "../" "./")
+ ("/Users/svs/.config/fish/" (25322 33518 543052 422000) "fish_variables" "conf.d/" "functions/" "fish_plugins" "completions/" "config.fish" "../" "./")
 
- ("/Users/siddharthsharma/src/datagram/app/services/" (24236 31589 359563 606000) "sql_runner.rb" "../" "./")
+ ("/Users/svs/.config/fish/completions/" (24766 60131 713480 974000) "asdf.fish" "fisher.fish" "../" "./")
 
- ("/Users/siddharthsharma/src/datagram/" (24236 25347 956119 36000) "vendor/" "tmp/" "postcss.config.js" ".browserslistrc" ".git/" "Gemfile.lock" "log/" "Gemfile" "db/" "lib/" "package.json" ".gitignore" "babel.config.js" "public/" "yarn.lock" "Rakefile" "README.md" "storage/" "spec/" "node_modules/" "config.ru" "config/" "yarn-error.log" "bin/" "test/" ".ruby-version" "app/" ".rspec" "../" "./")
+ ("/Users/svs/.config/" (25196 21295 400991 775000) "Wondershare_DrFone_SocialApp_Temp/" "fish/" ".mono/" "Wondershare/" "iterm2/" "gatsby/" "yarn/" "configstore/" "Wondershare_DrFone_WhatsApp_Backup/" "rclone/" "Wondershare_SocialApp_Temp/" "omf/" "../" "./")
 
- ("/Users/siddharthsharma/.config/fish/" (24327 63326 33489 447000) "conf.d/" "fishd.8c8590309a2a" "config.fish" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/" (24941 15131 667215 214000) "channels/" "services/" "helpers/" "assets/" "views/" "controllers/" "jobs/" "javascript/" "models/" "queries/" "mailers/" "../" "./")
 
- ("/Users/siddharthsharma/.config/fish/conf.d/" (23420 23619 93278 320000) "omf.fish" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/db/migrate/" (25322 9243 329918 769000) "20211202072612_add_issue_updated_at_to_issues.rb" "20220710211450_add_bug_stats_to_projects.rb" "20220709151341_add_indices_for_derived_state_to_issues.rb" "20220717130430_add_cycle_numbers_to_issues.rb" "20220708132231_add_c_qa_to_issues.rb" "20211202064434_add_status_enum_to_issues.rb" "20220724080113_add_last_updated_at_to_teams.rb" "20220720181709_add_c_blockers_to_issues.rb" "20220721132454_add_branch_name_to_issues.rb" "20220707164216_add_first_issue_created_at_to_projects.rb" "20220221081346_create_state_ks.rb" "20211130185623_add_started_at_to_issues.rb" "20220728113522_add_waited_and_took_to_issues.rb" "20220708143801_add_child_stats_to_projects.rb" "20220706232218_add_child_stats_to_issues.rb" "20211126070710_add_last_issue_updated_at_to_projects.rb" "20220521211610_add_root_id_to_issues.rb" "20220217072812_add_parent_id_to_milestones.rb" "20220604095804_add_root_title_to_issues.rb" "20220522073541_add_active_cycle_to_teams.rb" "20220126181026_add_team_id_to_issues.rb" "20220720181956_add_c_bugs_and_blockers_to_projects.rb" "20220708063305_add_derived_state_to_issues.rb" "20220722080919_add_is_active_cycle_to_issues.rb" "20220724165939_add_first_child_stats_to_issues.rb" "20220217072931_add_target_date_to_milestones.rb" "20211202105207_add_parent_and_children_ids_to_issue.rb" "20211203070958_add_last_comment_updated_at_to_issues.rb" "20211124082445_create_teams.rb" "20220710204809_add_bug_stats_to_issue.rb" "20211203080639_add_child_stats_to_issue.rb" "20211203121612_add_description_to_issues.rb" "20220125190434_add_cycle_fields_to_issue.rb" "20220709194739_create_issue_histories.rb" "20220125191432_add_last_child_updated_at_to_issues.rb" "20220720181021_add_blockers_to_issues.rb" "20220709141303_add_issue_stats_to_issue.rb" "20220724083946_add_indices_to_issues.rb" "20220709153854_add_state_enum_to_projects.rb" "20220803054438_create_webhook_data.rb" "20211213065108_create_linear_users.rb" "20220720145442_add_blocker_to_issues.rb" "20220707112315_add_assigneee_id_to_projects.rb" "20220126182229_fix_cycle_name_in_issues.rb" "20220221114231_add_progress_to_issues.rb" "20211203065423_create_comments.rb" "20220730125928_add_total_days_to_issues.rb" "20211124035252_create_projects.rb" "20220706221047_add_path_to_issues.rb" "20220129053850_create_milestones.rb" "20211124102519_create_issues.rb" "20220707083501_add_avatar_url_to_users.rb" "20220711130454_add_last_updated_at_to_issues.rb" "20220712103538_add_last_seen_to_linear_users.rb" "20220708064010_add_c_backlog_to_issues.rb" "../" "./")
 
- ("/Users/siddharthsharma/.config/" (24204 2894 526155 425000) "icr/" "fish/" ".mono/" "stetic/" "NuGet/" "LibreELEC/" "JamKazam/" "configstore/" "xbuild/" "omf/" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/spec/fixtures/" (25322 7630 801890 45000) "issue_webhook.json" "../" "./")
 
- ("/Users/siddharthsharma/Dropbox/" (24298 1370 256781 107000) "src/" "signature.jpg" "ccn-tf8696nse-bse2020-05-112020-05-13.pdf" "NeverTheOne.reason" "Script GOS 30aug18.pdf" "Coaster/" "Screenshot 2020-03-19 at 4.27.56 PM.png" "dotemacs/" "stripe_backup_code.txt" "Apps/" "NACH.pdf" "XiaoYing_Video_1579367918809_HD.mp4" "Ship Like a Jazzeer/" "Sid_Tech.xlsx" "PDF92670741788435312715082018172856609183.pdf" ".dropbox.cache/" "sayyonee solo.mp4" "lights in the dusk - cort.band/" "Sundowner/" "Video_20200118_225232.mp4" "bring your love.reason" "tum jo mile 2.mp3" "Amazon.in - Order 405-7418333-7460349.pdf" "bring your piano.mid" "bring your piano.pdf" "lights in the dusk.reason" "CUSTOMER REPLACEMENT.zip" ".dropbox" "Trailer.reason" "photo.jpg" "gravatar.jpeg" "Sight and Sound Order Confirmation.pdf" "ccn-tf8696nse-bse2020-05-192020-05-19.pdf" "antimonkey.zip" "WIN_20200124_20_15_51_Pro.mp4" "1Password Emergency Kit A3-LAHSL7-shaadi.pdf" "ideas.org" "Blues for RO.logicx/" "222493_scripbox_nach_mandate_form.pdf" "bring your piano.reason" "sayonee 2.mp4" "lights in the dusk - cort.logicx/" "sshkeys/" "investment_history20180814-8613-1pwhd4e.xls" "23555845_a2fecb8708573de1b5157590575079a0ce6ba905.zip" "Icon
-" "KYC/" "B65V2X16F15F3536.pdf" "index.png" ".DS_Store" "archana.reason" "Screenshots/" "lights in the dusk - cort.mp3" "1Password Emergency Kit.pdf" "Assets and Insurance/" "secrets.yml" "chance.doc" "lights in the dusk - cort_1.mp3" "limo-v1.3.0.apk" "D R Doshi/" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/db/" (25322 7435 243632 330000) "migrate/" "seeds.rb" "schema.rb" "../" "./")
 
- ("/Users/siddharthsharma/Dropbox/dotemacs/" (24327 57425 34883 68000) "html-helper-mode/" "screen-lines.el" "dotemacs" "textmate.el" "enotify-tdd.el" ".git/" "dotbashrc" "elpa/" "html-helper-mode.tar.gz" "session.10c0a7931f73b9ae61151195681427050600000059780066" ".emacs" "history" "network-security.data" "desktop.el" "markdown-mode.el" ".gitignore" "popup.elc" "haml-mode.el" "dbgp.elc" ".emacs.d" "url/" ".emacs.desktop" "auto-save-list/" ".gitmodules" "html-font.el" "enotify.el" "session.10856e7cb81747dce7150736607943929400000092710074" "tramp" "projectile-bookmarks.eld" "fuzzy.el" "lsp-crystal.el/" ".stfolder" "session.1010546387fa42e39b150753257433801000000154020077" "egg/" "ac-dict/" "DcomboBox.js" "ido.last" "fuzzy.elc" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/helpers/" (25322 7435 184916 908000) "application_helper.rb" "issues_helper.rb" "teams_helper.rb" "people_helper.rb" "home_helper.rb" "dashboard_helper.rb" "dates_helper.rb" "milestones_helper.rb" "webhooks_helper.rb" "cycles_helper.rb" "charts_helper.rb" "comments_helper.rb" "projects_helper.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/api/positions/" (24320 27535 118479 842000) "index.json.jbuilder" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/milestones/" (25294 47706 453853 60000) "_stats.html.slim" "show.html.slim" "index.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/assets/config/" (24320 12028 400151 510000) "manifest.js" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/cycles/" (25322 7435 2500 49000) "show.html.slim" "team.html.slim" "milestone.html.slim" "projects.html.slim" "project.html.slim" "issue.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/dashboards/" (24319 56403 289002 931000) "instrument_dashboard.rb" "position_dashboard.rb" "zerodha_position_dashboard.rb" "login_activity_dashboard.rb" "user_position_dashboard.rb" "order_dashboard.rb" "trade_dashboard.rb" "blog_dashboard.rb" "admin_user_dashboard.rb" "trade_note_dashboard.rb" "user_dashboard.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/config/initializers/" (25322 7435 14000 503000) "inflections.rb" "content_security_policy.rb" "sequel.rb" "graphql_client.rb" "redis.rb" "cookies_serializer.rb" "assets.rb" "wrap_parameters.rb" "filter_parameter_logging.rb" "mime_types.rb" "auth0.rb" "backtrace_silencers.rb" "application_controller_renderer.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/controllers/admin/" (24319 56835 658200 809000) "instruments_controller.rb" "positions_controller.rb" "users_controller.rb" "admin_users_controller.rb" "login_activities_controller.rb" "zerodha_positions_controller.rb" "orders_controller.rb" "blogs_controller.rb" "trades_controller.rb" "user_positions_controller.rb" "trade_notes_controller.rb" "application_controller.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/javascript/" (25305 22090 504787 972000) "channels/" "controllers/" "packs/" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/bin/" (24318 64302 278386 528000) "rails" "spring" "rspec" "webpack-dev-server" "webpack" "yarn" "bundle" "setup" "rake" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/config/webpack/" (25290 29507 762441 942000) "environment.js" "production.js" "base.js" "test.js" "development.js" "../" "./")
 
- ("/Users/siddharthsharma/src/old_datagram/app/services/" (24225 38994 576332 644000) "view_renderer.rb" "params_renderer.rb" "watch_response_handler.rb" "datagram_render_service.rb" "datagram_fetcher_service.rb" "datagram_response_finder.rb" "datagram_view_loader.rb" "datagram_finder.rb" "watch_params_renderer.rb" "datagram_cloner.rb" "datagram_publisher.rb" "watch_creator_service.rb" "watch_publisher.rb" "clients/" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/layouts/" (25322 7435 8510 841000) "mailer.text.erb" "mailer.html.erb" "application.html.erb" "../" "./")
 
- ("/Users/siddharthsharma/src/old_datagram/app/models/" (23882 27264 717411 805000) "user.rb" "concerns/" "streamer.rb" "stream.rb" "view.rb" ".keep" "watch_response.rb" "stream_sink.rb" "watch.rb" "datagram.rb" "source.rb" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/public/packs/" (25293 62214 495441 186000) "manifest.json" "js/" "../" "./")
 
- ("/Users/siddharthsharma/src/old_datagram/app/" (23919 19525 351500 788000) "services/" "helpers/" "assets/" "views/" "controllers/" "workers/" "policies/" "models/" "mailers/" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/public/packs/js/" (25015 37825 163587 463000) "application.js" "runtime.js.map" "runtime.js" "../" "./")
 
- ("/Users/siddharthsharma/src/old_datagram/" (24225 38877 543843 507000) "vendor/" "npm-debug.log" "tmp/" ".git/" "Capfile" "Procfile" "docker-compose.yml" "clock.rb" "Gemfile.lock" "log/" "templates/" "Gemfile" "db/" "lib/" "nginx.devel.conf" ".env" ".gitignore" "docker-compose.production.yml" "public/" ".dockerignore" "Dockerfile.new" "Rakefile" "fig.yml" "README.md" "TODO.md" "puma.rb" "heroku-puma.rb" "spec/" "clock2.rb" "Rakefile.no_rails" ".buildpacks" "config.ru" "Dockerfile" "config/" "bin/" ".vendor_urls" "test/" ".ruby-version" "docker-compose.override.yml" "app/" ".DS_Store" "db.sql" ".rspec" "rallies.csv" ".web-variables.env" "Guardfile" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/public/" (25015 23853 213004 431000) "robots.txt" "apple-touch-icon-precomposed.png" "packs/" "404.html" "500.html" "apple-touch-icon.png" "422.html" "favicon.ico" "../" "./")
 
- ("/Users/siddharthsharma/src/datagram/app/javascript/packs/" (24233 12144 275402 987000) "application.js" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/config/environments/" (24836 62329 27332 377000) "test.rb" "development.rb" "production.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/devise/shared/" (24317 36231 463995 833000) "_links.html.erb" "_error_messages.html.erb" "../" "./")
+ ("/Users/svs/src/mark-up/config/webpack/" (24956 53315 493576 969000) "environment.js" "loaders/" "production.js" "test.js" "development.js" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/brokers/" (24317 36231 461554 275000) "login.html.slim" "../" "./")
+ ("/Users/svs/src/mark-up/config/" (24976 58962 117499 712000) "initializers/" "webpacker.yml" "boot.rb" "webpack/" "database.yml" "credentials.yml.enc" "puma.rb" "application.rb" "storage.yml" "environment.rb" "spring.rb" "environments/" "cable.yml" "blazer.yml" "locales/" "routes.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/devise/registrations/" (24317 36231 462462 548000) "edit.html.erb" "new.html.slim" "../" "./")
+ ("/Users/svs/src/mark-up/app/views/trades/" (24956 53315 480637 484000) "show.html.slim" "index.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/datagram/app/javascript/controllers/" (24233 51003 936904 59000) "queries_controller.js" "index.js" "s_controller.js" "hello_controller.js" "source_form_controller.js" "../" "./")
+ ("/Users/svs/src/mark-up/app/views/positions/" (24956 53315 480032 832000) "show.html.slim" "index.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/devise/sessions/" (24317 36231 463304 671000) "new.html.slim" "../" "./")
+ ("/Users/svs/src/mark-up/app/javascript/packs/" (24956 53315 450295 729000) "Trades.js" "application.js" "instruments.js" "trade_diary.js" "Analytics.js" "published_blog.js" "blog.js" "Home.js" "upload.js" "chart.js" "broker_login.js" "positions.js" "turbo.js" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/brokers/" (24317 41233 849964 191000) "brokers.rb" "brokers/" "../" "./")
+ ("/Users/svs/src/mark-up/app/javascript/" (24956 53315 451168 884000) "channels/" "store/" "controllers/" "trade_diary.vue" "functions/" "Analytics.vue" "components/" "packs/" "published_trade_diary.vue" "Home.vue" ".DS_Store" "filters/" "../" "./")
 
- ("/Users/siddharthsharma/src/datagram/app/views/queries/" (24315 9455 569823 196000) "show.html.slim" "run.js.erb" "index.html.slim" "_form.html.slim" "_result.html.slim" "new.html.slim" "run.html.erb" "run.js.slim" "edit.html.slim" "../" "./")
+ ("/Users/svs/src/mark-up/app/views/layouts/" (24956 53315 479515 684000) "trade_diary.html.slim" "mailer.text.erb" "application.html.slim" "landing.html.slim" "published_blog.html.slim" "mailer.html.erb" "app_header.html.slim" "turbo_index.html.slim" "_logo.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/datagram/app/javascript/" (24233 139 422830 354000) "channels/" "controllers/" "packs/" "../" "./")
+ ("/Users/svs/src/mark-up/app/views/" (24956 53315 481861 505000) "analytics/" "zerodha_orders/" "application/" "api/" "positions/" "users/" "layouts/" "instruments/" "zerodha_positions/" "uploads/" "trades/" "callbacks/" "devise/" "blogs/" "brokers/" "home/" "../" "./")
 
- ("/Users/siddharthsharma/src/datagram/app/views/layouts/" (24314 12020 578062 687000) "mailer.text.erb" "mailer.html.erb" "application.html.erb" "../" "./")
+ ("/Users/svs/src/etl/etl_scripts/iv/queries/" (25173 54746 938664 721000) "videos_bootstrap.sql" "videos.sql" "accounts.sql" "users.sql" "../" "./")
 
- ("/Users/siddharthsharma/src/datagram/app/views/" (24232 34675 452860 452000) "sources/" "layouts/" "datagrams/" "queries/" "home/" "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/dashboard/" (25286 51309 683178 224000) "index.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/api/orders/" (24313 38587 22673 784000) "../" "./")
+ ("/Users/svs/src/iv/iv-linear/app/views/comments/" (25017 29634 806076 112000) "index.html.slim" "_comments.html.slim" "../" "./")
 
- ("/Users/siddharthsharma/src/zerodha/zerodha_bot_sinatra/" (24312 12760 301568 820000) ".#.env" "views/" "candle.rb" ".git/" "trade_plan.rb" "Gemfile.lock" "Gemfile" "diary.rb" ".env" ".gitignore" "historical.rb" "public/" "day.rb" "utils.rb" "spec/" "app.rb" "instruments.txt" "trades.rb" "config.ru" "init.rb" "instrument.rb" ".ruby-version" "tradebook.rb" "chart_data_fetcher.rb" "../" "./")
+ ("/Users/svs/src/iv/" (25283 62676 574741 672000) "iv-soa/" "iv-fx-sandbox/" "quik-spike/" "frame-renderer/" "iv-web-assets/" "iv-timeline-spike/" "iv-pricing/" "iv-lang/" "iv-frame/" "iv-crm2/" "iv-league/" ".env" ".gitignore" "invideo-frontend/" "iv-linear/" "iv-people/" "iv-crm/" "iv-xml/" "mf/" ".DS_Store" "iv-rails/" "iv-host/" "iv-web-landing-pages/" "../" "./")
 
- ("/Users/siddharthsharma/src/zerodha/zerodha_ruby/spec/" (24312 13175 167116 93000) "zerodha_ruby_spec.rb" "spec_helper.rb" "../" "./")
+ ("/Users/svs/src/mark-up/app/helpers/" (24956 53315 437540 700000) "application_helper.rb" "zerodha_positions_helper.rb" "blogs_helper.rb" "callbacks_helper.rb" "home_helper.rb" "uploads_helper.rb" "api/" "users_helper.rb" "zerodha_orders_helper.rb" "trades_helper.rb" "positions_helper.rb" "instruments_helper.rb" "notes_helper.rb" "analytics_helper.rb" "brokers_helper.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/zerodha/zerodha_ruby/" (24312 12779 853980 264000) ".travis.yml" "tmp/" "zerodha_ruby.gemspec" "LICENSE.txt" ".git/" "Gemfile.lock" "Gemfile" "lib/" ".env" ".gitignore" "Rakefile" "README.md" "instruments-2019-12-18.csv" "spec/" "bin/" ".ruby-version" ".rspec" ".rspec_status" "Guardfile" "../" "./")
+ ("/Users/svs/src/mark-up/spec/services/" (24956 53315 854903 135000) "chart_data_service_spec.rb" "position_spec.rb" "stats_spec.rb" "tag_chart_data_service_spec.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/models/concerns/" (24280 25041 244082 959000) ".keep" "../" "./")
+ ("/Users/svs/src/mark-up/spec/factories/" (24956 53315 836530 199000) "users.rb" "trades.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/spec/javascript/" (24303 55652 20869 973000) "test.js" "../" "./")
+ ("/Users/svs/src/mark-up/app/domain/" (25281 23487 113608 363000) "live_positions.rb" "candle.rb" "trade_book_processor.rb" "instr.rb" "day.rb" "live_trades.rb" "trade_book.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/public/packs/" (24301 44354 349514 483000) "manifest.json" "js/" "../" "./")
+ ("/Users/svs/src/mark-up/app/services/" (25281 23325 686828 998000) "stats/" "position_chart_data_service.rb" "updaters/" "trade_position_updater.rb" "market_data.rb" "position.rb" "market_data/" "stats.rb" "trade_book_position.rb" "trade_position_helper.rb" "tag_chart_data_service.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/public/" (24295 25497 560762 522000) "markup-logo.png" "assets/" "robots.txt" "apple-touch-icon-precomposed.png" "profitalot-logo.png" "packs/" "markup-icon.png" "404.html" "500.html" ".well-known/" "apple-touch-icon.png" "422.html" ".DS_Store" "profitalot-icon.png" "favicon.ico" "../" "./")
+ ("/Users/svs/src/mark-up/app/services/updaters/" (24956 53315 462902 480000) "zerodha.rb" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/controllers/oauth/" (24288 26884 890298 897000) "../" "./")
+ ("/Users/svs/src/etl/etl_scripts/" (25092 45072 206890 781000) "iv/" "test_app_attempts.json" "001_start.rb" "default/" "profiles.json" "../" "./")
 
- ("/Users/siddharthsharma/src/mizu-backend/app/views/home/" (24209 24529 977377 337000) "index.html.slim" "../" "./")
+ ("/Users/svs/src/clojure/hello-world/src/hello_world/" (25260 43788 381398 521000) "core.cljs" "../" "./")
 
- ("/Users/siddharthsharma/tmp/" (24290 739 388467 671000) "linkedin-scrapper/" "ablog/" "ua-parser.js" "reason/" "es.json" "zrange-test/" "chrome-headless-screenshots/" "metric-feeder/" "shaadi-relationship-test/" "GeoLite2-Country.mmdb" "q.result" "abuse.txt" "profile_completion/" "wsweb/" "q.json" "package-lock.json" "q.xls" "data.json" "q.sql" "ab_logger2/" "protest.tweet" "alpine-chrome/" "ab_logger/" "liscrapper.js" "universe.tweet" "node_modules/" "zerodha.csv" "blu.rb/" ".#foo.sql" "pup.js" "pdm-test/" "bower_components/" "ip_countries.rb" "q.rb" ".ruby-version" "snakesnladders/" ".DS_Store" "q.csv" "ipstoblock" "jd.tweet" "abl/" "chromeshot/" "abuse2.txt" "q.jq" "micro/" "_q.jq" "ablogtemp/" "../" "./")
+ ("/Users/svs/src/tmp/folders/react-file-explorer/" (25269 54537 154601 285000) "src/" ".git/" "package.json" "package-lock.json" ".gitignore" "public/" "README.md" "node_modules/" "mockup.png" "../" "./")
 
- ("/Users/siddharthsharma/src/tradefront/app/views/devise/" (24284 58524 912780 995000) "registrations/" "confirmations/" "sessions/" "shared/" "mailer/" "passwords/" "unlocks/" "../" "./")
+ ("/Users/svs/src/clojure/hello-canvaskit-cljs/public/" (25272 2225 346002 882000) "js/" "index.html" "../" "./")
 
- ("/Users/siddharthsharma/src/zerodha/zerodha_bot_sinatra/public/" (24279 7038 964583 62000) "instruments.csv" "style.css" "../" "./")
+ ("/Users/svs/src/clojure/hello-canvaskit-cljs/public/js/" (25272 2269 189404 933000) "cljs-runtime/" "canvaskit.wasm" "main.js" "manifest.edn" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

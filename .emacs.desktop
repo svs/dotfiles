@@ -1,293 +1,535 @@
-;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Wed Jul 16 13:10:05 2008
-;; Desktop file format version 206
-;; Emacs version 22.1.8
+;; Created Wed Sep 14 22:52:58 2022
+;; Desktop file format version 208
+;; Emacs version 27.1
 
 ;; Global section:
-(setq file-name-history '("~/.emacs" "~/.vm" "~/.emacs" "~/emocrat/templates/carpool/trip_detail.html" "~/emocrat/carpool/views.py" "~/ai/market.lisp" "~/ai/temp.lisp" "~/scheme.txt" "~/realitytv.txt" "~/ai/market.py" "~/ai/market.lisp" "~/elisp/asdf.lisp" "~/cl-web-crawler/web-crawler.lisp" "~/elisp/asdf.lisp" "/home/svs/ai/1.lisp" "~/elisp/" "~/ai/web.lisp" "~/elisp/asdf.lisp" "~/scheme.txt" "~/emocrat/media/emocrat.css" "~/emocrat/media/carpool.css" "~/emocrat/templates/base.html" "~/emocrat/templates/registration/login.html" "~/emocrat/media/carpool.css" "~/emocrat/carpool/functions.py" "~/emocrat/templates/rti/query_detail.html" "~/emocrat/templates/carpool/confirm_loc.html" "~/emocrat/templates/carpool/index.html" "~/" "~/emocrat/" "~/emocrat/carpool/functions.py" "~/emocrat/templates/carpool/do_trip.html" "~/emocrat/media/emocrat.css" "~/emocrat/media/carpool.css" "~/emocrat/templates/carpool/index.html" "~/emocrat/templates/carpool/trip_list.html" "~/emocrat/templates/carpool/base.html" "~/emocrat/carpool/" "~/.emacs" "~/emocrat/urls.py" "~/emocrat/templates/carpool/trip_detail.html" "~/emocrat/carpool/views.py"))
+(setq desktop-saved-frameset [frameset 1 (25378 8970 447202 0) (desktop . "208") "svs@SiddharthsMBP2" nil nil ((((minibuffer . t) (fontsize . 0) (font . "-*-Monaco-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 15) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (environment) (last-focus-update) (frameset--id . "4971-3F22-40A1-20C5") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (visibility . t) (display . "SiddharthsMBP2") (explicit-name) (tool-bar-position . top) (height . 49) (width . 193) (left . 0) (top . 31)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 80) (min-pixel-width . 90) (min-pixel-height-ignore . 40) (min-pixel-width-ignore . 45) (min-pixel-height-safe . 20) (min-pixel-width-safe . 18)) leaf (pixel-width . 1753) (pixel-height . 960) (total-width . 194) (total-height . 48) (normal-height . 1.0) (normal-width . 1.0) (buffer "holding_history.rb" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins 1) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 221) (start . 1)) (prev-buffers ("live_positions.rb" 420 1571) ("live_holdings.rb" 1 20) ("zerodha.rb" 790 1616) ("live_trades.rb" 1 74) ("user.rb" 537 838) ("database.yml" 1 1) ("holdings/index.html.slim" 1 33) ("holdings.js" 1 62) ("instruments.js" 699 2482) ("_instruments_table.html.slim" 1 1) ("holdings_controller.rb" 1 114) ("routes.rb" 1 616) ("main.ts" 2244 2961) (".bashrc" 2709 4084) ("Just Time.razor" 2286 2471) ("Pages" 1 315) ("BlazorWebAssembly" 1 374) ("samples" 1 287) ("Video" 1 650) ("config" 486 1061) ("gh.completion.sh" 1 1) ("completions" 1 1355) ("issues/show.html.slim" 739 2476) ("issue_stats_service.rb" 1 216) ("_date_progress_bar.html.slim" 1 263) ("issue_spec.rb" 1 1142) ("linear.rb" 2999 3473) ("ruby-test-mode.el" 2229 2832) ("*scratch*" 1 1) ("issue.rb" 1 237) ("factories.rb" 1 315) ("dotemacs" 2905 3540) ("table/_issue.html.slim" 680 892) ("headers/_issue.html.slim" 1 193) ("issues_controller.rb" 1 473) ("projects_controller.rb" 1 153) ("_project.html.slim" 1 166) ("application.scss" 1261 1586) ("projects/index.html.slim" 1 126) ("projects/show.html.slim" 1 480) ("_progress_table.html.slim" 225 259) ("_issue_index.html.slim" 1 298))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("inde" "setCi"))
-(setq regexp-search-ring nil)
+(setq search-ring nil)
+(setq regexp-search-ring '(#("blazo" 0 5 (isearch-case-fold-search t)) #("iv" 0 2 (isearch-case-fold-search t)) #("-b" 0 2 (isearch-case-fold-search t)) #("child_e" 0 7 (isearch-case-fold-search t)) #("all_chil" 0 8 (isearch-case-fold-search t)) #("p <" 0 3 (isearch-case-fold-search t)) #("parent" 0 6 (isearch-case-fold-search t)) #("parent_cre" 0 10 (isearch-case-fold-search t)) #("started" 0 7 (isearch-case-fold-search t)) #("ap" 0 2 (isearch-case-fold-search t)) #("test" 0 4 (isearch-case-fold-search t)) #("turb" 0 4 (isearch-case-fold-search t)) #("child_es" 0 8 (isearch-case-fold-search t)) #("tab" 0 3 (isearch-case-fold-search t)) #("last_ch" 0 7 (isearch-case-fold-search t)) #("labels" 0 6 (isearch-case-fold-search t))))
 (setq register-alist nil)
+(setq file-name-history '("/Users/svs/src/mark-up/app/models/holding_history.rb" "/Users/svs/src/mark-up/app/domain/live_positions.rb" "~/src/mark-up/app/domain/live_holdings.rb" "/Users/svs/src/mark-up/app/services/updaters/zerodha.rb" "/Users/svs/src/mark-up/app/domain/live_trades.rb" "/Users/svs/src/mark-up/config/database.yml" "~/src/mark-up/app/javascript/packs/holdings.js" "/Users/svs/src/mark-up/app/javascript/packs/instruments.js" "/Users/svs/src/mark-up/app/views/instruments/_instruments_table.html.slim" "~/src/mark-up/app/views/holdings/index.html.slim" "/Users/svs/src/mark-up/app/controllers/holdings_controller.rb" "/Users/svs/src/mark-up/config/routes.rb" "/Users/svs/src/mark-up/app/models/user.rb" "/Users/svs/src/iv/video-seek-issue/src/main.ts" "/Users/svs/.bashrc" "~/Projects/Video/" "/Users/svs/.ssh/config" "~/.oh-my-bash/completions/" "/Users/svs/.bashrc" "/Users/svs/src/iv/iv-linear/app/views/issues/show.html.slim" "/Users/svs/src/iv/iv-linear/app/services/issue_stats_service.rb" "/Users/svs/src/iv/iv-linear/spec/models/issue_spec.rb" "/Users/svs/src/iv/iv-linear/spec/factories.rb" "/Users/svs/.emacs" "/Users/svs/src/iv/iv-linear/app/models/linear.rb" "/Users/svs/src/iv/iv-linear/app/models/issue.rb" "/Users/svs/src/iv/iv-linear/app/views/headers/_project.html.slim" "/Users/svs/src/iv/iv-linear/app/views/headers/_issue.html.slim" "/Users/svs/src/iv/iv-linear/app/services/issue_stats_service.rb" "/Users/svs/src/iv/iv-linear/app/views/projects/show.html.slim" "/Users/svs/src/iv/iv-linear/app/services/issue_stats_service.rb" "~/src/iv/iv-linear/spec/controllers/issues_controller_spec.rb" "~/.emacs.d/elpa/ruby-test-mode-20210205.1107/" "/Users/svs/.emacs.d/elpa/ruby-test-mode-20210205.1107/ruby-test-mode.el" "/Users/svs/.emacs" "/Users/svs/src/iv/iv-linear/Gemfile" "/Users/svs/src/iv/iv-linear/app/javascript/packs/application.js" "/Users/svs/src/iv/iv-linear/app/services/issue_stats_service.rb" "/Users/svs/src/iv/iv-linear/app/views/teams/show.html.slim" "/Users/svs/src/iv/iv-linear/app/controllers/projects_controller.rb" "/Users/svs/src/iv/iv-linear/config/routes.rb" "/Users/svs/src/iv/iv-linear/app/controllers/teams_controller.rb" "/Users/svs/src/iv/iv-linear/app/javascript/packs/projects.js" "~/src/iv/iv-linear/app/views/people/_table.html.slim" "~/src/iv/iv-linear/app/views/people/table.html.slim" "/Users/svs/src/iv/iv-linear/app/views/projects/show.html.slim" "/Users/svs/src/iv/iv-linear/app/views/teams/show.html.slim" "/Users/svs/src/iv/iv-linear/app/services/issue_stats_service.rb" "/Users/svs/src/iv/iv-linear/app/views/issues/table/_issue.html.slim" "/Users/svs/src/iv/iv-linear/app/views/people/show.html.slim" "/Users/svs/src/iv/iv-linear/app/controllers/people_controller.rb" "/Users/svs/src/iv/iv-linear/test/test_helper.rb" "/Users/svs/src/iv/iv-linear/test/controllers/issues_controller_test.rb" "/Users/svs/src/iv/iv-linear/config/initializers/graphql_client.rb" "~/src/iv/iv-linear/lib/tasks/bootstrap.rake" "/Users/svs/src/iv/iv-linear/lib/tasks/refresh.rake" "/Users/svs/src/iv/iv-linear/spec/services/project_stats_spec.rb" "/Users/svs/src/iv/iv-linear/app/views/projects/_progress_table.html.slim" "/Users/svs/src/iv/iv-linear/app/views/projects/show.html.slim" "/Users/svs/src/iv/iv-linear/app/views/projects/index.html.slim" "~/src/iv/iv-linear/app/views/application/_dates.html.slim" "/Users/svs/src/iv/iv-linear/app/views/issues/_dates.html.slim" "/Users/svs/src/iv/iv-linear/app/views/dates/project.html.slim" "/Users/svs/src/iv/iv-linear/app/services/issue_stats_service.rb" "/Users/svs/src/iv/iv-linear/spec/views/project_cycle_spec.rb" "~/src/iv/iv-linear/spec/system/home_spec.rb" "/Users/svs/src/iv/iv-linear/spec/views/project_spec.rb" "~/src/iv/iv-linear/spec/views/headers/_project_spec.rb" "/Users/svs/src/iv/iv-linear/spec/views/headers/_project_spec.rb" "~/.emacs.d/" "/Users/svs/.emacs" "/Users/svs/src/iv/iv-linear/app/views/headers/_stats.html.slim" "~/src/iv/iv-linear/test/views/headers/" "/Users/svs/src/iv/iv-linear/spec/views/headers/_project_spec.rb" "~/src/iv/iv-linear/spec/views/headers/_project_spec.rb" "~/src/iv/iv-linear/spec/views/headers/_project.html.slim" "/Users/svs/src/iv/iv-linear/spec/views/headers/_project.html.slim" "~/src/iv/iv-linear/spec/views/headers/" "/Users/svs/src/iv/iv-linear/app/views/headers/_issue.html.slim" "/Users/svs/src/iv/iv-linear/.rspec" "/Users/svs/src/iv/iv-linear/spec/spec_helper.rb" "/Users/svs/.emacs" "/Users/svs/src/iv/iv-linear/spec/services/project_stats_spec.rb" "/Users/svs/src/iv/iv-linear/app/views/headers/_issue.html.slim" "~/src/iv/iv-linear/app/views/projects/_progress_table.html.slim" "~/src/iv/iv-linear/app/views/headers/_project.html.slim" "/Users/svs/src/iv/iv-linear/app/views/headers/_issue.html.slim" "/Users/svs/src/iv/iv-linear/app/views/headers/stats/_row.html.slim" "/Users/svs/src/iv/iv-linear/app/views/headers/_issue.html.slim" "/Users/svs/src/iv/iv-linear/app/views/headers/_stats.html.slim" "/Users/svs/src/iv/iv-linear/app/views/headers/stats/_row.html.slim" "~/src/iv/iv-linear/app/views/headers/stats/_row.html.slim" "~/src/iv/iv-linear/app/views/headers/_row.html.slim" "~/src/iv/iv-linear/app/views/headers/stats" "~/src/iv/iv-linear/app/views/headers/stats/_row.html.slim" "~/src/iv/iv-linear/app/views/headers/_row.html.slim" "/Users/svs/src/iv/iv-linear/app/views/headers/_stats.html.slim" "/Users/svs/src/iv/iv-linear/app/views/issues/stats/_issue.html.slim" "~/src/iv/iv-linear/app/views/headers/_stats.html.slim" "~/src/iv/iv-linear/app/views/headers/_issue.html.slim"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 206
-  "/home/svs/.emacs"
-  ".emacs"
-  'emacs-lisp-mode
-  nil
-  2104
-  '(2013 t)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/svs/emocrat/carpool/views.py"
-  "views.py"
-  'python-mode
-  '(abbrev-mode)
-  6872
-  '(2011 t)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/svs/emocrat/templates/carpool/trip_detail.html"
-  "trip_detail.html"
-  'html-mode
-  nil
-  1424
-  '(1469 t)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/svs/ai/market.lisp"
-  "market.lisp"
-  'lisp-mode
-  nil
-  267
-  '(166 t)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/svs/ai/temp.lisp"
-  "temp.lisp"
-  'lisp-mode
-  nil
-  375
-  '(1 t)
-  nil
-  nil
-  '((buffer-file-coding-system . mule-utf-8)))
-
-(desktop-create-buffer 206
-  "/home/svs/ai/market.py"
-  "market.py"
-  'python-mode
-  '(abbrev-mode)
-  878
-  '(799 t)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/svs/ai/1.lisp"
-  "1.lisp"
-  'lisp-mode
-  nil
-  675
+(desktop-create-buffer 208
+  "/Users/svs/src/mark-up/app/models/holding_history.rb"
+  "holding_history.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode rspec-verifiable-mode)
+  221
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix)))
+  '((indent-tabs-mode) (buffer-display-time 25368 52063 958946 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  "/home/svs/ai/web.lisp"
-  "web.lisp"
-  'lisp-mode
+(desktop-create-buffer 208
+  "/Users/svs/src/mark-up/app/domain/live_positions.rb"
+  "live_positions.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode rspec-verifiable-mode)
+  1571
+  '(1 nil)
   nil
-  225
-  '(33 t)
   nil
-  nil
-  '((buffer-file-coding-system . mule-utf-8)))
+  '((indent-tabs-mode) (buffer-display-time 25368 52062 352115 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1603 22))))
 
-(desktop-create-buffer 206
-  "/home/svs/emocrat/templates/registration/login.html"
-  "login.html"
-  'html-mode
-  nil
-  273
-  '(1 t)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/svs/emocrat/media/carpool.css"
-  "carpool.css"
-  'fundamental-mode
-  nil
-  124
-  '(8 t)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/svs/emocrat/media/emocrat.css"
-  "emocrat.css"
-  'fundamental-mode
-  nil
-  68
+(desktop-create-buffer 208
+  "/Users/svs/src/mark-up/app/domain/live_holdings.rb"
+  "live_holdings.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode rspec-verifiable-mode)
+  20
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix)))
+  '((indent-tabs-mode) (buffer-display-time 25368 51568 201647 0))
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  "/home/svs/emocrat/templates/base.html"
-  "base.html<2>"
-  'html-mode
+(desktop-create-buffer 208
+  "/Users/svs/src/mark-up/app/services/updaters/zerodha.rb"
+  "zerodha.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode rspec-verifiable-mode)
+  1616
+  '(1503 nil)
   nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25368 51546 137444 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1346))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/mark-up/app/domain/live_trades.rb"
+  "live_trades.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode rspec-verifiable-mode)
+  74
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25368 51470 999077 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/mark-up/app/models/user.rb"
+  "user.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode rspec-verifiable-mode)
+  838
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25368 50633 986351 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/mark-up/config/database.yml"
+  "database.yml"
+  'fundamental-mode
+  '(linum-mode projectile-rails-mode)
   1
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix)))
+  '((buffer-display-time 25368 50574 874997 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  "/home/svs/emocrat/carpool/functions.py"
-  "functions.py"
-  'python-mode
-  '(abbrev-mode)
-  4526
+(desktop-create-buffer 208
+  "/Users/svs/src/mark-up/app/views/holdings/index.html.slim"
+  "index.html.slim"
+  'slim-mode
+  '(linum-mode projectile-rails-mode)
+  33
+  '(34 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25368 23392 783371 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (34 1 288))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/mark-up/app/javascript/packs/holdings.js"
+  "holdings.js"
+  'js-mode
+  '(linum-mode projectile-rails-mode)
+  62
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 25368 20773 935164 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/mark-up/app/javascript/packs/instruments.js"
+  "instruments.js"
+  'js-mode
+  '(linum-mode projectile-rails-mode)
+  2482
+  '(2441 nil)
+  nil
+  nil
+  '((buffer-display-time 25368 20637 289016 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1 2441))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/mark-up/app/views/instruments/_instruments_table.html.slim"
+  "_instruments_table.html.slim"
+  'slim-mode
+  '(linum-mode projectile-rails-mode)
+  1
   '(nil nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+  '((indent-tabs-mode) (buffer-display-time 25368 20577 852207 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  "/home/svs/emocrat/templates/rti/query_detail.html"
-  "query_detail.html"
-  'html-mode
-  nil
-  3222
-  '(3141 t)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/svs/emocrat/templates/carpool/confirm_loc.html"
-  "confirm_loc.html"
-  'html-mode
-  nil
-  439
-  '(385 t)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/svs/emocrat/templates/carpool/index.html"
-  "index.html"
-  'html-mode
-  nil
-  275
+(desktop-create-buffer 208
+  "/Users/svs/src/mark-up/app/controllers/holdings_controller.rb"
+  "holdings_controller.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode rspec-verifiable-mode)
+  114
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix)))
+  '((indent-tabs-mode) (buffer-display-time 25368 20288 805861 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  "/home/svs/emocrat/templates/carpool/do_trip.html"
-  "do_trip.html"
-  'html-mode
-  nil
-  173
-  '(77 t)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/svs/emocrat/templates/carpool/base.html"
-  "base.html"
-  'html-mode
-  nil
-  747
-  '(292 t)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode)))
-
-(desktop-create-buffer 206
-  "/home/svs/emocrat/templates/carpool/trip_list.html"
-  "trip_list.html"
-  'html-mode
-  nil
-  248
-  '(248 t)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/svs/emocrat/urls.py"
-  "urls.py"
-  'python-mode
-  '(abbrev-mode)
-  1324
-  '(1277 t)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/svs/emocrat/base/views.py"
-  "views.py<2>"
-  'python-mode
-  '(abbrev-mode)
-  3898
-  '(3948 t)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/svs/emocrat/media/map/frontend.js"
-  "frontend.js"
-  'java-mode
-  '(abbrev-mode)
-  37038
-  '(1 t)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-dos) (overwrite-mode)))
-
-(desktop-create-buffer 206
-  "/home/svs/emocrat/templates/carpool/carpool_map.html"
-  "carpool_map.html"
-  'html-mode
-  nil
-  10908
-  '(2033 t)
-  nil
-  nil
-  '((buffer-file-coding-system . mule-utf-8-dos)))
-
-(desktop-create-buffer 206
-  "/usr/lib/python2.5/site-packages/django/core/handlers/base.py"
-  "base.py"
-  'python-mode
-  '(abbrev-mode)
-  4031
+(desktop-create-buffer 208
+  "/Users/svs/src/mark-up/config/routes.rb"
+  "routes.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode rspec-verifiable-mode)
+  616
   '(nil nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+  '((indent-tabs-mode) (buffer-display-time 25368 20263 917052 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  "/home/svs/emocrat/media/rti.js"
-  "rti.js"
-  'java-mode
-  '(abbrev-mode)
-  1463
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/video-seek-issue/src/main.ts"
+  "main.ts"
+  'typescript-mode
+  '(linum-mode)
+  2961
+  '(2173 nil)
+  nil
+  nil
+  '((buffer-display-time 25368 20157 767006 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1717 1964 1715 2061 2961 2983))))
+
+(desktop-create-buffer 208
+  "/Users/svs/.bashrc"
+  ".bashrc"
+  'sh-mode
+  '(linum-mode)
+  4084
+  '(4063 nil)
+  nil
+  nil
+  '((buffer-display-time 25357 43503 21216 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2417))))
+
+(desktop-create-buffer 208
+  "/Users/svs/Projects/Video/samples/BlazorWebAssembly/Pages/Just Time.razor"
+  "Just Time.razor"
+  'fundamental-mode
+  '(linum-mode)
+  2471
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix)))
+  '((buffer-display-time 25357 43345 873118 0) (buffer-file-coding-system . utf-8-with-signature-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "Pages"
+  'dired-mode
+  '(linum-mode)
+  315
+  '(nil nil)
+  t
+  '("/Users/svs/Projects/Video/samples/BlazorWebAssembly/Pages/")
+  '((buffer-display-time 25356 22498 674894 132000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "BlazorWebAssembly"
+  'dired-mode
+  '(linum-mode)
+  374
+  '(nil nil)
+  t
+  '("/Users/svs/Projects/Video/samples/BlazorWebAssembly/")
+  '((buffer-display-time 25356 22478 52504 132000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "samples"
+  'dired-mode
+  '(linum-mode)
+  287
+  '(nil nil)
+  t
+  '("/Users/svs/Projects/Video/samples/")
+  '((buffer-display-time 25356 22476 373785 132000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "Video"
+  'dired-mode
+  '(linum-mode)
+  650
+  '(nil nil)
+  t
+  '("/Users/svs/Projects/Video/")
+  '((buffer-display-time 25356 22473 404071 132000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/svs/.ssh/config"
+  "config"
+  'conf-space-mode
+  '(linum-mode)
+  1061
+  '(46 nil)
+  nil
+  nil
+  '((buffer-display-time 25356 22472 878403 132000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/svs/.oh-my-bash/completions/gh.completion.sh"
+  "gh.completion.sh"
+  'sh-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25355 7827 660969 67000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "completions"
+  'dired-mode
+  '(linum-mode)
+  1355
+  '(nil nil)
+  t
+  '("/Users/svs/.oh-my-bash/completions/")
+  '((buffer-display-time 25355 7261 879206 67000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/views/issues/show.html.slim"
+  "show.html.slim"
+  'slim-mode
+  '(linum-mode projectile-rails-mode auto-revert-mode)
+  2476
+  '(2476 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25355 7138 31426 67000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1716))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/services/issue_stats_service.rb"
+  "issue_stats_service.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode auto-revert-mode rspec-verifiable-mode)
+  216
+  '(3219 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25354 2998 839185 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1454))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/views/application/_date_progress_bar.html.slim"
+  "_date_progress_bar.html.slim"
+  'slim-mode
+  '(linum-mode projectile-rails-mode auto-revert-mode)
+  263
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25354 2956 961103 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/spec/models/issue_spec.rb"
+  "issue_spec.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode auto-revert-mode rspec-mode)
+  1142
+  '(1402 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25354 2932 376949 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (24 1494 1402))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/models/linear.rb"
+  "linear.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode auto-revert-mode rspec-verifiable-mode)
+  3473
+  '(4044 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25346 45167 492902 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (3784 4044 4033 4044 4044 3517 721))))
+
+(desktop-create-buffer 208
+  "/Users/svs/.emacs.d/elpa/ruby-test-mode-20210205.1107/ruby-test-mode.el"
+  "ruby-test-mode.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode)
+  2832
+  '(2809 nil)
+  nil
+  nil
+  '((buffer-display-time 25346 45110 300710 281000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (1 4199 13298 9021 9298))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/models/issue.rb"
+  "issue.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode auto-revert-mode rspec-verifiable-mode)
+  237
+  '(1396 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25346 44716 476740 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1396 788 1396))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/spec/factories.rb"
+  "factories.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode auto-revert-mode rspec-verifiable-mode)
+  315
+  '(315 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25346 42016 375533 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (315))))
+
+(desktop-create-buffer 208
+  "/Users/svs/.emacs.d/dotemacs"
+  "dotemacs"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode auto-revert-mode)
+  3540
+  '(3540 t)
+  nil
+  nil
+  '((buffer-display-time 25346 16924 581958 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (471 1 2635 2386 3488 3283 1754 2716))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/views/issues/table/_issue.html.slim"
+  "_issue.html.slim"
+  'slim-mode
+  '(linum-mode projectile-rails-mode auto-revert-mode)
+  892
+  '(914 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25346 16570 374509 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/views/headers/_issue.html.slim"
+  "_issue.html.slim"
+  'slim-mode
+  '(linum-mode projectile-rails-mode auto-revert-mode)
+  368
+  '(193 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25346 16466 223195 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/controllers/issues_controller.rb"
+  "issues_controller.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode auto-revert-mode rspec-verifiable-mode)
+  473
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25346 14166 361227 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/controllers/projects_controller.rb"
+  "projects_controller.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode auto-revert-mode rspec-verifiable-mode)
+  158
+  '(149 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25346 14157 277294 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (63 153))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/views/headers/_project.html.slim"
+  "_project.html.slim"
+  'slim-mode
+  '(linum-mode projectile-rails-mode auto-revert-mode)
+  488
+  '(166 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25346 14126 619618 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/assets/stylesheets/application.scss"
+  "application.scss"
+  'scss-mode
+  '(linum-mode projectile-rails-mode auto-revert-mode)
+  1588
+  '(1586 nil)
+  nil
+  nil
+  '((buffer-display-time 25346 13958 666369 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/views/projects/index.html.slim"
+  "index.html.slim"
+  'slim-mode
+  '(linum-mode projectile-rails-mode auto-revert-mode)
+  415
+  '(126 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25346 13029 265143 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (126 126 126 126))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/views/projects/show.html.slim"
+  "show.html.slim"
+  'slim-mode
+  '(linum-mode projectile-rails-mode auto-revert-mode)
+  480
+  '(355 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25346 12758 175263 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (741 162 85))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/views/projects/_progress_table.html.slim"
+  "_progress_table.html.slim"
+  'slim-mode
+  '(linum-mode projectile-rails-mode auto-revert-mode)
+  259
+  '(671 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25346 12647 210735 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (446 259))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/app/views/issues/_issue_index.html.slim"
+  "_issue_index.html.slim"
+  'slim-mode
+  '(linum-mode projectile-rails-mode auto-revert-mode)
+  298
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25346 11114 762351 281000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/iv/iv-linear/spec/controllers/issues_controller_spec.rb"
+  "issues_controller_spec.rb"
+  'ruby-mode
+  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode rspec-mode)
+  704
+  '(595 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25357 43343 489945 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (548 37 279 719 279 279 399 307 279))))
 

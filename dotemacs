@@ -8,20 +8,28 @@
                      ruby-electric
                      rbenv
                      seeing-is-believing
-                     ;inf-ruby
+                     enh-ruby-mode
                      ruby-test-mode
                      ido
                      projectile-rails
                      rspec-mode
                      multiple-cursors
+                     slim-mode
                      fsharp-mode
-                     eglot-fsharp))
-; list the repositories containing them
+                     eglot-fsharp
+                     dash
+                     s
+                     editorconfig
+                     exec-path-from-shell))
+; List the repositories containing them
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                          ("melpa" . "https://melpa.org/packages/")))
 
 ; activate all the packages (in particular autoloads)
 (package-initialize)
+
+(when (memq window-system '(mac ns x))
+  (exec-path-from-shell-initialize))
 
 ; fetch the list of packages available
 (unless package-archive-contents
@@ -33,10 +41,13 @@
     (package-install package)))
 
 (require 'better-defaults)
+(autoload 'enh-ruby-mode "enh-ruby-mode" "Major mode for ruby files" t)
+(add-to-list 'auto-mode-alist '("\\.rb\\'" . enh-ruby-mode))
+(add-to-list 'interpreter-mode-alist '("ruby" . enh-ruby-mode))
 
 (setq inhibit-splash-screen t
       initial-scratch-message nil
-      initial-major-mode 'ruby-mode)
+      initial-major-mode 'enh-ruby-mode)
 
 
 ;....
@@ -65,12 +76,14 @@
 (global-set-key (kbd "M-x") #'helm-M-x)
 (global-set-key (kbd "s-f") #'helm-projectile-ag)
 (global-set-key (kbd "s-t") #'ruby-test-run-at-point)
+(global-set-key (kbd "s-r") #'ruby-test-rerun)
+;(global-set-key (esc-map ">") #'end-of-buffer)
 
 ;(add-hook 'ruby-mode-hook 'ruby-electric-mode)
 (add-to-list 'auto-mode-alist
-             '("\\.\\(?:cap\\|gemspec\\|irbrc\\|gemrc\\|rake\\|rb\\|ru\\|thor\\)\\'" . ruby-mode))
+             '("\\.\\(?:cap\\|gemspec\\|irbrc\\|gemrc\\|rake\\|rb\\|ru\\|thor\\)\\'" . enh-ruby-mode))
 (add-to-list 'auto-mode-alist
-             '("\\(?:Brewfile\\|Capfile\\|Gemfile\\(?:\\.[a-zA-Z0-9._-]+\\)?\\|[rR]akefile\\)\\'" . ruby-mode))
+             '("\\(?:Brewfile\\|Capfile\\|Gemfile\\(?:\\.[a-zA-Z0-9._-]+\\)?\\|[rR]akefile\\)\\'" . enh-ruby-mode))
 
 (global-rbenv-mode)
 (rbenv-use-global)
@@ -108,6 +121,7 @@
 (global-set-key (kbd "M-x") #'helm-M-x)
 (global-set-key (kbd "s-f") #'helm-projectile-ag)
 (global-set-key (kbd "s-p") #'ruby-test-toggle-implementation-and-specification)
+(global-set-key (kbd "M-RET") #'copilot-accept-completion)
 
 (setq helm-locate-command
       "glocate %s %s"
@@ -118,7 +132,8 @@
       (list "/Users/svs/.emacs.d/"))
 
 (setq ruby-test-default-library
-      "test")      
+      "rspec")      
 
-(require 'fsharp-mode)
-(require 'eglot-fsharp)
+
+(add-to-list 'load-path "/USers/svs/.emacs.d/copilot.el")
+(require 'copilot)

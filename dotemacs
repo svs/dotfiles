@@ -20,7 +20,11 @@
                      dash
                      s
                      editorconfig
-                     exec-path-from-shell))
+                     exec-path-from-shell
+                     flycheck
+                     web-mode
+                     typescript-mode
+                     ))
 ; List the repositories containing them
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                          ("melpa" . "https://melpa.org/packages/")))
@@ -44,6 +48,9 @@
 (autoload 'enh-ruby-mode "enh-ruby-mode" "Major mode for ruby files" t)
 (add-to-list 'auto-mode-alist '("\\.rb\\'" . enh-ruby-mode))
 (add-to-list 'interpreter-mode-alist '("ruby" . enh-ruby-mode))
+
+
+(add-to-list 'auto-mode-alist '("\\.ts\\'" . typescript-mode))
 
 (setq inhibit-splash-screen t
       initial-scratch-message nil
@@ -108,7 +115,8 @@
 
 (require 'ido)
 (ido-mode t)
-
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
 (setq explicit-shell-file-name "/bin/bash")
 (setq shell-file-name "bash")
 (setq explicit-zsh-args '("--login" "--interactive"))
@@ -122,6 +130,7 @@
 (global-set-key (kbd "s-f") #'helm-projectile-ag)
 (global-set-key (kbd "s-p") #'ruby-test-toggle-implementation-and-specification)
 (global-set-key (kbd "M-RET") #'copilot-accept-completion)
+(global-set-key (kbd "M-l") #'copilot-accept-completion-by-line)
 
 (setq helm-locate-command
       "glocate %s %s"
@@ -137,3 +146,24 @@
 
 (add-to-list 'load-path "/USers/svs/.emacs.d/copilot.el")
 (require 'copilot)
+
+(add-to-list 'ruby-test-implementation-filename-mapping
+             `(,(pcre-to-elisp "(.*)/spec/requests/(.*)_spec\\.rb$") "\\1/app/controllers/\\2_controller.rb"))
+(add-to-list 'ruby-test-implementation-filename-mapping
+             `(,(pcre-to-elisp "(.*)/spec/requests/(.*)_spec\\.rb$") "\\1/app/controllers/\\2.rb"))
+
+(add-to-list 'ruby-test-specification-filename-mapping
+             `(,(pcre-to-elisp "(.*)/app/controllers/(.*)_controller\\.rb$") "\\1/spec/controllers/\\2_controller_spec.rb"))
+
+(add-to-list 'ruby-test-specification-filename-mapping
+             `(,(pcre-to-elisp "(.*)/app/controllers/(.*)_controller\\.rb$") "\\1/spec/controllers/\\2_spec.rb"))
+
+
+
+(add-to-list 'ruby-test-implementation-filename-mapping
+             `(,(pcre-to-elisp "(.*)/spec/policies/(.*)_spec\\.rb$") "\\1/app/policies/\\2.rb"))
+(add-to-list 'ruby-test-specification-filename-mapping
+             `(,(pcre-to-elisp "(.*)/app/policies/(.*)\\.rb$") "\\1/spec/policies/\\2_spec.rb"))
+(setq ruby-test-rspec-options "")
+
+(delete-selection-mode 1)

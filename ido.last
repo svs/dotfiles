@@ -2,15 +2,52 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/svs/src/jekyll/svs.io/assets/" . "css/")
+ ("/Users/svs/src/rails-ats/app/models/" . "admin/")
+ ("/Users/svs/src/rails-ats/app/controllers/" . "admin/")
+ ("/Users/svs/src/rails-ats/db/" . "migrate/")
+ ("/Users/svs/src/rails-ats/app/javascript/" . "controllers/")
+ ("/Users/svs/src/rails-ats/config/" . "initializers/")
+ ("/Users/svs/src/rails-ats/app/assets/" . "config/")
+ ("/Users/svs/src/rails-ats/app/views/" . "admin_mailer/")
+ ("/Users/svs/src/rails-ats/spec/" . "controllers/")
+ ("/Users/svs/src/rails-ats/test/" . "controllers/")
+ ("/Users/svs/src/tmp/stimulus-demo/app/assets/" . "stylesheets/")
+ ("/Users/svs/src/tmp/stimulus-demo/app/javascript/" . "controllers/")
+ ("/Users/svs/src/tmp/stimulus-demo/app/views/" . "metrics/")
+ ("/Users/svs/src/tmp/stimulus-demo/app/" . "assets/")
+ ("/Users/svs/src/tmp/stimulus-demo/" . "app/")
+ ("/Users/svs/src/rails-ats/app/" . "controllers/")
+ ("/Users/svs/src/rails-ats/" . "spec/")
+ ("/Users/svs/src/jekyll/wrok.in/_site/" . "assets/")
+ ("/Users/svs/src/jekyll/wrok.in/" . "_site/")
+ ("/Users/svs/.rbenv/versions/3.1.3/lib/ruby/gems/3.1.0/gems/temple-0.10.2/lib/temple/" . "mixins/")
+ ("/Users/svs/.rbenv/versions/3.1.3/lib/ruby/gems/3.1.0/gems/temple-0.10.2/lib/" . "temple/")
+ ("/Users/svs/src/slim-components/spec/slim/" . "components/")
+ ("/Users/svs/src/slim-components/lib/" . "slim/")
+ ("/Users/svs/src/slim-components/lib/slim/" . "components/")
+ ("/Users/svs/src/slim-components/spec/" . "fixtures/")
+ ("/Users/svs/src/slim-components/" . "spec/")
+ ("/Users/svs/.rbenv/versions/3.1.3/lib/ruby/gems/3.1.0/gems/slim-rails-3.6.2/" . "lib/")
+ ("/Users/svs/.rbenv/versions/3.1.3/lib/ruby/gems/3.1.0/gems/" . "slim-5.1.1/")
+ ("/Users/svs/src/essayr/node_modules/@rangy/highlighter/" . "src/")
+ ("/Users/svs/src/essayr/node_modules/@rangy/" . "highlighter/")
+ ("/Users/svs/src/essayr/node_modules/@recogito/recogito-js/" . "dist/")
+ ("/Users/svs/src/essayr/node_modules/@recogito/" . "recogito-js/")
+ ("/Users/svs/src/essayr/node_modules/" . "lit-html/")
+ ("/Users/svs/src/essayr/app/views/devise/" . "shared/")
+ ("/Users/svs/src/advaita-backend/app/javascript/" . "controllers/")
+ ("/Users/svs/src/advaita-backend/app/assets/" . "stylesheets/")
+ ("/Users/svs/src/essayr/spec/services/" . "article_email/")
  ("/Users/svs/src/essayr/app/controllers/" . "concerns/")
- ("/Users/svs/src/advaita-backend/app/views/" . "documents/")
- ("/Users/svs/src/advaita-backend/app/" . "controllers/")
+ ("/Users/svs/src/advaita-backend/app/views/" . "commits/")
+ ("/Users/svs/src/advaita-backend/app/" . "models/")
  ("/Users/svs/src/advaita-backend/config/" . "initializers/")
  ("/Users/svs/src/git/" . "9c0acc11-9249-47e0-81bf-2b4733a0cb50/")
  ("/Users/svs/src/advaita-backend/db/" . "migrate/")
  ("/Users/svs/src/advaita-backend/spec/" . "requests/")
- ("/Users/svs/src/advaita-backend/" . "app/")
- ("/Users/svs/src/essayr/app/services/" . "stripe/")
+ ("/Users/svs/src/advaita-backend/" . "config/")
+ ("/Users/svs/src/essayr/app/services/" . "article_email/")
  ("/Users/svs/src/cosmo2/app/views/samples/" . "sample_card/")
  ("/Users/svs/src/essayr/public/" . "css/")
  ("/Users/svs/src/openresty/jekyll-pw/" . "conf/")
@@ -29,7 +66,7 @@
  ("/opt/homebrew/" . "etc/")
  ("/opt/" . "homebrew/")
  ("/Users/svs/src/jekyll/now.here.this/assets/" . "css/")
- ("/Users/svs/src/jekyll/svs.io/" . "_sass/")
+ ("/Users/svs/src/jekyll/svs.io/" . "assets/")
  ("/Users/svs/src/jekyll/mundana-theme-jekyll/" . "_mundana_posts/")
  ("/Users/svs/src/jekyll/no-style-please/assets/" . "css/")
  ("/Users/svs/src/jekyll/now.here.this/_includes/" . "about.html/")
@@ -39,32 +76,32 @@
  ("/Users/svs/src/jekyll/now.here.this/" . "_posts/")
  ("/Users/svs/src/jekyll/meranda/" . "_posts/")
  ("/Users/svs/src/jekyll/tufte-jekyll/" . "_data/")
- ("/Users/svs/src/jekyll/" . "now.here.this/")
+ ("/Users/svs/src/jekyll/" . "svs.io/")
  ("/Users/svs/src/engorg/" . "_posts/")
  ("/Users/svs/src/cosmo2/config/" . "initializers/")
  ("/Users/svs/src/cosmo2/app/assets/stylesheets/" . "custom/")
  ("/Users/svs/src/cosmo2/app/assets/" . "stylesheets/")
  ("/Users/svs/src/cosmo2/app/javascript/" . "controllers/")
  ("/Users/svs/src/cosmo2/app/views/calls/" . "seller/")
- ("/Users/svs/src/essayr/app/lib/" . "importers/")
- ("/Users/svs/src/essayr/lib/" . "importers/")
+ ("/Users/svs/src/essayr/app/lib/" . "slim/")
+ ("/Users/svs/src/essayr/lib/" . "slim/")
  ("/Users/svs/src/essayr-old/app/views/" . "layouts/")
  ("/Users/svs/src/essayr-old/app/" . "views/")
  ("/Users/svs/src/essayr-old/" . "app/")
  ("/Users/svs/src/essayr/app/javascript/" . "controllers/")
  ("/Users/svs/src/essayr/app/assets/" . "stylesheets/")
- ("/Users/svs/src/essayr/config/" . "environments/")
+ ("/Users/svs/src/essayr/config/" . "initializers/")
  ("/Users/svs/src/essayr/db/" . "migrate/")
- ("/Users/svs/src/essayr/app/views/" . "posts/")
- ("/Users/svs/src/essayr/app/" . "services/")
- ("/Users/svs/src/essayr/spec/" . "services/")
- ("/Users/svs/src/essayr/" . "spec/")
+ ("/Users/svs/src/essayr/app/views/" . "application/")
+ ("/Users/svs/src/essayr/app/" . "views/")
+ ("/Users/svs/src/essayr/spec/" . "factories/")
+ ("/Users/svs/src/essayr/" . "app/")
  ("/Users/svs/src/cosmo2/spec/" . "models/")
- ("/Users/svs/src/cosmo2/app/views/" . "samples/")
- ("/Users/svs/src/cosmo2/app/" . "views/")
+ ("/Users/svs/src/cosmo2/app/views/" . "calls/")
+ ("/Users/svs/src/cosmo2/app/" . "javascript/")
  ("/Users/svs/src/cosmo2/" . "app/")
  ("/Users/svs/src/engineeringorg.com/public/" . "tufte-css/")
- ("/Users/svs/Downloads/" . "meranda/")
+ ("/Users/svs/Downloads/" . "Stack/")
  ("/Users/svs/src/engineeringorg.com/app/javascript/" . "controllers/")
  ("/Users/svs/src/engineeringorg.com/config/initializers/" . "themes/")
  ("/Users/svs/src/engineeringorg.com/config/" . "initializers/")
@@ -122,7 +159,7 @@
  ("/Users/svs/src/mark-up/" . "app/")
  ("/Users/svs/src/clojure/hello-canvaskit-cljs/public/" . "js/")
  ("/Users/svs/src/tmp/folders/" . "react-file-explorer/")
- ("/Users/svs/src/tmp/" . "folders/")
+ ("/Users/svs/src/tmp/" . "pdf-extract/")
  ("/Users/svs/src/clojure/hello-canvaskit-cljs/src/" . "hello_canvaskit/")
  ("/Users/svs/src/clojure/hello-canvaskit-cljs/" . "src/")
  ("/Users/svs/src/clojure/acme-app/" . "public/")
@@ -210,7 +247,7 @@
  ("/Users/svs/src/iv-league/" . "config/")
  ("/Users/svs/src/tradefront/config/" . "initializers/")
  ("/Users/svs/src/tradefront/" . "app/")
- ("/Users/svs/src/" . "essayr/")
+ ("/Users/svs/src/" . "jekyll/")
  ("/Users/svs/" . ".emacs.d/")
  ("/Users/" . "svs/")
  ("/" . "Users/")
@@ -219,272 +256,272 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/svs/"
- "/Users/svs/src/essayr/spec/services/"
- "/Users/svs/src/essayr/app/services/"
- "/Users/svs/src/essayr/app/controllers/"
- "/Users/svs/src/essayr/app/mailers/"
- "/Users/svs/src/essayr/spec/factories/"
- "/Users/svs/src/essayr/app/views/posts/"
- "/Users/svs/src/essayr/app/models/"
- "/Users/svs/src/essayr/app/views/post_emails/"
- "/Users/svs/src/essayr/config/environments/"
- "/Users/svs/src/essayr/app/views/layouts/"
- "/Users/svs/src/essayr/app/views/orders/"
- "/Users/svs/src/essayr/app/policies/"
- "/Users/svs/src/essayr/app/helpers/"
- "/Users/svs/src/essayr/spec/features/"
- "/Users/svs/src/essayr/app/views/application/"
- "/Users/svs/src/essayr/config/"
- "/Users/svs/src/essayr/spec/controllers/"
- "/Users/svs/src/essayr/lib/"
- "/Users/svs/src/essayr/app/javascript/controllers/"
- "/Users/svs/src/essayr/app/views/mailing_lists/"
- "/Users/svs/src/essayr/spec/policies/"
- "/Users/svs/src/essayr/app/javascript/"
- "/Users/svs/src/essayr/"
- "/Users/svs/src/essayr/spec/models/"
- "/Users/svs/src/essayr/app/views/home/"
- "/Users/svs/src/essayr/app/views/publication_mailer/"
- "/Users/svs/src/essayr/app/views/publications/"
- "/Users/svs/src/essayr/db/migrate/"
- "/Users/svs/src/essayr/public/"
- "/Users/svs/src/essayr/app/views/purchases/"
- "/Users/svs/src/essayr/app/assets/stylesheets/"
- "/Users/svs/src/advaita-backend/app/controllers/"
- "/Users/svs/src/advaita-backend/spec/requests/"
- "/Users/svs/src/essayr/app/views/user_mailer/"
- "/Users/svs/src/essayr/app/views/pages/"
- "/Users/svs/src/tmp/"
- "/Users/svs/src/essayr/config/initializers/"
- "/Users/svs/src/essayr/spec/requests/"
- "/Users/svs/src/advaita-backend/config/initializers/"
- "/Users/svs/src/advaita-backend/spec/"
- "/Users/svs/src/advaita-backend/config/environments/"
- "/Users/svs/src/advaita-backend/spec/models/"
- "/Users/svs/src/advaita-backend/app/models/"
- "/Users/svs/src/advaita-backend/app/policies/"
- "/Users/svs/src/advaita-backend/"
+ "/Users/svs/src/rails-ats/app/controllers/"
+ "/Users/svs/src/rails-ats/spec/controller/"
+ "/Users/svs/src/rails-ats/spec/requests/"
+ "/Users/svs/src/rails-ats/app/mailers/"
+ "/Users/svs/src/rails-ats/app/views/jobs/"
+ "/Users/svs/src/rails-ats/app/views/companies/"
+ "/Users/svs/src/rails-ats/app/policies/"
+ "/Users/svs/src/rails-ats/app/services/"
+ "/Users/svs/src/rails-ats/db/migrate/"
+ "/Users/svs/src/rails-ats/app/views/layouts/"
+ "/Users/svs/src/rails-ats/app/views/candidates/"
+ "/Users/svs/src/jekyll/svs.io/_layouts/"
+ "/Users/svs/src/jekyll/svs.io/assets/css/"
+ "/Users/svs/src/jekyll/svs.io/"
+ "/Users/svs/src/rails-ats/app/dashboards/"
+ "/Users/svs/src/rails-ats/app/controllers/admin/"
+ "/Users/svs/src/rails-ats/"
+ "/Users/svs/src/rails-ats/config/"
+ "/Users/svs/src/rails-ats/app/views/application/"
+ "/Users/svs/src/rails-ats/spec/features/"
+ "/Users/svs/src/rails-ats/app/jobs/"
+ "/Users/svs/src/rails-ats/app/sidekiq/"
+ "/Users/svs/src/rails-ats/spec/"
+ "/Users/svs/src/rails-ats/app/models/"
+ "/Users/svs/src/rails-ats/app/views/job_applications/"
  "/Users/svs/.emacs.d/elpa/ruby-test-mode-20210205.1107/"
- "/Users/svs/src/advaita-backend/db/"
- "/Users/svs/src/advaita-backend/config/"
- "/Users/svs/src/advaita-backend/config/deploy/"
+ "/Users/svs/src/rails-ats/spec/policies/"
+ "/Users/svs/src/rails-ats/app/views/notes/"
+ "/Users/svs/src/rails-ats/app/javascript/"
+ "/Users/svs/src/rails-ats/app/assets/config/"
+ "/Users/svs/src/rails-ats/app/assets/stylesheets/"
+ "/Users/svs/src/rails-ats/app/views/dashboard/"
+ "/Users/svs/src/rails-ats/config/environments/"
+ "/Users/svs/src/rails-ats/app/controllers/users/"
+ "/Users/svs/src/rails-ats/config/initializers/"
+ "/Users/svs/src/rails-ats/app/views/user_mailer/"
+ "/Users/svs/.ssh/"
+ "/Users/svs/src/jekyll/now.here.this/_posts/"
+ "/Users/svs/src/essayr/app/views/application/"
+ "/Users/svs/src/essayr/app/views/layouts/"
+ "/Users/svs/src/essayr/spec/factories/"
+ "/Users/svs/src/rails-ats/spec/services/"
+ "/Users/svs/src/essayr/"
+ "/Users/svs/src/tmp/pdf-extract/"
+ "/Users/svs/src/rails-ats/app/javascript/controllers/"
+ "/Users/svs/src/rails-ats/spec/system/"
+ "/Users/svs/src/wrok.ae/_includes/"
+ "/Users/svs/src/wrok.ae/"
+ "/Users/svs/src/wrok.ae/assets/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  ".emacs"
- "post_html_service_spec.rb"
- "post_html_service.rb"
- "post_render_service.rb"
- "article_email_service.rb"
- "post_emails_controller.rb"
- "publication_mailer.rb"
- "post_mailer.rb"
- "post_render_service_spec.rb"
- "posts.rb"
+ "jobs_controller.rb"
+ "job_applications_spec.rb"
+ "jobs_spec.rb"
+ "notes_spec.rb"
+ "companies_spec.rb"
+ "job_applications_controller.rb"
+ "admin_mailer.rb"
+ "show.html.slim"
+ "_staff_jobs_table.html.slim"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/svs/" (25724 4505 907657 274000) "src/" "whisper/" ".zsh_sessions/" ".viminfo" ".bash_history" ".gitconfig" ".cache/" "Downloads/" ".oh-my-zsh/" ".vscode/" "Documents/" ".npm/" ".keras/" ".Trash/" "Dropbox/" "Applications/" ".emacs" "Movies/" ".ssh/" ".webdrivers/" ".diffusionbee/" "package.json" "package-lock.json" ".dropbox/" "Public/" ".zcompdump-Siddharth’s MacBook Pro-5.8.1" ".node_repl_history" ".emacs.d/" ".lesshst" "Library/" "Desktop/" ".zsh_history" ".asdf/" "Local Sites/" ".bundle/" ".tool-versions" "node_modules/" ".zprofile" "Pictures/" "runner@api.advaita.co" ".psql_history" ".local/" ".zshrc" ".bashrc" ".luaver/" ".netrc" ".rbenv/" ".CFUserTextEncoding" ".yarnrc" "dotfiles/" ".DS_Store" "advaita" ".fly/" "Music/" ".config/" ".irb_history" "../" "./")
+ ("/Users/svs/src/rails-ats/spec/controllers/" (25899 29150 861134 459000) "webhooks_controller_spec.rb" "job_applications_spec.rb" "candidates_controller_spec.rb" "companies_controller_spec.rb" "../" "./")
 
- ("/Users/svs/.emacs.d/" (25724 4547 295624 656000) "html-helper-mode/" "screen-lines.el" "dotemacs" "backups/" "textmate.el" "enotify-tdd.el" ".git/" "dotbashrc" "elpa/" "html-helper-mode.tar.gz" "session.10c0a7931f73b9ae61151195681427050600000059780066" ".emacs" "history" "network-security.data" "desktop.el" "markdown-mode.el" ".gitignore" "popup.elc" ".emacs.desktop.lock" "haml-mode.el" "dbgp.elc" ".emacs.d" "init.el" "url/" ".emacs.desktop" "auto-save-list/" ".gitmodules" "html-font.el" "enotify.el" "custom.el" "session.10856e7cb81747dce7150736607943929400000092710074" "transient/" "tramp" "projectile-bookmarks.eld" "places" "fuzzy.el" "lsp-crystal.el/" ".stfolder" "session.1010546387fa42e39b150753257433801000000154020077" "egg/" "ac-dict/" "DcomboBox.js" "ido.last" "copilot.el/" "fuzzy.elc" "../" "./")
+ ("/Users/svs/src/rails-ats/spec/requests/" (25899 29383 719105 646000) "job_applications_spec.rb" "webhooks_spec.rb" "users_spec.rb" "admin/" "candidates_spec.rb" "../" "./")
 
- ("/Users/svs/src/essayr/app/services/" (25724 4365 185574 371000) "#post_search_service.rb#" "stripe/" "email_template_render_service.rb" "create_user_subscription_service.rb" "#page_renderer_service.rb#" "page_renderer_service.rb" "post_service.rb" "post_html_service.rb" "post_search_service.rb" "ghost_importer_service.rb" "article_email_service.rb" "heroku/" "post_render_service.rb" "#posts_service.rb#" "../" "./")
+ ("/Users/svs/src/rails-ats/spec/" (25899 31560 380955 149000) "services/" "helpers/" "rails_helper.rb" "views/" "controllers/" "jobs/" "routing/" "fixtures/" "support/" "factories.rb" "system/" "requests/" "policies/" "models/" "features/" "mailers/" "sidekiq/" ".DS_Store" "spec_helper.rb" "../" "./")
 
- ("/Users/svs/src/essayr/spec/services/" (25723 20556 779551 404000) "stripe/" "post_render_service_spec.rb" "article_email_service_spec.rb" "post_html_service_spec.rb" "ghost_importer_service_spec.rb" "create_user_subscription_service_spec.rb" "../" "./")
+ ("/Users/svs/" (25899 31560 374158 940000) "src/" "whisper/" ".zsh_sessions/" ".viminfo" ".bash_history" ".gitconfig" ".cache/" "Downloads/" ".rediscli_history" ".oh-my-zsh/" ".vscode/" "Documents/" ".npm/" ".keras/" ".Trash/" "Dropbox/" "Applications/" ".emacs" "Movies/" ".ssh/" ".webdrivers/" ".diffusionbee/" "package.json" "package-lock.json" ".dropbox/" "Public/" "yarn.lock" ".zcompdump-Siddharth’s MacBook Pro-5.8.1" "Google Drive/" ".node_repl_history" ".emacs.d/" ".lesshst" "Library/" "Desktop/" ".zsh_history" ".asdf/" "Local Sites/" ".bundle/" ".tool-versions" "node_modules/" ".zprofile" "Pictures/" "runner@api.advaita.co" ".psql_history" ".local/" ".zshrc" ".bashrc" ".luaver/" ".netrc" ".rbenv/" ".CFUserTextEncoding" ".yarnrc" "dotfiles/" ".logseq/" ".DS_Store" "advaita" ".fly/" ".docker/" "Music/" ".config/" ".irb_history" "../" "./")
 
- ("/Users/svs/src/essayr/app/controllers/" (25723 19540 944719 230000) "#pages_controller.rb#" "concerns/" "followings_controller.rb" "purchases_controller.rb" "posts_controller.rb" "mailing_lists_controller.rb" "users/" "emails_controller.rb" "home_controller.rb" "domains_controller.rb" "#application_controller.rb#" "users_controller.rb" "email_templates_controller.rb" "publication_teams_controller.rb" "orders_controller.rb" "pages_controller.rb" "user_subscriptions_controller.rb" "publications_controller.rb" "teams_controller.rb" "application_controller.rb" "post_emails_controller.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/views/jobs/" (25899 30996 769567 537000) "_jobs.html.slim" "_job_menu.html.slim" "_pin_link.html.slim" "_candidate_index.html.slim" "_job.html.slim" "show.html.slim" "index.html.slim" "_form.html.slim" "new.html.slim" "edit.html.slim" "../" "./")
 
- ("/Users/svs/src/essayr/app/mailers/" (25723 20367 684288 963000) "application_mailer.rb" "user_mailer.rb" "post_mailer.rb" "publication_mailer.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/spec/controller/" (25899 29150 861134 459000) "webhooks_controller_spec.rb" "job_applications_spec.rb" "candidates_controller_spec.rb" "companies_controller_spec.rb" "../" "./")
 
- ("/Users/svs/src/essayr/spec/factories/" (25721 63974 190548 715000) "publications.rb" "users.rb" "emails.rb" "teams.rb" "post_emails.rb" "posts.rb" "purchases.rb" "mailing_lists.rb" "followings.rb" "pages.rb" "email_templates.rb" "publication_team.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/views/admin_mailer/" (25897 18067 858212 169000) "resume_uploaded_email.html.slim" "new_user_email.html.slim" "../" "./")
 
- ("/Users/svs/src/essayr/app/helpers/" (25721 63974 181189 617000) "application_helper.rb" "teams_helper.rb" "publications_helper.rb" "home_helper.rb" "users_helper.rb" "publication_teams_helper.rb" "domains_helper.rb" "posts_helper.rb" "pages_helper.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/controllers/" (25899 29425 635943 329000) "concerns/" "dashboard_controller.rb" "job_applications_controller.rb" "policy_controller.rb" "users/" "companies_controller.rb" "users_controller.rb" "#candidates_controller.rb#" "notes_controller.rb" "webhooks_controller.rb" "admin/" "candidates_controller.rb" "application_controller.rb" "jobs_controller.rb" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/posts/" (25721 63974 188161 680000) "_post_list.html.slim" "_header.html.slim" "_payment.html.slim" "_nothing.html.slim" "show.html.slim" "index.html.slim" "_email_payment.html.slim" "analytics.html.slim" "_form.html.slim" "_select_parent.html.slim" "_draft_status.html.slim" "_read_next.html.slim" "_reader_list.html.slim" "_post.html.slim" "_read_next_content.html.slim" "_table_row.html.slim" "new.html.slim" "_reader_table_row.html.slim" "_pic.html.slim" "_side_nav_toc.html.slim" "edit.html.slim" "../" "./")
+ ("/Users/svs/src/rails-ats/app/mailers/" (25899 26209 259796 594000) "admin_mailer.rb" "application_mailer.rb" "user_mailer.rb" "candidate_mailer.rb" "../" "./")
 
- ("/Users/svs/src/essayr/spec/" (25721 63974 191530 920000) "services/" "helpers/" "rails_helper.rb" "controllers/" "jobs/" "fixtures/" "lib/" "factories/" "support/" "requests/" "policies/" "models/" "features/" "cassettes/" "mailers/" "spec_helper.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/assets/stylesheets/" (25898 57123 592670 558000) "actiontext.css" "application.scss" "../" "./")
 
- ("/Users/svs/src/essayr/app/models/" (25721 63974 185767 729000) "user.rb" "concerns/" "post.rb" "application_record.rb" "post_visit.rb" "purchase.rb" "team.rb" "mailing_list.rb" "page.rb" "following.rb" "email.rb" "publication.rb" "publication_team.rb" "publication_credential.rb" "post_email.rb" "email_template.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/policies/" (25898 56476 325775 269000) "company_policy.rb" "job_policy.rb" "note_policy.rb" "user_policy.rb" "application_policy.rb" "job_application_policy.rb" "candidate_policy.rb" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/post_emails/" (25721 63974 187286 808000) "index.html.slim" "../" "./")
+ ("/Users/svs/src/rails-ats/app/views/companies/" (25898 57970 876906 432000) "_candidate_jobs_table.html.slim" "show.html.slim" "_staff_jobs_table.html.slim" "index.html.slim" "_form.html.slim" "_company.html.slim" "new.html.slim" "edit.html.slim" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/" (25721 63974 187462 724000) "user_mailer/" "user_subscriptions/" "pages/" "orders/" "application/" "teams/" "publication_teams/" "users/" "post_emails/" "post_mailer/" "layouts/" "mailing_lists/" "subscriptions/" "active_storage/" "default/" "email_templates/" "emails/" "publications/" "publication_mailer/" "posts/" "domains/" "purchases/" "devise/" "home/" "../" "./")
+ ("/Users/svs/src/rails-ats/app/services/" (25898 56440 306374 613000) "profile_hydrator.rb" "jd_hydrator.rb" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/application/" (25721 64235 828544 371000) "_navbar_dark.html.erb" "_hero.html.erb" "_header_navbar.html.slim" "_head.html.erb" "_footer.html.erb" "_navbar_edit.html.erb" "_read_next.html.slim" "_flash.html.erb" "_navbar.html.erb" "_google_analytics.html.erb" "_post_status.html.slim" "_email_form.html.slim" "../" "./")
+ ("/Users/svs/src/rails-ats/app/models/" (25898 55902 689057 244000) "user.rb" "concerns/" "application_record.rb" "webhook.rb" "candidate_detail.rb" "company.rb" "job.rb" "job_application.rb" "email_history.rb" "admin/" "candidate.rb" "note.rb" "../" "./")
 
- ("/Users/svs/src/essayr/config/environments/" (25721 63974 188455 846000) "test.rb" "development.rb" "production.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/views/layouts/" (25898 55743 884553 182000) "mailer.text.erb" "mailer.html.erb" "application.html.erb" "mailer.html.slim" "action_text/" "mailer.text.slim" "../" "./")
 
- ("/Users/svs/src/essayr/config/" (25721 63974 188811 137000) "credentials/" "initializers/" "boot.rb" "database.yml" "credentials.yml.enc" "puma.rb" "application.rb" "storage.yml" "database.yml.ci" "environment.rb" "master.key" "environments/" "cable.yml" "locales/" "tinymce.yml" "routes.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/db/migrate/" (25898 54937 308659 340000) "20231003115724_create_action_text_tables.action_text.rb" "20231004044526_add_url_to_candidates.rb" "20231005122303_create_friendly_id_slugs.rb" "20230926154703_devise_create_users.rb" "20231003115951_add_employer_id_to_jobs.rb" "20231007060341_add_confirmable_to_devise.rb" "20231013093229_add_discarded_at_to_job_applications.rb" "20231005121953_add_slug_to_candidates.rb" "20231003105117_add_role_to_users.rb" "20231009121431_add_deleted_at_to_jobs.rb" "20231004063311_add_candidate_id_to_candidate_details.rb" "20230926161931_create_active_storage_tables.active_storage.rb" "20231012051948_add_user_to_note.rb" "20231007094017_add_candidate_id_to_job_applications.rb" "20231005122750_add_slug_to_jobs.rb" "20231010091918_add_about_to_companies.rb" "20231004040224_create_candidate_details.rb" "20230929053234_create_candidates.rb" "20231014100519_create_webhooks.rb" "20231003130659_add_confidential_to_jobs.rb" "20231009110940_add_applied_by_to_job_applications.rb" "20231006044712_add_company_id_to_users.rb" "20231005121208_change_company_slug_to_uniq.rb" "20230929064255_addreference_to_candidates.rb" "20231006050529_create_job_applications.rb" "20231009121442_add_deleted_at_to_candidates.rb" "20231010101001_create_notes.rb" "20231013104713_add_workflow_state_to_job_applications.rb" "20231003110836_add_fields_to_candidate.rb" "20231013182001_add_rating_to_candidates.rb" "20230927035217_add_fields_to_user.rb" "20231004063344_add_phone_to_candidate_details.rb" "20231010061128_add_name_to_users.rb" "20231014142501_add_fields_to_candidates.rb" "20231003115150_create_jobs.rb" "20231007143437_add_extracted_text_to_jobs.rb" "20231009071705_create_email_histories.rb" "20231004063440_add_social_media_handles_to_candidate_details.rb" "20231005123446_add_pdf_to_jobs.rb" "20231009053648_add_tagline_to_candidate_details.rb" "20231003115053_create_companies.rb" "20231006045426_add_published_at_to_jobs.rb" "../" "./")
 
- ("/Users/svs/src/essayr/" (25721 63974 177123 213000) "vendor/" "tmp/" ".git/" "Procfile" "Gemfile.lock" "log/" "Gemfile" "db/" "lib/" ".gitattributes" ".github/" "Procfile.dev" "package.json" ".gitignore" "public/" "yarn.lock" "Rakefile" "README.md" "storage/" "spec/" "node_modules/" "#.gitignore#" "config.ru" "config/" "yarn-error.log" "bin/" "test/" ".ruby-version" "app/" ".ruby-gemset" ".rspec" "../" "./")
+ ("/Users/svs/src/rails-ats/config/initializers/" (25898 42398 147233 427000) "inflections.rb" "friendly_id.rb" "content_security_policy.rb" "permissions_policy.rb" "devise.rb" "openai.rb" "redis.rb" "assets.rb" "sentry.rb" "filter_parameter_logging.rb" "locations.rb" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/layouts/" (25721 35830 951737 367000) "mailer.text.erb" "post.html.erb" "zen.html.slim" "mailer.html.erb" "#zen.html.slim#" "edit.html.erb" "application.html.erb" "post_mailer.html.erb" "devise.html.erb" "default/" "post_index.html.erb" "action_text/" "pub.html.erb" "landing.html.erb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/views/application/" (25898 54207 809116 83000) "_navbar.html.slim" "_landing.html.slim" "_pinned_job.html.slim" "_nav_link.html.slim" "_modal.html.slim" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/post_mailer/" (25721 35830 953349 710000) "send_post.html.erb" "send_post.text.html" "../" "./")
+ ("/Users/svs/src/rails-ats/app/views/candidates/" (25898 43373 367265 594000) "_table.html.slim" "update.html.erb" "show.html.slim" "_nav.html.slim" "#_nav.html.slim#" "index.html.slim" "_form.html.slim" "new.html.slim" ".#_nav.html.slim" "edit.html.slim" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/orders/" (25721 35830 952606 725000) "new.html.slim" "../" "./")
+ ("/Users/svs/src/rails-ats/app/views/" (25898 27946 599884 986000) "user_mailer/" "companies/" "job_applications/" "webhooks/" "jobs/" "application/" "users/" "layouts/" "notes/" "admin_mailer/" "dashboard/" "active_storage/" "shared/" "admin/" "candidate_mailer/" "candidates/" "../" "./")
 
- ("/Users/svs/src/essayr/app/javascript/controllers/" (25720 39211 37441 383000) "quill_controller.js" "publication_form_controller.js" "application.js" "codemirror_controller.js" "editor_controller.js" "post_parent_controller.js" "tinymce_inline_controller.js" "#post_controller.js#" "post_controller.js" "inline_controller.js" "index.js" "analytics_controller.js" "froala_controller.js" "modal_controller.js" "post_index_controller.js" "post_side_nav_controller.js" "codemirror_markdown_controller.js" "dragable_controller.js" "hello_controller.js" "tui_controller.js" "tui_editor_controller.js" "payment_form_controller.js" "mailwall_controller.js" "tinymce_controller.js" "select2_controller.js" "multiselection_controller.js" "../" "./")
+ ("/Users/svs/src/rails-ats/db/" (25897 33943 169703 723000) "migrate/" "seeds.rb" "schema.rb" "../" "./")
 
- ("/Users/svs/src/essayr/lib/" (25720 25225 577447 613000) "assets/" "custom_failure.rb" "subdomain.rb" "domain_constraint.rb" "tasks/" "../" "./")
+ ("/Users/svs/src/" (25876 3787 942993 799000) "engineeringorg.com/" "wrok.ae/" "git/" "strapi/" "tmp/" "smartmonkey.info/" "cosmo2/" "rails-ats/" "lua/" "tufte-bootstrap/" "keystone/" "crystal/" "slim-components/" "tufte-css/" "advaita-backend/" "cosmocall/" "openresty/" "ghost-import/" "hugo/" ".DS_Store" "essayr/" "tina/" "cosmocall-bs/" "jekyll/" "../" "./")
 
- ("/Users/svs/src/essayr/spec/controllers/" (25720 24445 265132 360000) "application_controller_spec.rb" "purchases_controller_spec.rb" "home_controller_spec.rb" "publications_controller_spec.rb" "emails_controller_spec.rb" "mailing_lists_controller_spec.rb" "posts_controller_spec.rb" "../" "./")
+ ("/Users/svs/src/jekyll/svs.io/" (25898 41803 387600 81000) "no-style-please.gemspec" "assets/" "about.md" "LICENSE.txt" ".git/" "_sass/" "_data/" "talks.md" "Gemfile.lock" "example2-archive.md" "Gemfile" "_config.yml" "_site/" "logo.png" "index.md" ".gitignore" "README.md" "_layouts/" ".sass-cache/" "_posts/" "archive.md" "_screenshots/" "_includes/" "../" "./")
 
- ("/Users/svs/src/essayr/spec/features/" (25720 39211 44064 624000) "sendin_blue_spec.rb" "email_template_spec.rb" "teams_spec.rb" "purchase_spec.rb" "confirmation_spec.rb" "reset_password_spec.rb" "analytics_spec.rb" "domain_spec.rb" "user_subscription_spec.rb" "pages_spec.rb" "navbars_spec.rb" "email_flow_spec.rb" "publication_spec.rb" "subscription_mail_spec.rb" "sign_in_spec.rb" "posts_spec.rb" "user_activity_spec.rb" "create_publication_spec.rb" "../" "./")
+ ("/Users/svs/src/jekyll/svs.io/_layouts/" (25898 41122 460188 469000) "archive.html" "default.html" "home.html" "page.html" "post.html" "../" "./")
 
- ("/Users/svs/src/essayr/app/policies/" (25717 61994 346122 960000) "email_template_policy.rb" "post_policy.rb" "domain_policy.rb" "publication_policy.rb" "user_subscription_policy.rb" "following_policy.rb" "order_policy.rb" "page_policy.rb" "purchase_policy.rb" "email_policy.rb" "user_policy.rb" "application_policy.rb" "mailing_list_policy.rb" "publication_team_policy.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/spec/features/" (25898 22880 535951 124000) "company_user_spec.rb" "normal_user_spec.rb" "staff_user_spec.rb" "admin_user_spec.rb" "../" "./")
 
- ("/Users/svs/src/essayr/spec/requests/" (25716 17541 893652 979000) "#pages_spec.rb#" "#publications_spec.rb#" "user_confirmation_spec.rb" "pages_spec.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/config/" (25898 28050 99995 111000) "credentials/" "initializers/" "importmap.rb" "boot.rb" "database.yml" "credentials.yml.enc" "dockerfile.yml" "puma.rb" "application.rb" "storage.yml" "environment.rb" "master.key" "environments/" "cable.yml" "locales/" "routes.rb" "../" "./")
 
- ("/Users/svs/src/essayr/spec/lib/" (25720 22870 652970 179000) "../" "./")
+ ("/Users/svs/src/rails-ats/app/dashboards/" (25898 29209 374789 203000) "email_history_dashboard.rb" "candidate_detail_dashboard.rb" "candidate_dashboard.rb" "webhook_dashboard.rb" "company_dashboard.rb" "job_application_dashboard.rb" "user_dashboard.rb" "job_dashboard.rb" "note_dashboard.rb" "../" "./")
 
- ("/Users/svs/src/essayr/app/javascript/" (25717 34107 728361 412000) "controllers/" "application.js" "../" "./")
+ ("/Users/svs/src/jekyll/svs.io/assets/css/" (25576 33620 402100 682000) "et-book/" "main.scss" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/mailing_lists/" (25717 34107 733535 11000) "show.html.slim" "index.html.slim" "../" "./")
+ ("/Users/svs/src/jekyll/svs.io/assets/" (25576 30632 734967 781000) "js/" "css/" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/publications/" (25717 34351 378314 561000) "my.html.slim" "edit_description.html.slim" "_pub_header.html.slim" "show.html.slim" "index.html.slim" "analytics.html.slim" "_form.html.slim" "_toc.html.slim" "_following.html.slim" "_sendinblue_form.html.slim" "#edit_description.html.slim#" "_import_ghost_form.html.slim" "new.html.slim" "edit.html.slim" "_grid.html.slim" "../" "./")
+ ("/Users/svs/src/jekyll/" (25869 22820 761054 972000) ".jekyll-cache/" "tufte-jekyll/" "hitchens/" "engorg/" "sabbaticalhandbook/" "wrok.in/" "meranda/" "svs.io/" "now.here.this/" "jekyll-paywall/" "no-style-please/" "mundana-theme-jekyll/" "../" "./")
 
- ("/Users/svs/src/essayr/spec/policies/" (25717 29655 337236 886000) "following_policy_spec.rb" "purchase_policy_spec.rb" "post_policy_spec.rb" "mailing_list_policy_spec.rb" "email_policy_spec.rb" "user_policy_spec.rb" "domain_policy_spec.rb" "email_template_policy_spec.rb" "page_policy_spec.rb" "order_policy_spec.rb" "publication_team_spec.rb" "publication_policy_spec.rb" "publication_team_policy.rb" "user_subscription_policy_spec.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/models/admin/" (25898 28156 370799 88000) "../" "./")
 
- ("/Users/svs/src/essayr/spec/models/" (25716 38920 404217 788000) "user_spec.rb" "post_spec.rb" "publication_team_spec.rb" "publication_spec.rb" "team_spec.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/controllers/admin/" (25898 28844 196851 47000) "job_applications_controller.rb" "candidate_details_controller.rb" "companies_controller.rb" "users_controller.rb" "notes_controller.rb" "webhooks_controller.rb" "candidates_controller.rb" "email_histories_controller.rb" "application_controller.rb" "jobs_controller.rb" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/devise/" (25692 34519 367014 643000) "registrations/" "sessions/" "shared/" "passwords/" "../" "./")
+ ("/Users/svs/src/rails-ats/app/" (25898 28211 540525 489000) "channels/" "services/" "helpers/" "assets/" "views/" "controllers/" "jobs/" "javascript/" "dashboards/" "policies/" "models/" "mailers/" "sidekiq/" "../" "./")
 
- ("/Users/svs/src/essayr/db/migrate/" (25716 17541 898202 217000) "20230322111106_add_deleted_at_to_posts.rb" "20230213064422_devise_create_users.rb" "20230505062940_create_publication_credentials.rb" "20230213085406_add_team_to_users.rb" "20230214042824_add_posts_count_to_publications.rb" "20230322102538_add_deleted_at_to_publications.rb" "20230509092112_add_postion_to_posts.rb" "20230215034820_add_published_to_publications.rb" "20230522112253_add_author_name_to_publication.rb" "20230304052603_create_mailing_lists.rb" "20230327164424_create_friendly_id_slugs.rb" "20230315041724_add_total_price_to_purchases.rb" "20230420094910_add_stripe_product_id_to_publications.rb" "20230314085141_add_price_to_publications.rb" "20230223083539_add_about_to_publications.rb" "20230213085301_create_posts.rb" "20230226053401_add_post_type_to_posts.rb" "20230525091534_create_emails.rb" "20230301055944_add_stripe_customer_id_to_users.rb" "20230327164324_add_slug_to_publications.rb" "20230304074308_add_about_to_users.rb" "20230419041432_create_post_connections.rb" "20230213100634_create_action_text_tables.action_text.rb" "20230505102910_add_confirm_to_mailing_lists.rb" "20230314065021_create_purchases.rb" "20230322111119_add_deleted_at_to_followings.rb" "#20230309065120_add_fields_to_posts.rb#" "20230528093626_add_preorder_text_to_publications.rb" "20230517075803_create_post_drafts.rb" "20230426191643_add_domain_to_publications.rb" "20230213100633_create_active_storage_tables.active_storage.rb" "20230504123904_add_confirmable_to_users.rb" "20230225044608_add_status_to_posts.rb" "20230225122317_add_published_at_to_posts.rb" "20230419054248_create_pages.rb" "20230213064534_create_teams.rb" "20230226050549_add_parent_id_to_posts.rb" "20230527124500_create_publication_teams.rb" "20230420112249_add_stripe_checkout_session_id_to_purchases.rb" "20230426072401_add_subdomain_to_publications.rb" "20230213064618_create_publications.rb" "20230315180741_create_followings.rb" "20230327164341_add_slug_to_posts.rb" "20230519055349_create_draft_pages.rb" "20230518084650_create_post_visits.rb" "20230407081901_add_kind_to_posts.rb" "20230516052323_create_email_templates.rb" "20230404094658_add_about_author_to_publications.rb" "20230310040205_add_google_uid_to_users.rb" "20230222174053_add_banner_to_publications.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/" (25898 28196 73313 8000) "vendor/" "tmp/" ".git/" "Gemfile.lock" "log/" "Gemfile" "db/" "lib/" "fly.toml" ".gitattributes" ".env" ".gitignore" "#Aptfile#" "public/" ".dockerignore" "Rakefile" "README.md" "storage/" "spec/" "node_modules/" "config.ru" "#.ruby-version#" "Dockerfile" "config/" "bin/" "test/" ".ruby-version" "app/" ".rspec" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/publication_mailer/" (25716 17541 893019 695000) "payment_confirmation.text.erb" "added_as_subscriber.text.erb" "payment_confirmation.html.erb" "added_as_subscriber.html.erb" "../" "./")
+ ("/Users/svs/src/rails-ats/spec/fixtures/" (25897 18067 884802 364000) "files/" "resume.pdf" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/publication_teams/" (25714 63227 427946 647000) "index.html.slim" "new.html.slim" "../" "./")
+ ("/Users/svs/src/essayr/spec/" (25816 45363 107834 583000) "services/" "helpers/" "rails_helper.rb" "controllers/" "fixtures/" "lib/" "job/" "factories/" "support/" "requests/" "policies/" "models/" "features/" "cassettes/" "mailers/" "spec_helper.rb" "../" "./")
 
- ("/Users/svs/src/essayr/db/" (25708 26209 105685 997000) "migrate/" "seeds.rb" "schema.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/javascript/controllers/" (25897 18067 853564 360000) "application.js" "turbo_modal_controller.js" "index.js" "hello_controller.js" "flash_controller.js" "../" "./")
 
- ("/Users/svs/src/essayr/spec/helpers/" (25709 40408 15986 156000) "publications_helper_spec.rb" "posts_helper_spec.rb" "teams_helper_spec.rb" "../" "./")
+ ("/Users/svs/src/essayr/" (25893 26333 146240 992000) ".idea/" "vendor/" "tmp/" ".git/" "Procfile" "Gemfile.lock" "log/" "Gemfile" "db/" "lib/" ".gitattributes" ".github/" "Procfile.dev" "package.json" ".gitignore" "public/" "yarn.lock" "Rakefile" "README.md" "storage/" "spec/" ".tool-versions" "node_modules/" "#.gitignore#" "config.ru" "config/" "yarn-error.log" "bin/" "test/" ".ruby-version" "app/" ".ruby-gemset" ".DS_Store" "coveragejs/" ".rspec" "../" "./")
 
- ("/Users/svs/src/essayr/app/assets/stylesheets/" (25712 16505 498020 869000) "variable.scss" "style.scss" "actiontext.css" "posts.scss" "et_book.scss" "forms.scss" "et-book.css" "application.bootstrap.scss" "post.scss" "pages.scss" "navbar.scss" "fonts.scss" "select_search.scss" "../" "./")
+ ("/Users/svs/src/rails-ats/spec/services/" (25898 12564 277030 538000) "profile_hydrator_spec.rb" "jd_hydrator_spec.rb" ".ruby-version" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/purchases/" (25709 58036 739132 715000) "payment.html.slim" "_form.html.slim" "complete.html.slim" "new.html.slim" "../" "./")
+ ("/Users/svs/src/essayr/app/views/layouts/" (25893 26333 143930 654000) "mailer.text.erb" "post.html.erb" "zen.html.slim" "mailer.html.erb" "#zen.html.slim#" "application.html.erb" "post_mailer.html.erb" "devise.html.erb" "default/" "post_index.html.erb" "action_text/" "pub.html.erb" "landing.html.erb" "../" "./")
 
- ("/Users/svs/src/essayr/public/" (25709 58014 95451 566000) "publish-list-icon.svg" "publish-icon.svg" "assets/" "draft-list-icon.svg" "write.png" "press.png" "right-arrow-icon.svg" "inkling-hero.png" "robots.txt" "press2.png" "ol-inner-icon.svg" "draft-icon.svg" "froala/" "toc.png" "apple-touch-icon-precomposed.png" "et-book/" "inkling-banner.png" "payments.png" "writer2.png" "landing.png" "editor.png" "inkling-logo.png" "404.html" "500.html" "stars-icon.svg" "white-nav-bg.svg" "black-nav-bg.svg" "up-arrow-icon.svg" ".well-known/" "csrf-xhr.js" "devider.svg" "default-book-cover.png" "editor.css" "apple-touch-icon.png" "writer.png" "mail.png" "422.html" "hamburger-icon.svg" "hero.png" "favicon.ico" "bottom-leaf.svg" "inkling-hero-3.png" "inkling-hero-2.png" "close-icon.svg" "../" "./")
+ ("/Users/svs/src/essayr/app/views/application/" (25893 26333 142589 485000) "_navbar_dark.html.erb" "_login_modal.html.slim" "_base_email_form.html.slim" "_header_navbar.html.slim" "_landing_navbar.html.slim" "_breadcrumbs.html.slim" "_head.html.erb" "_common_email_form.html.slim" "_new_head.html.erb" "_footer.html.erb" "_read_next.html.slim" "_flash.html.erb" "_navbar.html.erb" "_hero.html.slim" "_google_analytics.html.erb" "_footer_1.html.slim" "_post_status.html.slim" "_email_form.html.slim" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/pages/" (25707 22292 60157 875000) "_form_message.html.slim" "show.html.erb" "index.html.slim" "_form.html.slim" "new.html.slim" "show_draft.html.erb" "edit.html.slim" "../" "./")
+ ("/Users/svs/src/jekyll/now.here.this/_posts/" (25893 6107 303647 679000) "#2023-10-05-the-invitation.md#" "2023-02-10-luxe-life.md" ".#2023-10-05-the-invitation.md" "2023-10-05-the-invitation.md" "#2023-09-20-you-been-milked.md#" ".#2023-09-20-you-been-milked.md" "2023-02-17-your-body-is-a-temple.md" "2023-02-11-welcome-to-jekyll.markdown" "2023-03-01-original-sin.md" "2023-04-24-on-starting-meditation.md" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/user_mailer/" (25707 22292 62509 448000) "unlock_instructions.html.erb" "payment_confirmation.html.erb" "email_changed.html.erb" "password_change.html.erb" "reset_password_instructions.html.erb" "confirmation_instructions.html.erb" "../" "./")
+ ("/Users/svs/.ssh/" (25891 40226 521185 861000) "known_hosts" "heroku_id_rsa.pub" "shaadissh.pub" "github.pub" "embibe-dec2013.pub" "embibe-dev-key.pem" "gitlab.pub" "heroku_id_rsa" "kafka.key" "id_boot2docker.pub" "github_rsa.pub_bak-github" "id_rsa.pub~" "github_rsa.pub" "heroku.pub" "shaadissh" "github" "rbus-do" "staging-mumbai.pem" "datagram_deploy" "github_rsa" "dev-dec2013.pub" "github_rsa_bak-github" "id_rsa.pub" "datagram_deploy.pub" "embibe-aws-master-key.pem" "embibe" "dev-dec2013.pem" "id_rsa" "config" ".stfolder" "da.pub" "known_hosts~" "da" "heroku" "gitlab" "known_hosts.old" "config~" "embibe-dec2013.pem" "ionic/" "content.pem" "embibe.pub" "rbus-do.pub" "svs_key" "id_boot2docker" "../" "./")
 
- ("/Users/svs/src/essayr/app/" (25625 24573 526916 460000) "channels/" "services/" "helpers/" "assets/" "views/" "controllers/" "jobs/" "javascript/" "policies/" "models/" "mailers/" "../" "./")
+ ("/Users/svs/src/rails-ats/app/views/user_mailer/" (25897 18067 878234 606000) "resume_processed_email.text.erb" "welcome_email.text.erb" "resume_uploaded_email.html.erb" "resume_processed_email.html.erb" "welcome_email.html.erb" "schedule_meeting_email.html.slim" "../" "./")
 
- ("/Users/svs/src/essayr/config/initializers/" (25697 59113 47727 528000) "ghost_parser.rb" "themes/" "inflections.rb" "friendly_id.rb" "content_security_policy.rb" "permissions_policy.rb" "devise.rb" "assets.rb" "sentry.rb" "filter_parameter_logging.rb" "stripe.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/controllers/users/" (25897 33943 162398 6000) "confirmations_controller.rb" "omniauth_callbacks_controller.rb" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/home/" (25697 50291 114574 679000) "_signed_in.html.slim" "_why.html.md" "why.html.slim" "_landing.html.slim" "_why2.html.erb" "index.html.slim" "#index.html.slim#" "../" "./")
+ ("/Users/svs/src/rails-ats/config/environments/" (25897 18067 879367 434000) "test.rb" "development.rb" "production.rb" "../" "./")
 
- ("/Users/svs/src/essayr/.git/" (25699 37703 882075 726000) "FETCH_HEAD" "COMMIT_EDITMSG" "packed-refs" "index" "refs/" "hooks/" "description" "logs/" "info/" "HEAD" "objects/" ".#COMMIT_EDITMSG" "config" "ORIG_HEAD" "REBASE_HEAD" "../" "./")
+ ("/Users/svs/src/rails-ats/app/views/dashboard/" (25897 34293 287968 591000) "index.html.slim" "staff_dashboard.html.slim" "../" "./")
 
- ("/Users/svs/src/tmp/" (25697 46335 709308 186000) "git/" "#Fsabhbk.html#" "Fsabhbk.html" "foo/" "../" "./")
+ ("/Users/svs/src/rails-ats/app/assets/config/" (25890 21809 508442 741000) "manifest.js" "../" "./")
 
- ("/Users/svs/src/tufte-bootstrap/" (25562 5331 121663 375000) "assets/" ".git/" "README.md" ".editorconfig" "tufte-bootstrap.css" "LICENSE" "index.html" "../" "./")
+ ("/Users/svs/src/rails-ats/app/javascript/" (25894 56005 551467 873000) "controllers/" "application.js" ".#application.js" "#application.js#" "../" "./")
 
- ("/Users/svs/src/essayr/app/assets/" (25576 55060 356998 978000) "stylesheets/" "builds/" "images/" "config/" "../" "./")
+ ("/Users/svs/src/rails-ats/app/views/notes/" (25897 18067 877724 859000) "_note.html.slim" "show.html.slim" "index.html.slim" "_form.html.slim" "new.html.slim" "edit.html.slim" "../" "./")
 
- ("/Users/svs/src/advaita-backend/config/initializers/" (25685 3376 748364 933000) "logtail.rb" "pusher.rb" "cors.rb" "inflections.rb" "constants.rb" "content_security_policy.rb" "permissions_policy.rb" "devise.rb" "assets.rb" "filter_parameter_logging.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/spec/policies/" (25897 33943 172387 617000) "job_application_policy_spec.rb" "user_policy_spec.rb" "company_policy_spec.rb" "note_policy_spec.rb" "candidate_policy_spec.rb" "job_policy_spec.rb" "../" "./")
 
- ("/Users/svs/src/advaita-backend/config/environments/" (25685 2954 809854 408000) "test.rb" "development.rb" "production.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/views/job_applications/" (25897 33943 168192 921000) "_job_application.json.jbuilder" "_table.html.slim" "show.html.slim" "_job_application.html.slim" "show.json.jbuilder" "index.html.slim" "index.json.jbuilder" "_form.html.slim" "new.html.slim" "edit.html.slim" "../" "./")
 
- ("/Users/svs/src/advaita-backend/app/views/documents/" (25678 14675 610522 197000) "show.json.jbuilder" "index.json.jbuilder" "merge.json.jbuilder" "../" "./")
+ ("/Users/svs/src/rails-ats/app/sidekiq/" (25898 18649 159567 954000) "parse_resume_job.rb" "../" "./")
 
- ("/Users/svs/src/advaita-backend/app/views/layouts/" (25678 14675 611102 200000) "mailer.text.erb" "mailer.html.erb" "application.html.erb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/jobs/" (25898 18440 854561 268000) "application_job.rb" "../" "./")
 
- ("/Users/svs/src/advaita-backend/spec/factories/" (25678 14675 620883 668000) "user.rb" "board.rb" "comment.rb" "board_visit.rb" "document.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/views/candidate_mailer/" (25898 10975 709884 579000) "resume_parsed_email.html.slim" "../" "./")
 
- ("/Users/svs/.ssh/" (25678 21283 395616 55000) "known_hosts" "heroku_id_rsa.pub" "shaadissh.pub" "github.pub" "embibe-dec2013.pub" "embibe-dev-key.pem" "gitlab.pub" "heroku_id_rsa" "kafka.key" "id_boot2docker.pub" "github_rsa.pub_bak-github" "id_rsa.pub~" "github_rsa.pub" "heroku.pub" "shaadissh" "github" "rbus-do" "staging-mumbai.pem" "datagram_deploy" "github_rsa" "dev-dec2013.pub" "github_rsa_bak-github" "id_rsa.pub" "datagram_deploy.pub" "embibe-aws-master-key.pem" "embibe" "dev-dec2013.pem" "id_rsa" "config" ".stfolder" "da.pub" "known_hosts~" "da" "heroku" "gitlab" "known_hosts.old" "config~" "embibe-dec2013.pem" "ionic/" "content.pem" "embibe.pub" "rbus-do.pub" "svs_key" "id_boot2docker" "../" "./")
+ ("/Users/svs/.emacs.d/elpa/ruby-test-mode-20210205.1107/" (25771 45064 910705 919000) "ruby-test-mode-autoloads.el" "ruby-test-mode-pkg.el" "ruby-test-mode.el" "ruby-test-mode.elc" "../" "./")
 
- ("/Users/svs/src/advaita-backend/config/" (25678 14675 619287 160000) "initializers/" "boot.rb" "database.yml" "credentials.yml.enc" "dockerfile.yml" "puma.rb" "application.rb" "storage.yml" "environment.rb" "master.key" "environments/" "cable.yml" "locales/" "routes.rb" "../" "./")
+ ("/Users/svs/.emacs.d/elpa/" (25807 62012 944813 63000) "inflections-20210110.2237/" "web-mode-20230329.601/" "popup-20220927.1610/" "f-20220911.711/" "twittering-mode-readme.txt" "magit-20230215.1054/" "compat-29.1.3.4/" "fsharp-mode-20221106.2050/" "multiple-cursors-20221224.1226/" "js2-mode-20230628.238/" "ruby-electric-20200328.1528/" "eglot-fsharp-20221027.1923/" "yaml-mode-20221022.920/" "async-20221217.649/" "dash-20221013.836/" "helm-ag-20221017.1528/" "projectile-rails-20220403.1621/" "magit-section-20230213.2018/" "enh-ruby-mode-20221011.1957/" "git-commit-20230213.2015/" "s-20220902.1511/" "rjsx-mode-20200224.2149/" "robe-readme.txt" "flycheck-20230306.414/" "helm-projectile-20221215.613/" "editorconfig-20230329.118/" "archives/" "rbenv-20141120.749/" "solarized-theme-20220619.1203/" "rspec-mode-20221122.1311/" "helm-20221218.735/" "ruby-test-mode-20210205.1107/" "better-defaults-20221125.1725/" "rake-20220211.827/" "epl-20180205.2049/" "json-mode-readme.txt" "with-editor-20230212.2214/" "helm-core-20221210.1324/" "pkg-info-20150517.1143/" "slim-mode-20170728.1348/" "typescript-mode-20230116.1533/" "projectile-20221122.2032/" "inf-ruby-20221016.2238/" "w3-4.0.49/" "zenburn-theme-20220927.631/" "eglot-20221020.1010/" "pcre2el-20221018.1608/" "seeing-is-believing-20170214.1320/" "logito-20120225.2155/" "transient-20230214.1525/" "exec-path-from-shell-20220826.1535/" "../" "./")
 
- ("/Users/svs/src/advaita-backend/db/" (25678 14675 619991 455000) "migrate/" "seeds.rb" "schema.rb" "../" "./")
+ ("/Users/svs/.emacs.d/" (25897 26638 171812 88000) "html-helper-mode/" "screen-lines.el" "dotemacs" "backups/" "textmate.el" "enotify-tdd.el" ".git/" "dotbashrc" "elpa/" "html-helper-mode.tar.gz" "session.10c0a7931f73b9ae61151195681427050600000059780066" ".emacs" "history" "network-security.data" "desktop.el" "markdown-mode.el" ".gitignore" "popup.elc" ".emacs.desktop.lock" "haml-mode.el" "dbgp.elc" ".emacs.d" "init.el" "url/" ".emacs.desktop" "auto-save-list/" ".gitmodules" "html-font.el" "enotify.el" "custom.el" "session.10856e7cb81747dce7150736607943929400000092710074" "transient/" "tramp" "projectile-bookmarks.eld" "places" "fuzzy.el" "lsp-crystal.el/" ".stfolder" "session.1010546387fa42e39b150753257433801000000154020077" "egg/" "ac-dict/" "DcomboBox.js" "ido.last" "copilot.el/" "fuzzy.elc" "../" "./")
 
- ("/Users/svs/src/advaita-backend/app/policies/" (25678 14684 229435 890000) "board_policy.rb" "application_policy.rb" "../" "./")
+ ("/Users/svs/dotfiles/" (25897 26638 171812 88000) "html-helper-mode/" "screen-lines.el" "dotemacs" "backups/" "textmate.el" "enotify-tdd.el" ".git/" "dotbashrc" "elpa/" "html-helper-mode.tar.gz" "session.10c0a7931f73b9ae61151195681427050600000059780066" ".emacs" "history" "network-security.data" "desktop.el" "markdown-mode.el" ".gitignore" "popup.elc" ".emacs.desktop.lock" "haml-mode.el" "dbgp.elc" ".emacs.d" "init.el" "url/" ".emacs.desktop" "auto-save-list/" ".gitmodules" "html-font.el" "enotify.el" "custom.el" "session.10856e7cb81747dce7150736607943929400000092710074" "transient/" "tramp" "projectile-bookmarks.eld" "places" "fuzzy.el" "lsp-crystal.el/" ".stfolder" "session.1010546387fa42e39b150753257433801000000154020077" "egg/" "ac-dict/" "DcomboBox.js" "ido.last" "copilot.el/" "fuzzy.elc" "../" "./")
 
- ("/Users/svs/src/advaita-backend/app/models/" (25683 34507 933105 183000) "user.rb" "concerns/" "board.rb" "merge.rb" "application_record.rb" "comment.rb" "board_visit.rb" "#document.rb#" "document.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/assets/" (25890 19574 601057 313000) "stylesheets/" "builds/" "images/" "config/" "../" "./")
 
- ("/Users/svs/src/advaita-backend/spec/models/" (25678 25429 389365 10000) "board_spec.rb" "merge_spec.rb" "user_spec.rb" "document_spec.rb" "board_visit_spec.rb" "../" "./")
+ ("/Users/svs/src/essayr/spec/factories/" (25867 61085 628756 997000) "publications.rb" "users.rb" "post_visit.rb" "emails.rb" "teams.rb" "post_emails.rb" "posts.rb" "purchases.rb" "mailing_lists.rb" "followings.rb" "pages.rb" "email_templates.rb" "publication_team.rb" "comments.rb" "../" "./")
 
- ("/Users/svs/src/advaita-backend/app/controllers/" (25678 22238 929291 626000) "concerns/" "board_visits_controller.rb" "home_controller.rb" "merges_controller.rb" "comments_controller.rb" "application_controller.rb" "documents_controller.rb" "boards_controller.rb" "../" "./")
+ ("/Users/svs/src/wrok.ae/_includes/" (25883 58304 310614 630000) "header.html" "footer.html" "biz_details.md" "custom-head.html" "../" "./")
 
- ("/Users/" (25629 29528 734792 92000) "Shared/" ".localized" "svs/" "../" "./")
+ ("/Users/svs/src/tmp/pdf-extract/" (25884 57990 503406 686000) "das_resume.pdf" "snt.pdf" "resume2.pdf" "Gemfile.lock" "Gemfile" "resume.pdf" "read.rb" "../" "./")
 
- ("/Users/svs/src/advaita-backend/spec/requests/" (25678 14675 622555 427000) "documents_spec.rb" "comments_spec.rb" "merge_spec.rb" "users_spec.rb" "boards_spec.rb" "board_visits_spec.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/spec/system/" (25883 61707 665206 618000) "users_spec.rb" "candidates_spec.rb" "../" "./")
 
- ("/Users/svs/src/advaita-backend/spec/" (25678 14675 621891 49000) "rails_helper.rb" "factories/" "requests/" "models/" "spec_helper.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/app/channels/" (25876 3791 123879 20000) "application_cable/" "../" "./")
 
- ("/Users/svs/src/advaita-backend/" (25678 14675 623602 516000) "advaita-devops/" "vendor/" "tmp/" ".env.development" ".git/" "Gemfile.lock" "log/" "Gemfile" "db/" "lib/" ".gitattributes" ".github/" "Procfile.dev" "package.json" ".gitignore" "public/" ".node-version" "yarn.lock" "Rakefile" "README.md" "storage/" ".env.test" "spec/" "node_modules/" "config.ru" "#Gemfile#" "config/" "bin/" "test/" ".yarnrc" ".ruby-version" "app/" ".rspec" ".yarn/" "../" "./")
+ ("/Users/svs/src/tmp/stimulus-demo/app/models/" (25879 43462 6221 449000) "concerns/" "application_record.rb" "metric.rb" "metric_tier.rb" "../" "./")
 
- ("/Users/svs/src/advaita-backend/app/views/" (25678 11286 846754 735000) "board_visits/" "application/" "documents/" "boards/" "layouts/" "active_storage/" "merges/" "comments/" "home/" "../" "./")
+ ("/Users/svs/src/tmp/stimulus-demo/app/assets/stylesheets/" (25880 8199 502459 648000) "application.css" "../" "./")
 
- ("/Users/svs/.emacs.d/elpa/ruby-test-mode-20210205.1107/" (25678 7788 798667 985000) "ruby-test-mode-autoloads.el" "ruby-test-mode-pkg.el" "ruby-test-mode.el" "ruby-test-mode.elc" "../" "./")
+ ("/Users/svs/.rbenv/versions/3.1.3/lib/ruby/gems/3.1.0/bundler/gems/minima-2863624b903b/_layouts/" (25882 49572 792796 424000) "base.html" "home.html" "page.html" "post.html" "../" "./")
 
- ("/Users/svs/.emacs.d/elpa/" (25675 20942 140354 14000) "inflections-20210110.2237/" "popup-20220927.1610/" "f-20220911.711/" "twittering-mode-readme.txt" "magit-20230215.1054/" "compat-29.1.3.4/" "fsharp-mode-20221106.2050/" "multiple-cursors-20221224.1226/" "ruby-electric-20200328.1528/" "eglot-fsharp-20221027.1923/" "yaml-mode-20221022.920/" "async-20221217.649/" "dash-20221013.836/" "helm-ag-20221017.1528/" "projectile-rails-20220403.1621/" "magit-section-20230213.2018/" "git-commit-20230213.2015/" "s-20220902.1511/" "robe-readme.txt" "helm-projectile-20221215.613/" "editorconfig-20230329.118/" "archives/" "rbenv-20141120.749/" "solarized-theme-20220619.1203/" "rspec-mode-20221122.1311/" "helm-20221218.735/" "ruby-test-mode-20210205.1107/" "better-defaults-20221125.1725/" "rake-20220211.827/" "json-mode-readme.txt" "with-editor-20230212.2214/" "helm-core-20221210.1324/" "slim-mode-20170728.1348/" "projectile-20221122.2032/" "inf-ruby-20221016.2238/" "w3-4.0.49/" "zenburn-theme-20220927.631/" "eglot-20221020.1010/" "pcre2el-20221018.1608/" "seeing-is-believing-20170214.1320/" "logito-20120225.2155/" "transient-20230214.1525/" "exec-path-from-shell-20220826.1535/" "../" "./")
+ ("/Users/svs/src/rails-ats/test/controllers/" (25876 3791 131212 943000) ".keep" "../" "./")
 
- ("/Users/svs/src/advaita-backend/db/migrate/" (25677 64046 76856 253000) "20230421093941_devise_create_users.rb" "20230413072619_create_merges.rb" "20230428084553_create_boards.rb" "20230412154642_add_metadata_to_documents.rb" "20230429084806_add_name_and_avatar_to_users.rb" "20230411064837_create_documents.rb" "20230413082134_create_comments.rb" "20230411183800_add_parent_uuid_to_documents.rb" "20230430042736_create_board_visits.rb" "20230429121526_add_uuid_to_users.rb" "../" "./")
+ ("/Users/svs/src/rails-ats/test/" (25876 3791 131911 735000) "channels/" "helpers/" "controllers/" "test_helper.rb" "fixtures/" "application_system_test_case.rb" "system/" "models/" "integration/" "mailers/" "../" "./")
 
- ("/Users/svs/src/advaita-backend/config/deploy/" (25677 14911 571508 795000) "staging.rb" "production.rb" "../" "./")
+ ("/Users/svs/src/wrok.ae/" (25883 41593 897000 408000) "privacy.markdown" ".jekyll-cache/" "assets/" ".git/" "Gemfile.lock" "Gemfile" "_config.yml" "_plugins/" "_site/" "about.markdown" ".gitignore" "index.slim" "a" "404.html" "_posts/" "CNAME" "terms-and-conditions.markdown" "_includes/" "../" "./")
 
- ("/Users/svs/src/advaita-backend/app/" (25675 37588 799102 678000) "channels/" "helpers/" "assets/" "views/" "controllers/" "jobs/" "javascript/" "policies/" "models/" "mailers/" "../" "./")
+ ("/Users/svs/src/wrok.ae/assets/" (25883 41605 175965 635000) "wrok-logo.png" "custom.css" "wrok-logo-only.png" "../" "./")
 
- ("/Users/svs/src/advaita-backend/app/views/boards/" (25675 34753 210204 746000) "../" "./")
+ ("/Users/svs/.rbenv/versions/3.1.3/lib/ruby/gems/3.1.0/bundler/gems/jekyll-slim-1ecc0ce3f807/lib/jekyll/slim/" (25882 50805 465319 653000) "version.rb" "converter.rb" "include_tag.rb" "extensions.rb" "data_provider.rb" "../" "./")
 
- ("/Users/svs/src/engineeringorg.com/app/views/layouts/" (25554 42021 378740 213000) "mailer.text.erb" "meranda.html.erb" "mailer.html.erb" "application.html.erb" "article.html.erb" "tufte.html.slim" "default/" "action_text/" "../" "./")
+ ("/Users/svs/.rbenv/versions/3.1.3/lib/ruby/gems/3.1.0/bundler/gems/minima-2863624b903b/" (25625 29987 738876 645000) "assets/" "about.md" "readme_banner.svg" "LICENSE.txt" ".git/" "_sass/" "Gemfile" ".github/" "minima.gemspec" "_config.yml" "index.md" ".gitignore" "README.md" ".editorconfig" "script/" "_layouts/" "404.html" "screenshot.png" "History.markdown" "_posts/" "CODE_OF_CONDUCT.md" "_includes/" "../" "./")
 
- ("/Users/svs/src/jekyll/now.here.this/" (25670 13842 254634 956000) "assets/" ".git/" "_data/" "Gemfile.lock" "Gemfile" ".gitattributes" "_config.yml" "_site/" "about.markdown" ".gitignore" "_drafts/" "_layouts/" "404.html" "admin/" ".sass-cache/" "_free/" "index.markdown" "_posts/" "_config.free.yml" "about.html" "_includes/" "../" "./")
+ ("/Users/svs/src/tmp/stimulus-demo/app/javascript/controllers/" (25881 8638 89869 861000) "application.js" "metric_tier_controller.js" "index.js" "hello_controller.js" "metric_controller.js" "../" "./")
 
- ("/Users/svs/src/smartmonkey.info/" (25671 39011 716800 319000) "privacy.markdown" ".jekyll-cache/" "assets/" ".git/" "Gemfile.lock" "Gemfile" "_config.yml" "_site/" "about.markdown" ".gitignore" "404.html" "index.markdown" "_posts/" "CNAME" "terms-and-conditions.markdown" "_includes/" "../" "./")
+ ("/Users/svs/src/tmp/stimulus-demo/app/assets/" (25879 41477 973283 267000) "stylesheets/" "images/" "config/" "../" "./")
 
- ("/Users/svs/src/" (25671 37593 460354 797000) "engineeringorg.com/" "wrok.ae/" "git/" "strapi/" "tmp/" "smartmonkey.info/" "cosmo2/" "lua/" "tufte-bootstrap/" "keystone/" "tufte-css/" "advaita-backend/" "cosmocall/" "openresty/" "ghost-import/" "hugo/" ".DS_Store" "essayr/" "tina/" "cosmocall-bs/" "jekyll/" "../" "./")
+ ("/Users/svs/src/tmp/stimulus-demo/app/views/metrics/" (25879 50397 443647 339000) "new.html.slim" "../" "./")
 
- ("/Users/svs/src/essayr/spec/routing/" (25671 27813 236102 383000) "routing_spec.rb" "../" "./")
+ ("/Users/svs/src/tmp/stimulus-demo/app/views/layouts/" (25879 50243 999227 964000) "mailer.text.erb" "mailer.html.erb" "application.html.erb" "_metric_tier_fields.html.slim" "../" "./")
 
- ("/Users/svs/src/jekyll/now.here.this/_posts/" (25670 13532 506615 248000) "2023-02-10-luxe-life.md" "2023-02-17-your-body-is-a-temple.md" "2023-02-11-welcome-to-jekyll.markdown" "2023-03-01-original-sin.md" "2023-04-24-on-starting-meditation.md" "../" "./")
+ ("/Users/svs/src/tmp/stimulus-demo/app/controllers/" (25879 46794 392667 737000) "concerns/" "metric_tiers_controller.rb" "metrics_controller.rb" "application_controller.rb" "../" "./")
 
- ("/Users/svs/src/jekyll/" (25605 21868 514108 969000) ".jekyll-cache/" "tufte-jekyll/" "hitchens/" "engorg/" "sabbaticalhandbook/" "meranda/" "svs.io/" "now.here.this/" "jekyll-paywall/" "no-style-please/" "mundana-theme-jekyll/" "../" "./")
+ ("/Users/svs/src/tmp/stimulus-demo/app/javascript/" (25879 41496 230321 839000) "controllers/" "application.js" "../" "./")
 
- ("/Users/svs/src/engineeringorg.com/app/policies/" (25548 49500 782029 913000) "post_policy.rb" "application_policy.rb" "../" "./")
+ ("/Users/svs/src/tmp/stimulus-demo/" (25879 41825 190678 941000) "vendor/" "tmp/" ".git/" "Gemfile.lock" "log/" "Gemfile" "db/" "lib/" ".gitattributes" ".gitignore" "public/" "Rakefile" "README.md" "storage/" "config.ru" "config/" "bin/" "test/" ".ruby-version" "app/" "../" "./")
 
- ("/Users/svs/src/engineeringorg.com/app/views/application/" (25669 12637 492481 855000) "_subscribe.html.erb" "subscription_policy.rb" "_navbar.html.slim" "_head.html.erb" "_header.html.erb" "_top.html.erb" "../" "./")
+ ("/Users/svs/src/essayr/app/javascript/components/" (25830 2396 72299 769000) "Stack.js" "comment_wrapper.ts" "#comment_wrapper.ts#" "../" "./")
 
- ("/Users/svs/src/essayr/app/controllers/concerns/" (25668 64110 636361 470000) ".keep" "../" "./")
+ ("/Users/svs/src/essayr/app/views/publications/" (25867 61085 623685 795000) "_import_form.html.slim" "my.html.slim" "edit_description.html.slim" "import_form/" "_pub_header.html.slim" "show.html.slim" "_pub_welcome.html.slim" "index.html.slim" "analytics.html.slim" "_form.html.slim" "_toc.html.slim" "_following.html.slim" "_sendinblue_form.html.slim" "#edit_description.html.slim#" "payments.html.slim" "_sidenav.html.slim" "new.html.slim" "edit.html.slim" "_grid.html.slim" "../" "./")
 
- ("/Users/svs/src/essayr/app/channels/" (25576 55056 499232 247000) "application_cable/" "../" "./")
+ ("/Users/svs/src/essayr/app/views/devise/registrations/" (25875 51875 894284 236000) "new.html.erb" "edit.html.erb" "_form.html.slim" "../" "./")
 
- ("/Users/svs/src/essayr/app/views/liquid/" (25668 62844 795164 953000) "_mail_form.html.slim" "../" "./")
+ ("/Users/svs/src/essayr/app/views/devise/sessions/" (25875 51875 895197 977000) "_form.html.slim" "new.html.slim" "../" "./")
 
- ("/Users/svs/.rbenv/versions/3.1.3/lib/ruby/gems/3.1.0/gems/actionpack-7.0.4.2/lib/abstract_controller/" (25668 57042 735278 743000) "rendering.rb" "caching/" "error.rb" "asset_paths.rb" "logger.rb" "collector.rb" "caching.rb" "url_for.rb" "railties/" "translation.rb" "callbacks.rb" "helpers.rb" "base.rb" "../" "./")
+ ("/Users/svs/src/essayr/app/views/devise/shared/" (25875 51875 895738 430000) "_links.html.erb" "_form_title.html.slim" "../" "./")
 
- ("/Users/svs/src/essayr/liquid/" (25668 51768 301498 696000) "../" "./")
+ ("/Users/svs/src/essayr/app/services/" (25867 61085 615062 736000) "#post_search_service.rb#" "publication_import_service.rb" "stripe/" "email_template_render_service.rb" "create_user_subscription_service.rb" "content_processor_service.rb" "page_renderer_service.rb" "post_service.rb" "add_subscription_service.rb" "post_search_service.rb" "#post_render_service.rb#" "ghost_importer_service.rb" "article_email_service.rb" "audience_service.rb" "#post_html_service.rb#" "heroku/" "article_email/" "post_email_render_service.rb" "post_render_service.rb" "substack_importer_service.rb" "subscriber_filter_service.rb" "#posts_service.rb#" "../" "./")
 
- ("/Users/svs/.rbenv/versions/3.1.3/lib/ruby/gems/3.1.0/" (25668 51126 70378 373000) "bundler/" "gems/" "doc/" "build_info/" "extensions/" "plugins/" "cache/" "specifications/" "../" "./")
+ ("/Users/svs/src/essayr/app/views/mailing_lists/" (25816 45363 91902 416000) "_list.html.slim" "show.html.slim" "index.html.slim" "../" "./")
 
- ("/Users/svs/.rbenv/versions/3.1.3/lib/ruby/gems/3.1.0/gems/" (25668 50985 956668 147000) "bcrypt-3.1.18/" "markdown-rails-1.0.0/" "rubocop-rails-2.17.4/" "responders-3.1.0/" "tzinfo-2.0.6/" "reline-0.3.1/" "pg-1.4.6/" "mercenary-0.4.0/" "net-pop-0.1.1/" "delegate-0.2.0/" "rack-rewrite-1.5.1/" "rb-inotify-0.10.1/" "jekyll-seo-tag-2.7.1/" "jekyll-4.2.0/" "rouge-4.1.0/" "actioncable-7.0.4/" "rspec-mocks-3.12.3/" "redcarpet-3.6.0/" "foreman-0.87.2/" "faker-3.1.1/" "fcntl-1.0.1/" "nokogiri-1.14.1-arm64-darwin/" "rspec-mocks-3.12.4/" "redis-4.8.0/" "aws-partitions-1.716.0/" "net-http-0.3.0/" "globalid-1.1.0/" "time-0.2.0/" "concurrent-ruby-1.2.2/" "rack-2.2.4/" "kramdown-2.3.1/" "rack-cors-2.0.1/" "ast-2.4.2/" "io-console-0.6.0/" "cgi-0.3.5/" "rdoc-6.4.0/" "pry-0.14.2/" "cypress-on-rails-1.13.1/" "slim-rails-3.6.2/" "hitchens-theme-0.8.0/" "jekyll-sass-converter-2.1.0/" "debug-1.6.3/" "actionmailer-7.0.4.1/" "mutex_m-0.1.1/" "activesupport-7.0.4.1/" "bundler-2.1.4/" "timeout-0.3.2/" "devise-4.9.0/" "tilt-2.1.0/" "net-smtp-0.3.1/" "rack-2.2.5/" "omniauth-rails_csrf_protection-1.0.1/" "browser-5.3.1/" "rubocop-performance-1.15.2/" "regexp_parser-2.6.2/" "loofah-2.20.0/" "rails-dom-testing-2.0.3/" "observer-0.1.1/" "multi_xml-0.6.0/" "activerecord-7.0.4/" "rspec-mocks-3.12.5/" "redis-4.8.1/" "faraday-net_http-3.0.2/" "rubocop-1.42.0/" "date-3.3.3/" "i18n-1.12.0/" "faker-3.1.0/" "jwt-2.6.0/" "rspec-mocks-3.12.2/" "nokogiri-1.14.0-arm64-darwin/" "liquid-5.4.0/" "actionview-7.0.4.2/" "securerandom-0.2.0/" "concurrent-ruby-1.1.10/" "jsbundling-rails-1.1.1/" "webdrivers-4.0.1/" "jekyll-watch-2.2.1/" "railties-7.0.4.1/" "rails-reverse-proxy-0.11.0/" "json-2.6.1/" "turbo-rails-1.4.0/" "rchardet-1.8.0/" "ffi-1.15.5/" "nio4r-2.5.9/" "em-websocket-0.5.2/" "power_assert-2.0.1/" "aws-sdk-kms-1.63.0/" "rspec-core-3.12.1/" "sass-rails-6.0.0/" "readline-ext-0.1.4/" "aws-sigv4-1.5.2/" "zeitwerk-2.6.7/" "open-uri-0.2.0/" "importmap-rails-1.1.5/" "digest-3.1.0/" "jekyll-toc-0.18.0/" "nio4r-2.5.8/" "actioncable-7.0.4.1/" "webrick-1.8.1/" "no-style-please-0.4.7/" "safe_yaml-1.0.5/" "daemons-1.4.1/" "parser-3.2.0.0/" "minitest-5.18.0/" "actionview-7.0.4.3/" "breadcrumbs-0.3.0/" "rb-fsevent-0.11.2/" "net-imap-0.2.3/" "pathname-0.2.0/" "selenium-webdriver-4.7.1/" "rake-13.0.6/" "forwardable-1.3.2/" "actionview-7.0.4/" "font-awesome-sass-6.2.1/" "mobility-1.2.9/" "sentry-ruby-5.8.0/" "unicode-display_width-2.4.2/" "etc-1.3.0/" "zeitwerk-2.6.6/" "image_processing-1.12.2/" "em-websocket-0.5.3/" "diff-lcs-1.5.0/" "rspec-core-3.12.0/" "rspec-support-3.12.0/" "mini_magick-4.12.0/" "inherited_resources-1.13.1/" "activestorage-7.0.4.1/" "activestorage-7.0.4/" "regexp_parser-2.7.0/" "connection_pool-2.3.0/" "thin-1.6.4/" "slim-5.1.0/" "language_server-protocol-3.17.0.2/" "mercenary-0.3.6/" "tmpdir-0.1.2/" "shellwords-0.1.0/" "puma-5.6.5/" "vcr-6.1.0/" "rubyzip-2.3.2/" "english-0.7.1/" "sprockets-4.2.0/" "temple-0.8.2/" "msgpack-1.6.1/" "slim-4.1.0/" "rails-controller-testing-1.0.5/" "kaminari-activerecord-1.2.2/" "jsonapi-serializer-2.2.0/" "timeout-0.2.0/" "erubi-1.12.0/" "benchmark-0.2.0/" "racc-1.6.0/" "kramdown-2.4.0/" "activejob-7.0.4.3/" "debug-1.7.1/" "bundler-2.0.1/" "io-nonblock-0.1.0/" "resolv-replace-0.1.0/" "selenium-webdriver-3.142.7/" "crass-1.0.6/" "method_source-1.0.0/" "eventmachine-1.2.7/" "sass-embedded-1.57.1-arm64-darwin/" "bundler-2.4.1/" "httpclient-2.8.3/" "pry-byebug-3.10.1/" "minima-2.5.1/" "activemodel-7.0.4/" "forwardable-extended-2.6.0/" "actionmailbox-7.0.4.1/" "ancestry-4.2.0/" "omniauth-github-2.0.1/" "bundler-2.4.8/" "singleton-0.1.1/" "html2markdown-0.0.3/" "rouge-3.30.0/" "terminal-table-2.0.0/" "actionpack-7.0.4/" "activemodel-7.0.4.1/" "bigdecimal-3.1.1/" "hitchens-theme-0.7.2/" "omniauth-oauth2-1.8.0/" "rinda-0.1.1/" "activejob-7.0.4.2/" "pusher-2.0.3/" "tinymce-rails-6.4.0/" "logger-1.5.0/" "formtastic-4.0.0/" "jekyll-4.3.2/" "msgpack-1.6.0/" "omniauth-2.1.1/" "rack-protection-3.0.5/" "sqlite3-1.6.0-arm64-darwin/" "rspec-3.12.0/" "io-wait-0.2.1/" "kaminari-core-1.2.2/" "ruby2_keywords-0.0.5/" "jekyll-3.9.3/" "google-protobuf-3.21.12/" "activerecord-7.0.4.2/" "mini_mime-1.1.2/" "psych-4.0.4/" "rdiscount-2.2.7/" "sass-embedded-1.58.0-arm64-darwin/" "has_scope-0.8.0/" "net-ftp-0.1.3/" "prettyprint-0.1.1/" "standard-1.22.1/" "ipaddr-1.2.4/" "actiontext-7.0.4.1/" "friendly_id-5.5.0/" "actionpack-7.0.4.3/" "tsort-0.1.0/" "rspec-expectations-3.12.1/" "activeadmin-2.13.1/" "jekyll-feed-0.17.0/" "erb-2.2.3/" "pusher-signature-0.1.8/" "zlib-2.1.1/" "capybara-3.39.0/" "addressable-2.8.0/" "breadcrumbs_on_rails-4.1.0/" "open3-0.1.1/" "rainbow-3.1.1/" "xpath-3.2.0/" "arbre-1.5.0/" "version_gem-1.1.2/" "will_paginate-3.0.12/" "jbuilder-2.11.5/" "mail-2.8.0.1/" "timecop-0.9.6/" "activerecord-7.0.4.3/" "kaminari-1.2.2/" "rails-7.0.4.1/" "addressable-2.8.1/" "net-protocol-0.2.1/" "hashdiff-1.0.1/" "nkf-0.1.1/" "actionpack-7.0.4.2/" "stimulus-rails-1.2.1/" "kramdown-parser-gfm-1.1.0/" "sass-listen-4.0.0/" "mail-2.8.1/" "web-console-4.2.0/" "rack-1.6.13/" "pg_search-2.3.6/" "jekyll-sass-converter-1.5.2/" "net-smtp-0.3.3/" "fileutils-1.6.0/" "did_you_mean-1.6.1/" "aws-partitions-1.731.0/" "http_parser.rb-0.8.0/" "tzinfo-2.0.5/" "rack-2.2.6.3/" "actionmailer-7.0.4.3/" "rspec-rails-6.0.1/" "activesupport-7.0.4.3/" "byebug-11.1.3/" "devise-4.9.2/" "orm_adapter-0.5.0/" "rack-2.2.6.4/" "net-pop-0.1.2/" "strscan-3.0.1/" "irb-1.6.3/" "tailwindcss-rails-2.0.21-arm64-darwin/" "request_store-1.5.1/" "shutup-0.1.2/" "hpricot-0.8.6/" "irb-1.6.4/" "pg-1.4.5/" "reline-0.3.2/" "http_parser.rb-0.6.0/" "tinymce-rails-6.3.2/" "regexp_parser-2.6.1/" "pstore-0.1.1/" "concurrent-ruby-1.2.0/" "public_suffix-5.0.1/" "rubocop-ast-1.24.1/" "rspec-mocks-3.12.1/" "mail-2.8.0/" "reline-0.3.3/" "bootsnap-1.15.0/" "pry-0.14.1/" "paranoia-2.6.1/" "listen-3.5.0/" "weakref-0.1.1/" "msgpack-1.7.0/" "irb-1.6.2/" "activesupport-7.0.4.2/" "drb-2.1.0/" "timeout-0.3.1/" "hotwire-livereload-1.2.3/" "slim-rails-3.6.1/" "jekyll-paginate-v2-2.0.0/" "hashie-5.0.0/" "actionmailer-7.0.4.2/" "irb-1.4.1/" "stringio-3.0.1/" "rack-2.2.6.2/" "public_suffix-4.0.6/" "pathutil-0.16.2/" "loofah-2.19.1/" "kaminari-actionview-1.2.2/" "abbrev-0.1.0/" "minitest-5.16.3/" "liquid-rails-0.1.3/" "resolv-0.2.1/" "activejob-7.0.4/" "formtastic_i18n-0.7.0/" "nokogiri-1.13.10-arm64-darwin/" "git-1.18.0/" "capybara-3.38.0/" "sass-embedded-1.58.3-arm64-darwin/" "io-console-0.5.11/" "font-awesome-rails-4.7.0.8/" "base64-0.1.1/" "actionview-7.0.4.1/" "sidekiq-6.5.8/" "awesome_print-1.9.2/" "rack-test-2.0.2/" "shoulda-matchers-5.3.0/" "actioncable-7.0.4.3/" "rails-html-sanitizer-1.5.0/" "railties-7.0.4.2/" "omniauth-google-oauth2-1.1.1/" "letter_opener-1.8.1/" "actionmailer-7.0.4/" "webdrivers-5.2.0/" "error_highlight-0.3.0/" "pp-0.3.0/" "websocket-extensions-0.1.5/" "actioncable-7.0.4.2/" "set-1.0.2/" "json-2.6.3/" "sqlite3-1.6.2-arm64-darwin/" "ffi-1.15.0/" "railties-7.0.4.3/" "net-protocol-0.1.2/" "jekyll-paginate-1.1.0/" "factory_bot-6.2.1/" "aws-eventstream-1.2.0/" "babosa-2.0.0/" "railties-7.0.4/" "kaminari-0.16.3/" "jekyll-sitemap-1.4.0/" "ruby-vips-2.1.4/" "stripe-8.3.0/" "builder-3.2.4/" "sentry-rails-5.8.0/" "faraday-2.7.4/" "spina-2.13.1/" "test-unit-3.5.3/" "rubyzip-1.3.0/" "debug-1.7.2/" "terminal-table-3.0.2/" "devise-4.8.1/" "multi_json-1.15.0/" "nokogiri-1.14.2-arm64-darwin/" "syslog-0.1.0/" "coderay-1.1.3/" "listen-3.8.0/" "factory_bot_rails-6.2.0/" "actionmailbox-7.0.4.3/" "bundler-2.3.26/" "globalid-1.0.0/" "activemodel-7.0.4.3/" "activestorage-7.0.4.2/" "concurrent-ruby-1.1.8/" "date-3.2.2/" "capybara-selenium-0.0.6/" "parallel-1.22.1/" "childprocess-3.0.0/" "jekyll-seo-tag-2.8.0/" "yaml-0.2.0/" "getoptlong-0.1.1/" "bootsnap-1.16.0/" "cssbundling-rails-1.1.2/" "google-protobuf-3.22.0-arm64-darwin/" "racc-1.6.2/" "dockerfile-rails-1.2.5/" "websocket-driver-0.7.5/" "activejob-7.0.4.1/" "responders-3.0.1/" "openssl-3.0.1/" "ruby-progressbar-1.11.0/" "jquery-rails-4.5.1/" "rouge-4.0.1/" "actiontext-7.0.4/" "jekyll-4.3.1/" "tilt-2.0.11/" "sassc-rails-2.1.2/" "slim-rails-3.5.1/" "jwt-2.7.0/" "webdrivers-3.9.4/" "rubocop-1.43.0/" "jekyll-sass-converter-3.0.0/" "activemodel-7.0.4.2/" "globalid-1.0.1/" "activestorage-7.0.4.3/" "sentry-raven-3.1.2/" "rss-0.2.9/" "pundit-2.3.0/" "ostruct-0.5.2/" "actionmailbox-7.0.4.2/" "tempfile-0.1.2/" "actionmailbox-7.0.4/" "attr_json-1.5.0/" "uri-0.11.0/" "jmespath-1.6.2/" "rails-html-sanitizer-1.4.4/" "rake-12.3.3/" "view_component-2.82.0/" "activesupport-7.0.4/" "rbs-2.7.0/" "snaky_hash-2.0.1/" "rails-7.0.4/" "sprockets-rails-3.4.2/" "actiontext-7.0.4.2/" "oauth2-2.0.9/" "matrix-0.4.2/" "rb-fsevent-0.10.4/" "find-0.1.1/" "aws-sdk-core-3.170.0/" "selenium-webdriver-4.8.6/" "warden-1.2.9/" "rspec-expectations-3.12.2/" "crack-0.4.5/" "selenium-webdriver-4.8.1/" "addressable-2.8.4/" "optparse-0.2.0/" "webmock-3.18.1/" "bindex-0.8.1/" "minitest-5.17.0/" "prime-0.1.2/" "un-0.2.0/" "no-style-please-0.1.0/" "rails-7.0.4.3/" "activerecord-7.0.4.1/" "nokogiri-1.14.3-arm64-darwin/" "colorator-1.1.0/" "turbo-rails-1.3.2/" "fiddle-1.1.0/" "aws-sdk-kms-1.62.0/" "marcel-1.0.2/" "thor-1.2.1/" "typeprof-0.21.3/" "launchy-2.5.2/" "selenium-webdriver-4.8.0/" "temple-0.10.0/" "html2slim-0.2.0/" "aws-sdk-core-3.170.1/" "jekyll-feed-0.15.1/" "sass-3.7.4/" "actiontext-7.0.4.3/" "rouge-3.26.0/" "rack-test-2.1.0/" "i18n-1.8.9/" "actionpack-7.0.4.1/" "csv-3.2.5/" "version_gem-1.1.1/" "turbo-rails-1.3.3/" "unicode-display_width-1.7.0/" "websocket-1.2.9/" "aws-sdk-s3-1.119.1/" "dotenv-rails-2.8.1/" "webrick-1.7.0/" "dotenv-2.8.1/" "rexml-3.2.5/" "readline-0.0.3/" "ransack-3.2.1/" "rails-7.0.4.2/" "net-imap-0.3.4/" "sassc-2.4.0/" "../" "./")
+ ("/Users/svs/src/advaita-backend/app/models/" (25825 47750 965301 792000) "user.rb" "concerns/" "board.rb" "merge.rb" "application_record.rb" "comment.rb" "board_visit.rb" "document.rb" "publication_team.rb" "../" "./")
 
- ("/Users/svs/.rbenv/versions/3.1.3/lib/ruby/gems/3.1.0/gems/liquid-5.4.0/" (25668 50985 890446 970000) "lib/" "README.md" "History.md" "LICENSE" "../" "./")
+ ("/Users/svs/src/advaita-backend/" (25825 53317 765355 688000) "advaita-devops/" "vendor/" "tmp/" ".env.development" ".git/" "Gemfile.lock" "log/" "Gemfile" "db/" "lib/" ".gitattributes" ".github/" "Procfile.dev" "package.json" "package-lock.json" ".gitignore" "public/" ".node-version" "yarn.lock" "Rakefile" "README.md" "storage/" ".env.test" "spec/" "node_modules/" "config.ru" "ssh:/" "#Gemfile#" "config/" "bin/" "test/" ".yarnrc" ".ruby-version" "app/" ".rspec" ".yarn/" "../" "./")
 
- ("/Users/svs/.rbenv/versions/3.1.3/lib/ruby/gems/3.1.0/gems/liquid-5.4.0/lib/" (25668 50985 890607 762000) "liquid.rb" "liquid/" "../" "./")
+ ("/Users/svs/src/slim-components/lib/slim/" (25832 46249 280304 124000) "components/" "components.rb" "../" "./")
 
- ("/Users/svs/.rbenv/versions/3.1.3/lib/ruby/gems/3.1.0/gems/liquid-5.4.0/lib/liquid/" (25668 50985 898173 709000) "registers.rb" "resource_limits.rb" "range_lookup.rb" "tag/" "block_body.rb" "profiler/" "version.rb" "forloop_drop.rb" "standardfilters.rb" "tablerowloop_drop.rb" "partial_cache.rb" "variable_lookup.rb" "strainer_template.rb" "tags/" "condition.rb" "utils.rb" "context.rb" "parser.rb" "variable.rb" "tokenizer.rb" "parse_context.rb" "extensions.rb" "template.rb" "lexer.rb" "i18n.rb" "document.rb" "strainer_factory.rb" "file_system.rb" "profiler.rb" "errors.rb" "locales/" "block.rb" "interrupts.rb" "parser_switching.rb" "drop.rb" "tag.rb" "template_factory.rb" "usage.rb" "parse_tree_visitor.rb" "expression.rb" "../" "./")
+ ("/Users/svs/src/essayr/config/" (25867 61085 626109 895000) "credentials/" "initializers/" "boot.rb" "database.yml" "credentials.yml.enc" "puma.rb" "#routes.rb#" "application.rb" "storage.yml" "database.yml.ci" "environment.rb" "master.key" "environments/" "cable.yml" "locales/" "tinymce.yml" "routes.rb" "../" "./")
 
- ("/Users/svs/src/advaita-backend/app/views/home/" (25666 36544 550048 494000) "../" "./")
+ ("/Users/svs/src/essayr/app/assets/stylesheets/" (25875 51875 882618 96000) "comments.scss" "Stack.css" "landing.scss" "theme_css/" "signup.scss" "variable.scss" "style.scss" "actiontext.css" "posts.scss" "et_book.scss" "forms.scss" "et-book.css" "application.bootstrap.scss" "post.scss" "theme.bootstrap.scss" "pages.scss" "navbar.scss" "fonts.scss" "every.css" "select_search.scss" "active_admin.scss" "../" "./")
 
- ("/Users/svs/src/advaita-backend/app/views/application/" (25666 23431 17006 184000) "_navbar.html.slim" "_navbar.html.erb" "../" "./")
+ ("/Users/svs/src/essayr/app/views/discussions/" (25831 10737 916895 901000) "_modal_body.html.slim" "show.html.slim" "../" "./")
 
- ("/Users/svs/src/essayr/app/services/stripe/" (25665 25698 764342 619000) "checkout_session_service.rb" "payment_service.rb" "webhook_service.rb" "invoice_service.rb" "../" "./")
+ ("/Users/svs/src/essayr/app/models/" (25875 61563 469323 200000) "user.rb" "concerns/" "post.rb" "application_record.rb" "admin_user.rb" "comment.rb" "post_visit.rb" "purchase.rb" "team.rb" "mailing_list.rb" "page.rb" "following.rb" "email.rb" "#post.rb#" "publication.rb" "publication_team.rb" "publication_credential.rb" "post_email.rb" "email_template.rb" "../" "./")
 
- ("/Users/svs/src/git/" (25656 8067 447770 796000) "7ce5840d-485a-4855-94fb-128fe5d88af4/" "bce64d1f-9368-4b72-9eca-01c572a4b822/" "361b6cdf-26a9-4262-9fbf-639b4fec4a1d/" "a9b11dc0-e3a4-498c-ab68-2eec4b1e7708/" "01417821-0068-4682-91d1-5fd2f04bfdbd/" "e4c349ac-bcda-40da-a718-d99b8d33e618/" "03b51e4c-696f-4603-9277-1ff6e5d0ed41/" "5516a0c0-2548-4e1d-bf5d-6defb0c16478/" "0964061f-0833-4cce-8466-c14c46cc4df7/" "7600c4bf-bbd4-4cd3-bfba-499cee96a547/" "765d9b9e-3b14-4503-9832-5e0523770e4e/" "1664d85a-d554-4cb7-9bad-7f451982513d/" "1c877c29-e68d-4cb8-9508-a4b535b3d872/" "06fe9110-d79b-4429-bf35-9a6fd7c62f74/" "1d1d7d86-89c7-477f-b6a2-a4508cb13d7f/" "f25e95d9-e2a9-42b2-b8b8-319aae1fb7b1/" "f69c1836-1f72-4e17-8f12-bf096a0cfb13/" "ed243da0-4eb7-4266-9687-1110227080e1/" "adfebe57-93fe-419d-853d-2a93b27a0ba6/" "028e3bc4-7a40-4527-be80-4fa0f0fb07ee/" "44d9f73c-3d1c-4dfc-9977-29801331eded/" "84677e47-3b7b-46e3-ad3e-9d6132dc1226/" "d9bfdbe7-fdf8-4a23-a8b8-665ba27c43c1/" "67dbe1d3-4574-495a-9064-9f7ba79875a6/" "44230a89-ea35-481e-92fa-97ec8d56d70a/" "0a81a783-6ca9-4882-a621-6767b617e839/" "7272eda7-87fb-4627-92c2-35fc24620fed/" "ffc6d6a3-7adb-4ecf-b625-273af0fdd7f2/" "9cb6934a-4f65-4506-b006-857b8ef3a261/" "a880fcb9-23de-4ef8-ab98-e09bf5fbe7d8/" "29af56f0-30a7-445f-8fd8-22a9722929fb/" "9f58543b-4afb-407f-8251-5e0308680330/" "d0bf6fa2-64e6-4cc6-b5df-3c197e82d5fc/" "453c3866-9d23-4465-a346-3ec73bfda2f6/" "18c6d1ca-438f-4e3d-9f51-3fdd065d5ed1/" "../" "./")
+ ("/Users/svs/src/essayr/app/controllers/" (25867 61085 610193 910000) "#pages_controller.rb#" "concerns/" "followings_controller.rb" "purchases_controller.rb" "posts_controller.rb" "discussions_controller.rb" "mailing_lists_controller.rb" "users/" "emails_controller.rb" "home_controller.rb" "domains_controller.rb" "#application_controller.rb#" "users_controller.rb" "stripe_accounts_controller.rb" "email_templates_controller.rb" "publication_teams_controller.rb" "orders_controller.rb" "pages_controller.rb" "comments_controller.rb" "user_subscriptions_controller.rb" "publications_controller.rb" "teams_controller.rb" "application_controller.rb" "post_emails_controller.rb" "../" "./")
 
- ("/Users/svs/src/advaita-backend/app/views/comments/" (25655 59914 736133 570000) "show.json.jbuilder" "index.json.jbuilder" "../" "./")
+ ("/Users/svs/src/essayr/spec/controllers/" (25867 61085 628495 78000) "application_controller_spec.rb" "purchases_controller_spec.rb" "home_controller_spec.rb" "post_emails_controller_spec.rb" "users/" "publications_controller_spec.rb" "emails_controller_spec.rb" "stripe_accounts_controller_spec.rb" "mailing_lists_controller_spec.rb" "comments_controller_spec.rb" "discussions_controller_spec.rb" "posts_controller_spec.rb" "../" "./")
 
- ("/Users/svs/src/jekyll/now.here.this/assets/css/" (25596 13745 78707 225000) "style.css" "../" "./")
+ ("/Users/svs/src/essayr/app/views/posts/" (25875 61563 474067 111000) "discuss.html.slim" "_post_list.html.slim" "_post_content.html.slim" "_header.html.slim" "_nothing.html.slim" "show.html.slim" "_hard_email_form.html.slim" "_comments_form.html.slim" "index.html.slim" "analytics.html.slim" "_form.html.slim" "_select_parent.html.slim" "_email_paywall.html.slim" "_read_next.html.slim" "_comments.html.slim" "_reader_list.html.slim" "_post.html.slim" "_read_next_content.html.slim" "_comment.html.slim" "#discuss.html.slim#" "_html_paywall.html.slim" "new.html.slim" "_no_posts_selected.html.slim" "_reader_table_row.html.slim" "_pic.html.slim" "_side_nav_toc.html.slim" "edit.html.slim" "../" "./")
 
- ("/Users/svs/src/advaita-backend/spec/controllers/" (25654 14658 640036 923000) "../" "./")
+ ("/Users/svs/src/essayr/app/javascript/controllers/" (25876 2614 371407 343000) "quill_controller.js" "comments_controller.js" "publication_form_controller.js" "discuss_controller.ts" "application.js" "article_controller.js" "codemirror_controller.js" "discussion_controller.js" "editor_controller.js" "comment_wrapper_controller.js" "post_parent_controller.js" "tinymce_inline_controller.js" "#post_controller.js#" "twitter_widget_controller.js" "post_controller.js" "inline_controller.js" "index.js" "analytics_controller.js" "froala_controller.js" "modal_controller.js" "post_index_controller.js" "post_side_nav_controller.js" "codemirror_markdown_controller.js" "dragable_controller.js" "hello_controller.js" "tui_controller.js" "#discussion_controller.js#" "tui_editor_controller.js" "search_controller.js" "payment_form_controller.js" "mailwall_controller.js" "subscriber_flash_controller.js" "tinymce_controller.js" "select2_controller.js" "multiselection_controller.js" "sessions_form_controller.js" "../" "./")
 
- ("/Users/svs/src/git/9c0acc11-9249-47e0-81bf-2b4733a0cb50/" (25653 6803 878651 171000) "Alone on a Wide, Wide Sea" ".git/" ".#Alone on a Wide, Wide Sea" "#Alone on a Wide, Wide Sea#" "../" "./")
+ ("/Users/svs/src/essayr/app/helpers/" (25875 51875 890971 100000) "application_helper.rb" "teams_helper.rb" "publications_helper.rb" "home_helper.rb" "users_helper.rb" "publication_teams_helper.rb" "domains_helper.rb" "posts_helper.rb" "pages_helper.rb" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

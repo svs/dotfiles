@@ -2,150 +2,210 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sun Jun  4 12:19:21 2023
+;; Created Mon Oct 30 14:09:24 2023
 ;; Desktop file format version 208
 ;; Emacs version 28.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (25724 13297 204790 0) (desktop . "208") "svs@Siddharths-MacBook-Pro.local" nil nil ((((minibuffer . t) (fontsize . 0) (font . "-*-Monaco-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 15) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (scroll-bar-foreground . "white") (environment) (last-focus-update) (frameset--id . "4971-3F22-40A1-20C5") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (visibility . t) (display . "Siddharths-MacBook-Pro.local") (explicit-name) (tool-bar-position . top) (tabs (current-tab (name . "*helm M-x*") (explicit-name))) (height . 38) (width . 148) (left . 127) (top . 33)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 80) (min-pixel-width . 90) (min-pixel-height-ignore . 40) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 20) (min-pixel-width-safe . 18)) leaf (pixel-width . 1348) (pixel-height . 740) (total-width . 150) (total-height . 37) (normal-height . 1.0) (normal-width . 1.0) (buffer "post_html_service.rb" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins 2) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 465) (start . 1)) (prev-buffers ("post_html_service_spec.rb" 1 351) ("post_html_service.rb" 1 269) ("post_render_service_spec.rb" 61 754) ("dotemacs" 1808 2620) (".emacs.d" 1 793) ("elpa" 1 173) ("post_render_service.rb" 933 2242) ("article_email_service.rb" 1 216) ("post_emails_controller.rb" 1 491) ("post_mailer.rb" 1 352) ("publication_mailer.rb" 3183 3897) ("*scratch*" 1 1))))])
+(setq desktop-saved-frameset [frameset 1 (25919 27580 866720 0) (desktop . "208") "svs@Siddharths-MacBook-Pro.local" nil nil ((((minibuffer . t) (fontsize . 0) (font . "-*-Monaco-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance) (ns-transparent-titlebar) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 15) (alpha) (fullscreen) (cursor-color . "#FFFFEF") (display-type . color) (background-mode . dark) (scroll-bar-foreground . "white") (last-focus-update) (frameset--id . "B22E-B1C1-EA48-13DF") (frameset--mini t . t) (height . 53) (width . 157) (modeline . t) (unsplittable) (left . 0) (top . 365) (icon-name) (visibility . t) (display . "Siddharths-MacBook-Pro.local") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 80) (min-pixel-width . 90) (min-pixel-height-ignore . 40) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 20) (min-pixel-width-safe . 18)) leaf (pixel-width . 1429) (pixel-height . 1040) (total-width . 158) (total-height . 52) (normal-height . 1.0) (normal-width . 1.0) (buffer "job.rb" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins 2) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 741) (start . 1)) (prev-buffers ("profile_hydrator.rb" 9553 9753) ("job.rb" 1 731) ("_form.html.slim" 1 662) ("jobs_controller.rb" 1808 3001) ("database.yml" 1 770) ("jd_hydrator.rb" 1662 2450) ("20231029120201_add_skills_to_jobs.rb" 1 165) ("similar.html.slim" 1 105) ("index.html.slim" 1 157) ("candidates_controller.rb" 256 618) ("candidate_policy.rb" 437 953) ("routes.rb" 1056 1584) ("candidate_detail.rb" 1 112) (".env.development" 1 176) ("Gemfile" 2574 2634) ("storage.yml" 1 402) ("*scratch*" 1 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring nil)
-(setq regexp-search-ring '(#("partai" 0 6 (isearch-case-fold-search t)) #("render" 0 6 (isearch-case-fold-search t)) #("ruby-," 0 6 (isearch-case-fold-search t)) #("ruby" 0 4 (isearch-case-fold-search t)) #("ruby-mode" 0 9 (isearch-case-fold-search t)) #("ruby-mo" 0 7 (isearch-case-fold-search t)) #("renderer" 0 8 (isearch-case-fold-search t)) #("get_te" 0 6 (isearch-case-fold-search t))))
-(setq register-alist '((98 . #("    it 'creates a new board' do\n      headers = { \"ACCEPT\" => \"application/json\" }\n      post '/boards" 0 4 (fontified t) 4 7 (fontified t) 7 28 (fontified t face font-lock-string-face) 28 29 (fontified t) 29 31 (fontified t face font-lock-keyword-face) 31 32 (fontified t) 32 44 (fontified t) 44 50 (fontified t) 50 58 (fontified t face font-lock-string-face) 58 62 (fontified t) 62 80 (fontified t face font-lock-string-face) 80 82 (fontified t) 82 83 (fontified t) 83 94 (fontified t) 94 102 (fontified t face font-lock-string-face)))))
-(setq file-name-history '("/Users/svs/src/essayr/spec/services/post_render_service_spec.rb" "/Users/svs/.emacs" "~/.emacs.d/" "/Users/svs/src/essayr/spec/services/post_html_service_spec.rb" "/Users/svs/src/essayr/app/services/post_html_service.rb" "/Users/svs/src/essayr/app/services/post_render_service.rb" "/Users/svs/src/essayr/app/services/article_email_service.rb" "/Users/svs/src/essayr/app/controllers/post_emails_controller.rb" "/Users/svs/src/essayr/app/mailers/publication_mailer.rb" "/Users/svs/src/essayr/app/mailers/post_mailer.rb" "/Users/svs/src/essayr/spec/services/post_render_service_spec.rb" "/Users/svs/src/essayr/spec/factories/posts.rb" "~/src/essayr/spec/services/post_html_service_spec.rb" "~/src/essayr/app/services/post_html_service.rb" "/Users/svs/src/essayr/app/views/posts/show.html.slim" "/Users/svs/src/essayr/app/controllers/posts_controller.rb" "/Users/svs/src/essayr/spec/services/post_render_service_spec.rb" "/Users/svs/src/essayr/app/services/post_render_service.rb" "/Users/svs/src/essayr/app/models/post_email.rb" "/Users/svs/src/essayr/app/services/article_email_service.rb" "/Users/svs/src/essayr/app/controllers/post_emails_controller.rb" "/Users/svs/src/essayr/app/views/post_emails/index.html.slim" "/Users/svs/src/essayr/config/environments/development.rb" "/Users/svs/src/essayr/app/views/layouts/post_mailer.html.erb" "/Users/svs/src/essayr/app/services/post_render_service.rb" "/Users/svs/src/essayr/app/views/orders/new.html.slim" "/Users/svs/src/essayr/app/policies/post_policy.rb" "/Users/svs/src/essayr/app/views/posts/show.html.slim" "/Users/svs/src/essayr/app/controllers/posts_controller.rb" "/Users/svs/src/essayr/app/helpers/posts_helper.rb" "/Users/svs/src/essayr/app/services/post_render_service.rb" "/Users/svs/src/essayr/app/services/page_renderer_service.rb" "/Users/svs/src/essayr/app/views/orders/new.html.slim" "/Users/svs/src/essayr/app/views/posts/show.html.slim" "/Users/svs/src/essayr/spec/features/posts_spec.rb" "~/src/essayr/lib/custom_domain_constraint.rb" "/Users/svs/src/essayr/spec/features/navbars_spec.rb" "/Users/svs/src/essayr/spec/features/email_flow_spec.rb" "/Users/svs/src/essayr/app/views/application/_navbar.html.erb" "/Users/svs/src/essayr/app/views/application/_navbar_edit.html.erb" "/Users/svs/src/essayr/config/routes.rb" "/Users/svs/src/essayr/spec/controllers/publications_controller_spec.rb" "~/src/essayr/spec/requests/domains_spec.rb" "~/src/essayr/spec/lib/domain_constraint_spec.rb" "~/src/essayr/spec/lib" "/Users/svs/src/essayr/spec/features/domain_spec.rb" "/Users/svs/src/essayr/lib/domain_constraint.rb" "/Users/svs/src/essayr/app/views/posts/show.html.slim" "/Users/svs/src/essayr/app/views/posts/_reader_list.html.slim" "/Users/svs/src/essayr/app/views/posts/index.html.slim" "/Users/svs/src/essayr/app/views/application/_email_form.html.slim" "/Users/svs/src/essayr/app/views/posts/_payment.html.slim" "/Users/svs/src/essayr/app/javascript/controllers/analytics_controller.js" "/Users/svs/src/essayr/lib/domain_constraint.rb" "/Users/svs/src/essayr/lib/custom_domain_constraint.rb" "/Users/svs/src/essayr/app/views/mailing_lists/show.html.slim" "/Users/svs/src/essayr/spec/policies/post_policy_spec.rb" "/Users/svs/src/essayr/app/policies/post_policy.rb" "/Users/svs/src/essayr/app/policies/application_policy.rb" "/Users/svs/src/essayr/app/policies/publication_policy.rb" "/Users/svs/src/essayr/spec/policies/publication_policy_spec.rb" "/Users/svs/src/essayr/app/views/mailing_lists/show.html.slim" "/Users/svs/src/essayr/app/models/post.rb" "/Users/svs/src/essayr/app/policies/post_policy.rb" "~/src/essayr/app/views/posts/analytics.html.slim" "/Users/svs/src/essayr/config/routes.rb" "/Users/svs/src/essayr/app/views/mailing_lists/show.html.slim" "/Users/svs/src/essayr/app/views/mailing_lists/index.html.slim" "~/src/essayr/app/views/publications/analytics.html.slim" "/Users/svs/src/essayr/app/policies/publication_policy.rb" "~/src/essayr/spec/features/analytics_spec.rb" "/Users/svs/src/essayr/spec/features/publication_spec.rb" "/Users/svs/src/essayr/config/routes.rb" "/Users/svs/src/essayr/app/javascript/application.js" "/Users/svs/src/essayr/Gemfile" "/Users/svs/src/essayr/app/models/publication.rb" "/Users/svs/src/essayr/spec/models/publication_spec.rb" "/Users/svs/src/essayr/spec/features/posts_spec.rb" "/Users/svs/src/essayr/app/views/layouts/devise.html.erb" "/Users/svs/src/essayr/app/helpers/publications_helper.rb" "/Users/svs/src/essayr/app/helpers/application_helper.rb" "/Users/svs/src/essayr/app/views/application/_head.html.erb" "/Users/svs/src/essayr/app/views/layouts/application.html.erb" "/Users/svs/src/essayr/spec/services/create_user_subscription_service_spec.rb" "/Users/svs/src/essayr/app/views/home/index.html.slim" "/Users/svs/src/essayr/app/controllers/home_controller.rb" "/Users/svs/src/essayr/config/routes.rb" "/Users/svs/src/essayr/app/controllers/posts_controller.rb" "/Users/svs/src/essayr/app/controllers/purchases_controller.rb" "/Users/svs/src/essayr/spec/features/teams_spec.rb" "~/src/essayr/app/views/publication_mailer/added_as_contributor.html.erb" "/Users/svs/src/essayr/app/views/publication_mailer/added_as_subscriber.html.erb" "~/src/essayr/app/views/publication_mailer/added_as_contributor.html.slim" "/Users/svs/src/essayr/app/mailers/publication_mailer.rb" "/Users/svs/src/essayr/app/mailers/user_mailer.rb" "/Users/svs/src/essayr/app/controllers/publication_teams_controller.rb" "/Users/svs/src/essayr/spec/features/purchase_spec.rb" "/Users/svs/src/essayr/app/models/post.rb" "/Users/svs/src/essayr/spec/features/posts_spec.rb" "/Users/svs/src/essayr/app/views/posts/_payment.html.slim"))
+(setq regexp-search-ring '(#("ada" 0 3 (isearch-case-fold-search t)) #("prof" 0 4 (isearch-case-fold-search t)) #("get_skills" 0 10 (isearch-case-fold-search t)) #("doten" 0 5 (isearch-case-fold-search t)) #("dotenv" 0 6 (isearch-case-fold-search t))))
+(setq register-alist '((98 . #("    it 'creates a new board' do\n      headers = { \"ACCEPT\" => \"application/json\" }\n      post '/boards" 0 4 (fontified t) 4 7 (fontified t) 7 28 (face font-lock-string-face fontified t) 28 29 (fontified t) 29 31 (face font-lock-keyword-face fontified t) 31 32 (fontified t) 32 44 (fontified t) 44 50 (fontified t) 50 58 (face font-lock-string-face fontified t) 58 62 (fontified t) 62 80 (face font-lock-string-face fontified t) 80 82 (fontified t) 82 83 (fontified t) 83 94 (fontified t) 94 102 (face font-lock-string-face fontified t)))))
+(setq file-name-history '("/Users/svs/src/rails-ats/app/services/profile_hydrator.rb" "/Users/svs/src/rails-ats/app/views/jobs/_form.html.slim" "/Users/svs/src/rails-ats/app/services/profile_hydrator.rb" "/Users/svs/src/rails-ats/app/services/jd_hydrator.rb" "/Users/svs/src/rails-ats/db/migrate/20231029120201_add_skills_to_jobs.rb" "/Users/svs/src/rails-ats/config/database.yml" "~/src/rails-ats/app/views/candidates/similar.html.slim" "/Users/svs/src/rails-ats/app/policies/candidate_policy.rb" "/Users/svs/src/rails-ats/config/routes.rb" "/Users/svs/src/rails-ats/app/models/candidate_detail.rb" "~/src/rails-ats/.env.development" "/Users/svs/src/rails-ats/Gemfile" "/Users/svs/src/rails-ats/config/storage.yml" "/Users/svs/src/rails-ats/app/services/profile_hydrator.rb" "~/src/essayr/.env.development" "/Users/svs/src/essayr/Gemfile" "~/src/essayr/.env" "/Users/svs/src/essayr/config/storage.yml" "/Users/svs/src/rails-ats/app/services/profile_hydrator.rb" "/Users/svs/src/rails-ats/app/services/jd_hydrator.rb" "/Users/svs/src/rails-ats/app/policies/company_policy.rb" "/Users/svs/src/rails-ats/app/javascript/application.js" "/Users/svs/src/rails-ats/app/javascript/controllers/candidate_validation_controller.js" "/Users/svs/src/rails-ats/app/javascript/controllers/index.js" "/Users/svs/src/rails-ats/app/javascript/controllers/application.js" "/Users/svs/src/rails-ats/db/migrate/20231027132950_add_embedding_to_candidate_details.rb" "/Users/svs/src/rails-ats/db/migrate/20231028061955_add_index_on_candidate_details_embeddings.rb" "/Users/svs/src/rails-ats/db/migrate/20231027132950_add_embedding_to_candidate_details.rb" "/Users/svs/src/rails-ats/app/javascript/application.js" "/Users/svs/src/rails-ats/app/javascript/controllers/candidate_validation_controller.js" "/Users/svs/src/rails-ats/app/javascript/controllers/validation_controller.js" "~/src/tmp/bms/manifest.json" "/Users/svs/src/rails-ats/app/controllers/candidates_controller.rb" "/Users/svs/src/rails-ats/db/migrate/20231027132950_add_embedding_to_candidate_details.rb" "~/src/rails-ats/config/initializers/pgvector.rb" "/Users/svs/src/rails-ats/db/migrate/20231027091702_add_embedding_to_candidate_details.rb" "/Users/svs/src/rails-ats/db/migrate/20231027090349_add_vectors_to_pg.rb" "~/src/tmp/llama-1/starter.py" "/Users/svs/.tool-versions" "/Users/svs/src/rails-ats/app/views/candidates/index.html.slim" "~/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/bundler/gems/langchainrb-10862e503fc0/lib/langchain/vectorsearch/" "/Users/svs/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/bundler/gems/langchainrb-10862e503fc0/lib/langchain/vectorsearch/weaviate.rb" "/Users/svs/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/bundler/gems/langchainrb-10862e503fc0" "/Users/svs/src/rails-ats/config/database.yml" "/Users/svs/src/rails-ats/config/initializers/openai.rb" "/Users/svs/src/rails-ats/Gemfile" "~/src/tmp/pdf-extract/qdrnt.rb" "/Users/svs/src/tmp/pdf-extract/Gemfile" "/Users/svs/src/tmp/pdf-extract/read.rb" "/Users/svs/src/rails-ats/app/views/candidates/_nav.html.slim" "/Users/svs/src/rails-ats/app/views/candidates/_applications.html.slim" "/Users/svs/src/rails-ats/app/policies/job_application_policy.rb" "/Users/svs/src/rails-ats/spec/features/company_user_spec.rb" "/Users/svs/src/rails-ats/spec/requests/candidates_spec.rb" "/Users/svs/src/rails-ats/spec/controllers/candidates_controller_spec.rb" "/Users/svs/src/rails-ats/app/views/job_applications/_table.html.slim" "/Users/svs/src/rails-ats/app/views/job_applications/_candidate_table.html.slim" "/Users/svs/src/rails-ats/app/policies/job_application_policy.rb" "/Users/svs/src/rails-ats/app/models/job_application.rb" "/Users/svs/src/rails-ats/app/views/candidates/_form.html.slim" "/Users/svs/src/rails-ats/app/views/companies/_users_table.html.slim" "/Users/svs/src/rails-ats/app/views/companies/index.html.slim" "/Users/svs/src/rails-ats/spec/policies/user_policy_spec.rb" "/Users/svs/src/rails-ats/app/components/nav_component.rb" "/Users/svs/src/rails-ats/spec/features/admin_user_spec.rb" "/Users/svs/src/rails-ats/spec/features/staff_user_spec.rb" "/Users/svs/src/rails-ats/spec/features/admin_user_spec.rb" "/Users/svs/src/rails-ats/app/views/companies/_candidate_jobs_table.html.slim" "/Users/svs/src/rails-ats/app/views/companies/_staff_jobs_table.html.slim" "/Users/svs/src/rails-ats/spec/features/company_user_spec.rb" "/Users/svs/src/rails-ats/spec/features/staff_user_spec.rb" "/Users/svs/src/rails-ats/spec/features/normal_user_spec.rb" "/Users/svs/src/rails-ats/db/seeds.rb" "/Users/svs/src/rails-ats/spec/features/normal_user_spec.rb" "~/src/rails-ats/app/views/companies/_users_table.html.slim" "/Users/svs/src/rails-ats/app/policies/company_policy.rb" "/Users/svs/src/rails-ats/app/views/companies/_company.html.slim" "/Users/svs/src/rails-ats/app/views/companies/show.html.slim" "/Users/svs/src/rails-ats/app/components/rating/_rating.html.slim" "/Users/svs/src/rails-ats/app/views/candidates/_table.html.slim" "/Users/svs/.emacs" "/Users/svs/src/rails-ats/app/controllers/candidates_controller.rb" "/Users/svs/src/rails-ats/app/views/candidates/_table.html.slim" "/Users/svs/src/rails-ats/app/views/candidates/index.html.slim" "~/src/rails-ats/app/views/candidates/rate.html.slim" "/Users/svs/src/rails-ats/app/javascript/controllers/rating_controller.js" "/Users/svs/src/rails-ats/app/javascript/application.js" "/Users/svs/src/rails-ats/app/components/rating/rating.js" "/Users/svs/src/rails-ats/app/components/nav_component.rb" "/Users/svs/src/rails-ats/app/components/rating_component.rb" "~/src/rails-ats/app/components/rating/_rating.html.slim" "~/src/rails-ats/app/components/rating/_rating.html.erb" "/Users/svs/src/rails-ats/app/components/rating/_rating.html.erb" "/Users/svs/src/rails-ats/app/views/candidates/_table.html.slim" "/Users/svs/src/rails-ats/app/views/job_applications/_index.html.slim" "/Users/svs/src/rails-ats/app/views/candidates/new.html.slim" "/Users/svs/src/rails-ats/app/views/candidates/_form.html.slim" "/Users/svs/src/rails-ats/app/views/dashboard/index.html.slim" "/Users/svs/src/rails-ats/app/views/dashboard/candidate_dashboard.html.slim" "/Users/svs/src/rails-ats/app/views/jobs/_jobs.html.slim"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/Users/svs/src/essayr/app/services/post_html_service.rb"
-  "post_html_service.rb"
+  "/Users/svs/src/rails-ats/app/models/job.rb"
+  "job.rb"
   'enh-ruby-mode
-  '(abbrev-mode linum-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode auto-revert-mode rspec-verifiable-mode)
-  465
-  '(221 nil)
+  '(abbrev-mode linum-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode rspec-verifiable-mode global-auto-revert-mode)
+  741
+  '(562 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 25724 13165 614164 0) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (523 416 197 124 866 893 280 280 280 218 95 807 269 524 1 888))))
+  '((indent-tabs-mode) (buffer-display-time 25919 14734 58115 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (625 535 972 519 553))))
 
 (desktop-create-buffer 208
-  "/Users/svs/src/essayr/spec/services/post_html_service_spec.rb"
-  "post_html_service_spec.rb"
-  'ruby-mode
-  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode auto-revert-mode rspec-mode)
-  351
-  '(174 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-display-time 25724 13165 244321 0) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (145 85 391))))
-
-(desktop-create-buffer 208
-  "/Users/svs/src/essayr/spec/services/post_render_service_spec.rb"
-  "post_render_service_spec.rb"
+  "/Users/svs/src/rails-ats/app/services/profile_hydrator.rb"
+  "profile_hydrator.rb"
   'enh-ruby-mode
-  '(abbrev-mode linum-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode rspec-mode)
-  754
-  '(87 nil)
+  '(abbrev-mode linum-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode rspec-verifiable-mode global-auto-revert-mode)
+  9753
+  '(494 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 25724 13105 181492 0) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (754))))
+  '((indent-tabs-mode) (buffer-display-time 25919 14732 887634 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (10093 337 9686 1 1345 1310 1144 940 700 9718))))
 
 (desktop-create-buffer 208
-  "/Users/svs/dotfiles/dotemacs"
-  "dotemacs"
-  'emacs-lisp-mode
-  '(eldoc-mode linum-mode copilot-mode auto-revert-mode)
-  2620
-  '(1296 nil)
+  "/Users/svs/src/rails-ats/app/views/jobs/_form.html.slim"
+  "_form.html.slim"
+  'slim-mode
+  '(linum-mode projectile-rails-mode copilot-mode global-auto-revert-mode)
+  662
+  '(565 nil)
   nil
   nil
-  '((buffer-display-time 25724 10518 19555 0) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (1600 1588 532 4199 306 1595 3949))))
+  '((indent-tabs-mode) (buffer-display-time 25918 21321 485066 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (708 1047))))
 
 (desktop-create-buffer 208
+  "/Users/svs/src/rails-ats/app/controllers/jobs_controller.rb"
+  "jobs_controller.rb"
+  'enh-ruby-mode
+  '(abbrev-mode linum-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode rspec-verifiable-mode global-auto-revert-mode)
+  3001
+  '(503 nil)
   nil
-  ".emacs.d"
-  'dired-mode
-  '(linum-mode copilot-mode)
-  793
-  '(nil nil)
-  t
-  '("/Users/svs/.emacs.d/")
-  '((buffer-display-time 25724 4616 884609 420000))
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25918 21275 898431 0) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
+  "/Users/svs/src/rails-ats/config/database.yml"
+  "database.yml"
+  'yaml-mode
+  '(linum-mode projectile-rails-mode copilot-mode global-auto-revert-mode)
+  770
+  '(977 nil)
   nil
-  "elpa"
-  'dired-mode
-  '(linum-mode copilot-mode)
-  173
-  '(2460 nil)
-  t
-  '("/Users/svs/.emacs.d/elpa/")
-  '((buffer-display-time 25724 4461 306871 420000))
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25918 21102 937954 0) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/Users/svs/src/essayr/app/services/post_render_service.rb"
-  "post_render_service.rb"
-  'ruby-mode
-  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode auto-revert-mode rspec-verifiable-mode)
-  2242
-  '(575 nil)
+  "/Users/svs/src/rails-ats/app/services/jd_hydrator.rb"
+  "jd_hydrator.rb"
+  'enh-ruby-mode
+  '(abbrev-mode linum-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode rspec-verifiable-mode global-auto-revert-mode)
+  2450
+  '(2449 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 25724 4364 640877 420000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (26 1200 107 1199 1087))))
+  '((indent-tabs-mode) (buffer-display-time 25918 20814 549808 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2256 1973 1964 1373))))
 
 (desktop-create-buffer 208
-  "/Users/svs/src/essayr/app/services/article_email_service.rb"
-  "article_email_service.rb"
-  'ruby-mode
-  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode auto-revert-mode rspec-verifiable-mode)
-  285
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-display-time 25723 20533 700789 420000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/Users/svs/src/essayr/app/controllers/post_emails_controller.rb"
-  "post_emails_controller.rb"
-  'ruby-mode
-  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode auto-revert-mode rspec-verifiable-mode)
-  491
+  "/Users/svs/src/rails-ats/db/migrate/20231029120201_add_skills_to_jobs.rb"
+  "20231029120201_add_skills_to_jobs.rb"
+  'enh-ruby-mode
+  '(abbrev-mode linum-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode rspec-verifiable-mode global-auto-revert-mode)
+  165
   '(nil nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 25723 20424 376649 420000) (buffer-file-coding-system . undecided-unix))
+  '((indent-tabs-mode) (buffer-display-time 25918 19063 436836 0) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/Users/svs/src/essayr/app/mailers/post_mailer.rb"
-  "post_mailer.rb"
-  'ruby-mode
-  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode auto-revert-mode rspec-verifiable-mode)
-  358
-  '(73 nil)
+  "/Users/svs/src/rails-ats/app/views/candidates/similar.html.slim"
+  "similar.html.slim"
+  'slim-mode
+  '(linum-mode projectile-rails-mode copilot-mode global-auto-revert-mode)
+  105
+  '(44 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 25723 20412 163983 420000) (buffer-file-coding-system . undecided-unix))
+  '((indent-tabs-mode) (buffer-display-time 25918 18883 185233 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (85 3))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/rails-ats/app/views/candidates/index.html.slim"
+  "index.html.slim"
+  'slim-mode
+  '(linum-mode projectile-rails-mode copilot-mode global-auto-revert-mode)
+  157
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25917 62641 253815 0) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/Users/svs/src/essayr/app/mailers/publication_mailer.rb"
-  "publication_mailer.rb"
-  'ruby-mode
-  '(linum-mode seeing-is-believing ruby-test-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode auto-revert-mode rspec-verifiable-mode)
-  3897
-  '(1208 nil)
+  "/Users/svs/src/rails-ats/app/controllers/candidates_controller.rb"
+  "candidates_controller.rb"
+  'enh-ruby-mode
+  '(abbrev-mode linum-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode rspec-verifiable-mode global-auto-revert-mode)
+  618
+  '(459 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 25724 10514 142868 0) (buffer-file-coding-system . undecided-unix))
+  '((indent-tabs-mode) (buffer-display-time 25917 61803 892524 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (607 513))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/rails-ats/app/policies/candidate_policy.rb"
+  "candidate_policy.rb"
+  'enh-ruby-mode
+  '(abbrev-mode linum-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode rspec-verifiable-mode global-auto-revert-mode)
+  953
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25917 60564 231108 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/rails-ats/config/routes.rb"
+  "routes.rb"
+  'enh-ruby-mode
+  '(abbrev-mode linum-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode rspec-verifiable-mode global-auto-revert-mode)
+  1584
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25917 60508 652805 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/rails-ats/app/models/candidate_detail.rb"
+  "candidate_detail.rb"
+  'enh-ruby-mode
+  '(abbrev-mode linum-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode rspec-verifiable-mode global-auto-revert-mode)
+  112
+  '(209 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25917 60494 82662 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (709))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/rails-ats/.env.development"
+  ".env.development"
+  'fundamental-mode
+  '(linum-mode projectile-rails-mode copilot-mode global-auto-revert-mode)
+  176
+  '(136 nil)
+  nil
+  nil
+  '((buffer-display-time 25917 55352 576405 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (115 98 76 55 31 1))))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/rails-ats/Gemfile"
+  "Gemfile"
+  'enh-ruby-mode
+  '(abbrev-mode linum-mode inf-ruby-minor-mode projectile-rails-mode copilot-mode rspec-verifiable-mode global-auto-revert-mode)
+  2634
+  '(3239 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25917 55220 988471 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/svs/src/rails-ats/config/storage.yml"
+  "storage.yml"
+  'yaml-mode
+  '(linum-mode projectile-rails-mode copilot-mode global-auto-revert-mode)
+  402
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25917 55209 196033 0) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
